@@ -261,5 +261,219 @@
   "paginas": 11,
   "modelo": "gemini-3.5-flash",
   "gerado_em": "2026-11-09T22:15:21Z"
+ },
+ {
+  "numero": 547,
+  "data": "2026-10-28",
+  "resumo": "Esta edição traz aviso de licitação para gêneros de padaria, extratos de contratos para shows e treinamentos, nova lei que eleva o limite de suplementação orçamentária para 20%, portaria de cessão temporária de servidor para a Câmara Municipal e certidão de dispensa de licenciamento ambiental para a Copasa.",
+  "tipo": "misto",
+  "prazo": "2026-11-11",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Educação",
+   "Secretaria Municipal do Meio Ambiente - SEMMA",
+   "Câmara Municipal de Frutal",
+   "Copasa"
+  ],
+  "destaques": [
+   {
+    "titulo": "Pregão Eletrônico para Padaria",
+    "texto": "Abertura de pregão eletrônico para registro de preços visando a aquisição futura de gêneros de padaria para as secretarias municipais. Início da fase de lances em 11 de novembro de 2026.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Shows no Evento Moto Frutal",
+    "texto": "Contratação de atrações musicais, incluindo a dupla Bruna e Calil, Banda Brothers e Banda Duo Mix, para apresentações no dia 31 de outubro de 2026 na Praça da Matriz.",
+    "pagina": 2,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Alteração Orçamentária",
+    "texto": "Lei nº 7.047 autoriza o Executivo a elevar em mais 5% o parâmetro de suplementação, fixando o limite para abertura de créditos adicionais suplementares em até 20% do orçamento.",
+    "pagina": 3,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Cessão de Servidor",
+    "texto": "Portaria autoriza a cessão temporária do servidor Marciel Paula Souza para atuar como agente de contratação e pregoeiro junto à Câmara Municipal de Frutal.",
+    "pagina": 4,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Dispensa de Licenciamento Ambiental",
+    "texto": "SEMMA concedeu certidão de dispensa de licenciamento ambiental para a Copasa referente à Estação Elevatória de Esgoto Parque das Acácias, com validade de 10 anos.",
+    "pagina": 5,
+    "categoria": "saúde"
+   }
+  ],
+  "paginas": 6,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-09T23:13:28Z"
+ },
+ {
+  "numero": 546,
+  "data": "2026-10-27",
+  "resumo": "Esta edição traz a convocação de candidata classificada em Processo Seletivo Simplificado para o cargo de Entrevistador Social do Programa CadÚnico. A profissional tem o prazo de 3 dias para comparecer ao Departamento de Recursos Humanos com a documentação exigida.",
+  "tipo": "edital",
+  "prazo": "03 dias contados da publicação (2026-10-27)",
+  "relevancia": 1,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Assistência Social"
+  ],
+  "destaques": [
+   {
+    "titulo": "Convocação de Processo Seletivo",
+    "texto": "A candidata Ariane €. A. de Souza B. Cruz (4ª classificada) para o cargo de Entrevistador Social do CadÚnico foi convocada para entrega de documentos e formalização da contratação temporária.",
+    "pagina": 1,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 1,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-09T23:13:40Z"
+ },
+ {
+  "numero": 545,
+  "data": "2026-10-26",
+  "resumo": "Esta edição traz licença ambiental simplificada para empresa agrícola, nomeação de membros para o Conselho Municipal de Cultura e para o Comitê Gestor de Pontos e Pontões de Cultura, além de decretos que atualizam a Unidade Fiscal do Município (UFM), o valor venal de imóveis rurais e as tabelas de IPTU para o exercício fiscal de 2027.",
+  "tipo": "misto",
+  "prazo": "2027-01-01",
+  "relevancia": 3,
+  "orgaos": [
+   "Secretaria Municipal do Meio Ambiente de Frutal - SEMMA",
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Cultura",
+   "Conselho Municipal de Cultura",
+   "Comitê Gestor Municipal dos Pontos e Pontões de Cultura"
+  ],
+  "destaques": [
+   {
+    "titulo": "Licença Ambiental Simplificada",
+    "texto": "Concedida licença ambiental simplificada (LAS/Cadastro) para a empresa Coragro Armazéns Ltda. para beneficiamento primário de produtos agrícolas.",
+    "pagina": 1,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Conselho Municipal de Cultura",
+    "texto": "Nomeados os membros titulares e suplentes, representantes do Poder Público e da Sociedade Civil, para compor o Conselho Municipal de Cultura.",
+    "pagina": 4,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Comitê Gestor de Pontos de Cultura",
+    "texto": "Instituído e designados os membros do Comitê Gestor Municipal dos Pontos e Pontões de Cultura, vinculado à Política Nacional de Cultura Viva e Aldir Blanc.",
+    "pagina": 6,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Atualização da UFM 2027",
+    "texto": "O valor da Unidade Fiscal do Município (UFM) foi atualizado para R$ 10,53 com base na inflação de 4,29% do INPC/IBGE.",
+    "pagina": 9,
+    "categoria": "tributo"
+   },
+   {
+    "titulo": "Valor Venal de Imóveis Rurais",
+    "texto": "Definida a pauta do valor venal atribuído ao hectare de imóveis rurais em R$ 21.864,40 para o cálculo do ITBI a partir de janeiro de 2027.",
+    "pagina": 10,
+    "categoria": "tributo"
+   },
+   {
+    "titulo": "Atualização do IPTU Urbano 2027",
+    "texto": "Atualizados os valores venais do IPTU aplicáveis aos imóveis urbanos e custos de construção para o exercício fiscal de 2027.",
+    "pagina": 11,
+    "categoria": "tributo"
+   }
+  ],
+  "paginas": 15,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-09T23:14:00Z"
+ },
+ {
+  "numero": 544,
+  "data": "2026-10-22",
+  "resumo": "Esta edição traz novas regras para a venda de imóveis doados em programas habitacionais do município após cumpridos os requisitos sociais. Também apresenta alterações em cargos comissionados da Fundação Hospital Frei Gabriel, extrato de atas de registro de preços e aviso de licitação adiado.",
+  "tipo": "misto",
+  "prazo": "2026-11-09",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Fundação Hospital Frei Gabriel",
+   "Câmara de Vereadores"
+  ],
+  "destaques": [
+   {
+    "titulo": "Venda de Imóveis Habitacionais Doados",
+    "texto": "A Lei nº 7.046/2026 autoriza beneficiários de doações de imóveis habitacionais do município a vendê-los a terceiros após 5 anos do habite-se, desde que comprovada a residência contínua e o cumprimento da finalidade social.",
+    "pagina": 2,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Alterações na Fundação Hospital Frei Gabriel",
+    "texto": "Marina Botta Martins foi exonerada do cargo de Presidente Adjunta e nomeada Supervisora Hospitalar. Jader Sabino da Silva foi nomeado como novo Presidente Adjunto da Fundação.",
+    "pagina": 4,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Pregão Eletrônico Adiado",
+    "texto": "O aviso de licitação para registro de preços voltado à aquisição de cadeados, carimbos e serviços de chaveiro foi adiado. A nova data para o certame é 09 de novembro de 2026, às 09:30 horas.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Extrato de Registro de Preços de Ferramentas",
+    "texto": "Foram formalizadas atas de registro de preços com empresas vencedoras para o fornecimento de ferramentas manuais destinadas às secretarias municipais, totalizando mais de 127 mil reais.",
+    "pagina": 1,
+    "categoria": "licitação"
+   }
+  ],
+  "paginas": 6,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-09T23:14:14Z"
+ },
+ {
+  "numero": 543,
+  "data": "2026-10-21",
+  "resumo": "Esta edição traz a regulamentação e composição do Comitê Estratégico da Política Municipal de Alfabetização, a convocação de suplente e abertura de prazo para habilitação no edital de fomento cultural Frutal das Artes, com seu respectivo resultado final, além de decretar regras e prazos para o encerramento do exercício financeiro municipal de 2026.",
+  "tipo": "misto",
+  "prazo": "2026-11-20",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Educação e Inclusão",
+   "Secretaria Municipal de Cultura",
+   "Secretaria Municipal de Finanças"
+  ],
+  "destaques": [
+   {
+    "titulo": "Comitê de Alfabetização",
+    "texto": "Fica regulamentado o Comitê Estratégico da Política Municipal de Alfabetização e designados seus membros titulares e suplentes, presidido pela Secretária Municipal de Educação e Inclusão.",
+    "pagina": 1,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Habilitação Fomento Cultural",
+    "texto": "Aberto o prazo de 22 a 29 de outubro de 2026 para entrega presencial da documentação obrigatória de habilitação do 1º suplente em Artes Cênicas do Edital nº 02/2026.",
+    "pagina": 4,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Resultado Final - Frutal das Artes",
+    "texto": "Divulgado o resultado final da etapa de seleção do mérito cultural do Edital de Fomento à Cultura nº 02/2026, sem possibilidade de novos recursos.",
+    "pagina": 8,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Encerramento do Exercício Financeiro",
+    "texto": "Notas fiscais de entregas e serviços de 2026 devem ser emitidas e entregues ao Setor de Compras até 20/11/2026, sob pena de não reconhecimento da despesa.",
+    "pagina": 10,
+    "categoria": "norma"
+   }
+  ],
+  "paginas": 10,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-09T23:14:31Z"
  }
 ]
