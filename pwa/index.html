@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Diário de Frutal</title>
+<meta name="theme-color" content="#faf7f2">
+<meta name="description" content="Diário Oficial de Frutal/MG, resumido, no seu bolso.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Diário Frutal">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icone-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="icone-180.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topo">
+  <a class="marca" href="#/">Diário <b>de Frutal</b><small>resumo diário oficial</small></a>
+  <nav>
+    <a href="#/" data-nav="lista">Edições</a>
+    <a href="#/busca" data-nav="busca">Busca</a>
+    <a href="#/ajustes" data-nav="ajustes">Ajustes</a>
+  </nav>
+</header>
+
+<main id="app">
+  <p class="carregando">carregando…</p>
+</main>
+
+<div id="aviso" class="aviso" hidden></div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

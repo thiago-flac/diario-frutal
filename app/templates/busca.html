@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block titulo %}Busca — Diário de Frutal{% endblock %}
+{% block corpo %}
+<h1>Busca no acervo</h1>
+<p class="sub">{{ stats.paginas }} páginas indexadas. A busca ignora acentos e aceita prefixos ("licita" acha "licitação").</p>
+
+<form action="{{ url_for('busca') }}" method="get" style="margin:0 0 26px">
+  <input type="search" name="q" value="{{ termo }}" placeholder="ex.: pregão, nomeação, creche" autofocus>
+</form>
+
+{% if termo %}
+  <p class="sub">{{ resultados | length }} trecho(s) para “{{ termo }}”.</p>
+  {% for r in resultados %}
+    <article class="card">
+      <div class="meta">
+        <a href="{{ url_for('ver_edicao', numero=r.numero) }}">Edição {{ r.numero }}</a>
+        <span>página {{ r.pagina }}</span>
+      </div>
+      <p class="resumo-curto">{{ r.trecho | safe }}</p>
+    </article>
+  {% else %}
+    <p class="vazio">Nada encontrado.</p>
+  {% endfor %}
+{% endif %}
+{% endblock %}

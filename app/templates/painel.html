@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block titulo %}Painel — Diário de Frutal{% endblock %}
+{% block corpo %}
+<h1>Painel</h1>
+<p class="sub">Estado do coletor e da fila de resumos.</p>
+
+<div class="stats">
+  <div class="stat"><b>{{ stats.edicoes }}</b><span>edições</span></div>
+  <div class="stat"><b>{{ stats.resumidas }}</b><span>resumidas</span></div>
+  <div class="stat"><b>{{ stats.paginas }}</b><span>páginas</span></div>
+  <div class="stat"><b>{{ stats.pendentes }}</b><span>na fila</span></div>
+  <div class="stat"><b>{{ stats.erros }}</b><span>falhas</span></div>
+</div>
+
+<div class="acoes" style="margin:0 0 26px">
+  <form method="post" action="{{ url_for('api_coletar') }}">
+    <button class="primario" type="submit">Verificar novidades agora</button>
+  </form>
+  <form method="post" action="{{ url_for('api_backfill') }}">
+    <button type="submit">Indexar acervo inteiro</button>
+  </form>
+</div>
+
+<h2>Fila</h2>
+{% if fila %}
+<table>
+  <tr><th>#</th><th>tipo</th><th>edição</th><th>estado</th><th>tentativas</th><th>erro</th></tr>
+  {% for j in fila %}
+  <tr>
+    <td>{{ j.id }}</td><td>{{ j.tipo }}</td><td>{{ j.edicao_id or '—' }}</td>
+    <td>{{ j.estado }}</td><td>{{ j.tentativas }}</td>
+    <td style="color:#a3581f;font-size:12.5px">{{ (j.erro or '')[:90] }}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% else %}
+<p class="vazio">Fila vazia.</p>
+{% endif %}
+
+<h2>Últimas edições</h2>
+<table>
+  <tr><th>edição</th><th>data</th><th>páginas</th><th>status</th><th>erro</th></tr>
+  {% for ed in edicoes %}
+  <tr>
+    <td><a href="{{ url_for('ver_edicao', numero=ed.numero) }}">{{ ed.numero }}</a></td>
+    <td>{{ ed.data_pub | data_br }}</td>
+    <td>{{ ed.paginas or 0 }}</td>
+    <td>{{ ed.status }}</td>
+    <td style="color:#a3581f;font-size:12.5px">{{ (ed.erro or '')[:60] }}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}

@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+{% block titulo %}Edição {{ ed.numero }} — Diário de Frutal{% endblock %}
+{% block corpo %}
+
+<div class="meta">
+  <span class="tag {{ ed.status }}">{{ ed.status }}</span>
+  <span>{{ ed.data_pub | data_br }}</span>
+  <span>{{ ed.paginas or 0 }} páginas</span>
+  {% set n_ocr = ed.paginas_ocr | dejson %}{% if n_ocr %}<span>{{ n_ocr | length }} via OCR</span>{% endif %}
+</div>
+<h1>Edição {{ ed.numero }}</h1>
+<p class="sub">{{ ed.titulo }}</p>
+
+<div class="acoes">
+  <a class="botao primario" href="{{ url_for('pdf', numero=ed.numero) }}" target="_blank">
+    {{ 'Abrir PDF completo' if pdf_em_disco else 'Abrir PDF (busca no site, pode demorar)' }}
+  </a>
+  {% if not resumo %}
+    <form method="post" action="{{ url_for('api_resumir', numero=ed.numero) }}">
+      <button type="submit" class="primario" {{ 'disabled' if ed.status=='resumindo' }}>
+        {{ 'Resumindo…' if ed.status=='resumindo' else 'Gerar resumo' }}
+      </button>
+    </form>
+  {% endif %}
+</div>
+
+{% if resumo %}
+  <h2>Resumo</h2>
+  <p style="font-size:16.5px;line-height:1.7;margin:0 0 6px">{{ resumo.resumo_curto }}</p>
+  <div class="meta" style="margin-top:10px">
+    <span>tipo: {{ resumo.tipo_documento }}</span>
+    <span>relevância {{ resumo.relevancia_geral }}/3</span>
+  </div>
+  {% if resumo.orgaos %}
+    <div class="chips">{% for o in resumo.orgaos %}<span class="chip">{{ o }}</span>{% endfor %}</div>
+  {% endif %}
+  {% if resumo.prazo %}
+    <div class="prazo"><b>prazo</b>{{ resumo.prazo }}</div>
+  {% endif %}
+
+  <h2>O que saiu</h2>
+  {% for d in resumo.destaques %}
+    <div class="destaque">
+      <h4>{{ d.titulo }}</h4>
+      <p>{{ d.texto }}</p>
+      <div class="pg">
+        {% if d.pagina %}<a href="{{ url_for('pdf', numero=ed.numero) }}#page={{ d.pagina }}" target="_blank">página {{ d.pagina }}</a> · {% endif %}
+        {{ d.categoria }}
+      </div>
+    </div>
+  {% endfor %}
+
+{% elif ed.status == 'resumindo' %}
+  <h2>Resumo</h2>
+  <p class="vazio">O modelo está lendo as {{ ed.paginas }} páginas. Esta página se atualiza sozinha.</p>
+  <script>
+    setInterval(async () => {
+      const r = await fetch("{{ url_for('api_status', numero=ed.numero) }}").then(r => r.json());
+      if (r.tem_resumo) location.reload();
+    }, 5000);
+  </script>
+{% else %}
+  <h2>Resumo</h2>
+  <p class="vazio">
+    {% if ed.erro %}Falhou: {{ ed.erro }}{% else %}Ainda sem resumo. Use o botão acima — leva de 10 a 60 segundos.{% endif %}
+  </p>
+{% endif %}
+
+<h2>Texto extraído</h2>
+<p class="sub">Útil para conferir um trecho sem abrir o PDF. Páginas com OCR podem ter ruído.</p>
+{% for p in paginas %}
+  <details class="pagina">
+    <summary>página {{ p.n }}{% if p.ocr %} · OCR{% endif %} · {{ p.texto|length }} caracteres</summary>
+    <pre>{{ p.texto }}</pre>
+  </details>
+{% endfor %}
+
+<h2>PDF</h2>
+<div class="acoes" style="margin:0 0 14px">
+  <a class="botao" href="{{ url_for('pdf', numero=ed.numero) }}" target="_blank">abrir em nova aba</a>
+</div>
+<iframe class="moldura" src="{{ url_for('pdf', numero=ed.numero) }}"></iframe>
+
+{% endblock %}

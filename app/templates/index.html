@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block corpo %}
+<h1>Edições</h1>
+<p class="sub">
+  {{ stats.edicoes }} edições no acervo · {{ stats.resumidas }} resumidas ·
+  {{ stats.paginas }} páginas indexadas · {{ stats.pendentes }} na fila
+</p>
+
+{% for ed in edicoes %}
+  {% set r = ed.resumo_json | dejson %}
+  <article class="card">
+    <div class="meta">
+      <span class="tag {{ ed.status }}">{{ {'resumida':'resumida','resumindo':'resumindo','extraida':'texto pronto','nova':'na fila','erro':'erro'}.get(ed.status, ed.status) }}</span>
+      <span>{{ ed.data_pub | data_br }}</span>
+      <span>{{ ed.paginas or '?' }} páginas</span>
+    </div>
+    <h3><a href="{{ url_for('ver_edicao', numero=ed.numero) }}">Edição {{ ed.numero }}</a></h3>
+    {% if r and r.resumo_curto %}
+      <p class="resumo-curto">{{ r.resumo_curto }}</p>
+      {% if r.prazo %}<div class="prazo"><b>prazo</b>{{ r.prazo }}</div>{% endif %}
+    {% elif ed.status == 'erro' %}
+      <p class="resumo-curto" style="color:#a3581f">{{ ed.erro }}</p>
+    {% else %}
+      <p class="resumo-curto" style="color:#7c7568">Resumo ainda não gerado — abra a edição para pedir.</p>
+    {% endif %}
+  </article>
+{% else %}
+  <p class="vazio">Nada coletado ainda. Rode <code>python run.py --backfill 10</code> ou use o painel.</p>
+{% endfor %}
+
+{% if total > 15 %}
+<div class="paginacao">
+  {% if pagina > 1 %}<a href="{{ url_for('home', p=pagina-1) }}">← mais novas</a>{% endif %}
+  <span style="color:#7c7568">página {{ pagina }} de {{ ((total-1)//15)+1 }}</span>
+  {% if pagina*15 < total %}<a href="{{ url_for('home', p=pagina+1) }}">mais antigas →</a>{% endif %}
+</div>
+{% endif %}
+{% endblock %}

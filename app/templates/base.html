@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{% block titulo %}Diário de Frutal{% endblock %}</title>
+<link rel="manifest" href="{{ url_for('manifesto') }}">
+<meta name="theme-color" content="#faf7f2">
+<meta name="description" content="Resumos automáticos do Diário Oficial Eletrônico de Frutal/MG">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Diário Frutal">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="icon" href="{{ url_for('static', filename='icone-192.png') }}" sizes="192x192">
+<link rel="apple-touch-icon" href="{{ url_for('static', filename='icone-180.png') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header class="topo">
+  <div class="wrap">
+    <a href="{{ url_for('home') }}" class="marca">
+      Diário <b>de Frutal</b>
+      <small>resumo diário oficial</small>
+    </a>
+    <form class="busca-topo" action="{{ url_for('busca') }}" method="get">
+      <input type="search" name="q" placeholder="buscar no acervo…" value="{{ request.args.get('q','') }}">
+    </form>
+    <nav>
+      <a href="{{ url_for('home') }}" class="{{ 'on' if request.endpoint=='home' }}">Edições</a>
+      <a href="{{ url_for('busca') }}" class="{{ 'on' if request.endpoint=='busca' }}">Busca</a>
+      <a href="{{ url_for('painel') }}" class="{{ 'on' if request.endpoint=='painel' }}">Painel</a>
+      {% if config.SENHA_ACESSO %}<a href="{{ url_for('sair') }}" class="sair">Sair</a>{% endif %}
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+{% block corpo %}{% endblock %}
+<div class="rodape">
+  Fonte: <a href="https://frutal.publicabrasil.net/" target="_blank" rel="noopener">Diário Oficial Eletrônico de Frutal/MG</a>.
+  Resumos gerados por IA a partir do texto extraído (inclui OCR) — confira o PDF antes de usar oficialmente.
+</div>
+</main>
+<script>
+// Instala como app no Android/iOS quando servido em https ou localhost.
+if ('serviceWorker' in navigator && window.isSecureContext) {
+  navigator.serviceWorker.register('{{ url_for('static', filename='sw.js') }}').catch(() => {});
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block titulo %}Entrar — Diário de Frutal{% endblock %}
+{% block corpo %}
+<div class="entrar">
+  <img src="{{ url_for('static', filename='icone-180.png') }}" alt="" width="72" height="72">
+  <h1>Acesso restrito</h1>
+  <p class="sub">Portal interno do Diário Oficial de Frutal/MG. Serve para servidores
+     municipais acompanharem as edições sem abrir cada PDF.</p>
+  <form method="post" class="form-entrar">
+    <input type="hidden" name="proximo" value="{{ proximo }}">
+    <input type="password" name="senha" placeholder="senha de acesso" autofocus
+           autocomplete="current-password" aria-label="senha de acesso">
+    <button class="botao primario" type="submit">Entrar</button>
+    {% if erro %}<p class="erro">{{ erro }}</p>{% endif %}
+  </form>
+</div>
+{% endblock %}

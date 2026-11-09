@@ -1,0 +1,265 @@
+[
+ {
+  "numero": 553,
+  "data": "2026-11-09",
+  "resumo": "Esta edição traz atos da Secretaria de Cultura sobre o Edital de Fomento Cultural 'Frutal das Artes', incluindo convocação de habilitados para entrega de dados bancários, convocação de suplentes e publicação do resultado final. Também apresenta a emissão de uma certidão de dispensa de licenciamento ambiental para espaço de eventos e a nomeação de um assessor comissionado na Secretaria de Administração.",
+  "tipo": "misto",
+  "prazo": "10 a 16 de novembro de 2026",
+  "relevancia": 1,
+  "orgaos": [
+   "Secretaria Municipal de Cultura",
+   "Secretaria Municipal do Meio Ambiente",
+   "Secretaria Municipal de Administração",
+   "Prefeitura Municipal de Frutal"
+  ],
+  "destaques": [
+   {
+    "titulo": "Dados bancários e assinatura - Frutal das Artes",
+    "texto": "Proponentes habilitados no Edital nº 02/2026 devem comparecer presencialmente à Secretaria de Cultura de 10 a 16 de novembro de 2026 para apresentar conta bancária específica e assinar o Termo de Execução Cultural.",
+    "pagina": 1,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Convocação de suplentes - Frutal das Artes",
+    "texto": "Suplentes das categorias de Artes Cênicas e Literatura foram convocados para entregar a documentação de habilitação em envelope lacrado entre 10 e 16 de novembro de 2026.",
+    "pagina": 3,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Resultado final do Edital de Fomento Cultural",
+    "texto": "Divulgado o resultado final da etapa de habilitação para os projetos do Edital nº 02/2026 nas categorias Artes Cênicas, Audiovisual, Cultura Popular, Literatura e Música, sem possibilidade de recurso.",
+    "pagina": 5,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Dispensa de licenciamento ambiental",
+    "texto": "Concedida a Certidão de Dispensa de Licenciamento Ambiental nº 047/2026, com validade de 10 anos, para espaço de eventos localizado no bairro Universe Plaza.",
+    "pagina": 7,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Nomeação de cargo comissionado",
+    "texto": "Decreto nº 14.390 nomeia Eliseu Raimundo de Souza Sobrinho para o cargo em comissão de Assessor de Suporte à Gestão II na Secretaria Municipal de Administração.",
+    "pagina": 9,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 9,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-09T22:10:03Z"
+ },
+ {
+  "numero": 552,
+  "data": "2026-11-06",
+  "resumo": "Esta edição traz a abertura de licitação para aquisição de materiais desportivos destinados a projetos sociais, escolas e unidades de saúde do município. Além disso, publica integralmente o Plano Anual de Auditoria Interna (PAAI) da Controladoria Geral para o exercício de 2027.",
+  "tipo": "misto",
+  "prazo": "2026-11-23",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Departamento de Licitações",
+   "Controladoria Geral do Município"
+  ],
+  "destaques": [
+   {
+    "titulo": "Pregão Eletrônico para Materiais Desportivos",
+    "texto": "A Prefeitura abriu licitação na modalidade pregão eletrônico para aquisição futura e eventual de materiais desportivos para projetos sociais, aulas de educação física, escolinhas e UBSs. A fase de lances terá início no dia 23 de novembro de 2026, às 08:30 horas.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Aprovação do Plano Anual de Auditoria Interna - PAAI 2027",
+    "texto": "Foi aprovado o Plano Anual de Auditoria Interna para 2027, elaborado pela Controladoria Geral do Município para orientar as fiscalizações, controle de riscos e conformidade dos órgãos municipais ao longo do próximo ano.",
+    "pagina": 16,
+    "categoria": "norma"
+   }
+  ],
+  "paginas": 16,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-09T22:10:31Z"
+ },
+ {
+  "numero": 551,
+  "data": "2026-11-05",
+  "resumo": "Esta edição traz novas leis municipais, incluindo a criação de programas de incentivo à agricultura familiar (PMAAF), a garantia de matrícula de irmãos na mesma escola da rede pública e a instituição de semanas de valorização da educação, dos profissionais e de conscientização sobre deficiências invisíveis. Também autoriza a contratação de operação de crédito de até R$ 8 milhões para usina fotovoltaica e o levantamento de restrições em imóvel doado à Igreja Pentecostal de Jesus.",
+  "tipo": "lei",
+  "prazo": "Ano letivo seguinte ao da publicação para a lei de matrícula de irmãos",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Câmara de Vereadores de Frutal",
+   "Banco de Desenvolvimento de Minas Gerais S/A - BDMG",
+   "Igreja Pentecostal de Jesus"
+  ],
+  "destaques": [
+   {
+    "titulo": "Garantia de matrícula para irmãos",
+    "texto": "Fica assegurado o direito à matrícula de irmãos no mesmo estabelecimento de ensino da rede municipal quando frequentarem a mesma etapa ou ciclo da educação básica. A norma entra em vigor no ano letivo seguinte ao da publicação.",
+    "pagina": 3,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Crédito para Usina Fotovoltaica",
+    "texto": "O Executivo Municipal está autorizado a contratar operação de crédito de até R$ 8.000.000,00 junto ao BDMG para o financiamento da implantação da Usina Fotovoltaica no Município.",
+    "pagina": 8,
+    "categoria": "obras"
+   },
+   {
+    "titulo": "Programa de Aquisição da Agricultura Familiar",
+    "texto": "Institui o PMAAF para incentivar a produção rural local e ampliar a participação de agricultores familiares em compras públicas municipais, como alimentação escolar e assistência social.",
+    "pagina": 1,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Levantamento de restrições de imóvel",
+    "texto": "Ficam definitivamente levantados os encargos e restrições de inalienabilidade e destinação específica do imóvel doado à Igreja Pentecostal de Jesus, autorizando sua alienação e transferência a terceiros.",
+    "pagina": 6,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Novas semanas no calendário oficial",
+    "texto": "Foram instituídas a Semana Municipal de Valorização dos Profissionais da Educação (em outubro), a Semana Municipal das Deficiências Invisíveis (de 19 a 25 de outubro) e o PMAAF.",
+    "pagina": 4,
+    "categoria": "educação"
+   }
+  ],
+  "paginas": 14,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-09T22:12:52Z"
+ },
+ {
+  "numero": 550,
+  "data": "2026-11-04",
+  "resumo": "Esta edição traz como destaque principal o Edital de Chamamento Público nº 001/2026 para seleção de OSCs na Educação Infantil e Especial, acompanhado da minuta do termo de colaboração. Inclui também erratas sobre decretos de UFM e imóveis rurais, alterações de gestores na Saúde, prorrogação de PAD, exonerações de servidores e decretos referentes ao evento esportivo Novo Futevôlei Paulista.",
+  "tipo": "misto",
+  "prazo": "2026-12-04",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Saúde",
+   "Secretaria Municipal de Educação e Inclusão",
+   "Secretaria Municipal de Desenvolvimento Econômico, Parcerias, Turismo e Inovação",
+   "Comissão Permanente de Processo Administrativo Disciplinar"
+  ],
+  "destaques": [
+   {
+    "titulo": "Chamamento Público Educação",
+    "texto": "Abertura de chamamento para seleção de OSCs sem fins lucrativos para execução de serviços educacionais de creche, pré-escola e educação especial, visando atender cerca de 1.031 alunos. A sessão pública para apresentação das propostas ocorrerá em 04/12/2026.",
+    "pagina": 4,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Minuta de Termo de Colaboração para Creches",
+    "texto": "Publicação de minuta padrão de termo de colaboração entre o município e organizações da sociedade civil para prestação de serviços de educação infantil em creches e pré-escolas.",
+    "pagina": 56,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Errata de Decretos",
+    "texto": "Validação dos efeitos dos decretos nº 14.367 e nº 14.368 de 2026 sobre UFM e valor venal de imóveis rurais para 2027, e anulação dos decretos 14.352 e 14.353 publicados erroneamente.",
+    "pagina": 1,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Alteração de Gestores de Parcerias",
+    "texto": "Modificação nos nomes dos gestores de parcerias da Secretaria Municipal de Saúde, incluindo novos titulares com matrículas especificadas.",
+    "pagina": 2,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Prorrogação de PAD",
+    "texto": "Prorrogada por mais 60 dias a Portaria nº 1.244/2026, referente à instauração de Processo Administrativo Disciplinar, para conclusão dos trabalhos e emissão de relatório.",
+    "pagina": 3,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Homologação de patrocínio para Futevôlei",
+    "texto": "Decreto homologa parecer da comissão especial para patrocínio do evento esportivo Novo Futevôlei Paulista - Etapa 29.",
+    "pagina": 66,
+    "categoria": "outro"
+   }
+  ],
+  "paginas": 69,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-09T22:14:40Z"
+ },
+ {
+  "numero": 549,
+  "data": "2026-11-03",
+  "resumo": "Esta edição traz o resultado preliminar de habilitação do Edital de Fomento Cultural Frutal das Artes nº 02/2026 (Lei Aldir Blanc), com a relação de projetos habilitados e inabilitados em diversas categorias artísticas.\nAlém disso, contem a publicação do Decreto nº 14.374/2026, que revoga integralmente o Decreto nº 14.273/2026 a partir de 4 de novembro de 2026.",
+  "tipo": "misto",
+  "prazo": "Prazo para apresentação de recursos contra o resultado preliminar do Edital nº 02/2026 conforme termos do edital",
+  "relevancia": 1,
+  "orgaos": [
+   "Secretaria Municipal de Cultura",
+   "Prefeitura Municipal de Frutal"
+  ],
+  "destaques": [
+   {
+    "titulo": "Resultado preliminar do Edital Frutal das Artes nº 02/2026",
+    "texto": "A Secretaria de Cultura divulgou a habilitação preliminar dos projetos culturais inscritos no edital da Lei Aldir Blanc. Proponentes inabilitados por pendências documentais podem interpor recurso conforme as regras do edital.",
+    "pagina": 1,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Revogação do Decreto nº 14.273/2026",
+    "texto": "O Decreto nº 14.374 revoga totalmente o Decreto Municipal nº 14.273, de 12 de agosto de 2026, com efeitos valendo a partir de 4 de novembro de 2026.",
+    "pagina": 4,
+    "categoria": "norma"
+   }
+  ],
+  "paginas": 4,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-09T22:14:57Z"
+ },
+ {
+  "numero": 548,
+  "data": "2026-10-29",
+  "resumo": "Esta edição publica extratos de contratos para aquisição de veículos para a Secretaria de Saúde, incluindo um veículo adaptado para PCD, e contratações artísticas para eventos culturais municipais. O DETRANFRU notifica proprietários de veículos sobre autuações de trânsito cujas notificações postais não foram entregues. Além disso, a Secretaria de Meio Ambiente (SEMMA) emitiu licença ambiental para usina de concreto asfáltico e dispensa de licenciamento com condicionantes para a COPASA.",
+  "tipo": "misto",
+  "prazo": "Shows em 31/10/2026 e 21/11/2026; prazos regulares para defesa de trânsito junto ao DETRANFRU.",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Saúde",
+   "Secretaria Municipal de Segurança Pública, Trânsito, Transporte e Mobilidade Urbana",
+   "DETRANFRU",
+   "Secretaria Municipal do Meio Ambiente de Frutal - SEMMA"
+  ],
+  "destaques": [
+   {
+    "titulo": "Notificação de autuações de trânsito",
+    "texto": "O DETRANFRU publicou edital de notificação para proprietários de veículos autuados por infração de trânsito que não foram encontrados pelos Correios. Os notificados podem apresentar Defesa da Autuação ou indicar o condutor infrator junto ao órgão de trânsito.",
+    "pagina": 2,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Aquisição de veículo adaptado para acessibilidade PCD",
+    "texto": "Foi publicado o Contrato nº 173/2026 para compra de veículo de passageiros zero km adaptado para transporte de pessoas com deficiência ou mobilidade reduzida para a Secretaria de Saúde, no valor de R$ 207.900,00.",
+    "pagina": 1,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Contratações artísticas para eventos municipais",
+    "texto": "A prefeitura formalizou contratos para shows da Banda Brothers no evento Moto Frutal (31/10/2026) por R$ 2.500,00 e da DJ Witch no evento Afrofrutal (21/11/2026) por R$ 3.500,00.",
+    "pagina": 1,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Licença ambiental para usina de concreto asfáltico",
+    "texto": "A empresa Ethos Engenharia obteve Licença Ambiental Simplificada (LAS) para operação de usina de produção de concreto asfáltico na zona rural, válida por 10 anos, sujeita ao cumprimento de condicionantes ambientais.",
+    "pagina": 6,
+    "categoria": "obras"
+   },
+   {
+    "titulo": "Dispensa ambiental e condicionantes para a Copasa",
+    "texto": "A SEMMA concedeu dispensa de licenciamento ambiental para a Elevatória de Esgoto Rio de Janeiro da COPASA, exigindo em contrapartida a realização e manutenção semestral de plantio de árvores em área verde adjacente.",
+    "pagina": 9,
+    "categoria": "outro"
+   }
+  ],
+  "paginas": 11,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-09T22:15:21Z"
+ }
+]

@@ -1,0 +1,79 @@
+:root{
+  --paper:#faf7f2; --ink:#22201d; --muted:#7c7568; --line:#e3ddd1;
+  --accent:#1f6b3b; --accent-soft:#e8f1ea; --warn:#a3581f; --warn-soft:#fbecdd;
+  --card:#fffdf9;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);
+  font:16px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  -webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:rgba(31,107,59,.12);
+  padding-bottom:calc(24px + env(safe-area-inset-bottom))}
+a{color:var(--accent);text-decoration:none}
+h1{font-family:Georgia,serif;font-size:26px;line-height:1.25;margin:0 0 4px;font-weight:600}
+h2{font-family:Georgia,serif;font-size:18px;margin:26px 0 10px;font-weight:600}
+
+header.topo{position:sticky;top:0;z-index:10;background:rgba(250,247,242,.96);
+  backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
+  padding:10px 16px 0;padding-top:calc(10px + env(safe-area-inset-top))}
+.marca{display:block;font-family:Georgia,serif;font-size:19px;color:var(--ink);line-height:1.1}
+.marca b{color:var(--accent)}
+.marca small{display:block;font-family:inherit;font-size:9.5px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--muted);margin-top:2px}
+nav{display:flex;margin-top:8px;gap:0;border-top:1px solid var(--line)}
+nav a{flex:1;text-align:center;padding:9px 4px;font-size:13.5px;color:var(--muted)}
+nav a.on{color:var(--ink);font-weight:600;border-bottom:2px solid var(--accent);margin-bottom:-1px}
+
+main{padding:20px 16px 40px;max-width:720px;margin:0 auto}
+.carregando{color:var(--muted);text-align:center;padding:40px 0}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;
+  padding:15px 16px;margin-bottom:11px}
+.card h3{margin:0 0 6px;font-family:Georgia,serif;font-size:17px;font-weight:600;line-height:1.35}
+.card h3 a{color:var(--ink)}
+.meta{display:flex;gap:9px;align-items:center;font-size:12px;color:var(--muted);flex-wrap:wrap}
+.tag{display:inline-block;padding:2px 9px;border-radius:99px;font-size:11px;
+  letter-spacing:.04em;text-transform:uppercase;font-weight:600}
+.tag.nova{background:var(--accent-soft);color:var(--accent)}
+.tag.resumo{background:#eef2fb;color:#35519b}
+.tag.pendente{background:#f1efe9;color:#6d6656}
+.resumo-curto{margin:10px 0 0;font-size:15px;color:#3b3833}
+.prazo{background:var(--warn-soft);border:1px solid #efd9c2;color:#7a3f12;
+  border-radius:8px;padding:10px 12px;margin-top:12px;font-size:14px}
+.prazo b{display:block;letter-spacing:.06em;text-transform:uppercase;font-size:11px;color:#96521c}
+
+.botao{display:block;width:100%;text-align:center;padding:13px 16px;border-radius:10px;
+  border:1px solid var(--line);background:var(--card);color:var(--ink);font-size:15px;
+  font-family:inherit;cursor:pointer}
+.botao.primario{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600}
+.botao+.botao{margin-top:8px}
+.linha-botoes{display:flex;gap:8px;margin:14px 0}
+.linha-botoes .botao{margin:0}
+
+.destaque{border-left:2px solid var(--accent);padding:2px 0 2px 12px;margin:14px 0}
+.destaque h4{margin:0 0 3px;font-size:15px}
+.destaque p{margin:0;font-size:14.5px;color:#3b3833}
+.destaque small{color:var(--muted);font-size:12px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}
+.chip{background:#f1efe9;border-radius:99px;padding:4px 10px;font-size:12.5px;color:#5d5748}
+
+input[type=search],input[type=password],input[type=url],textarea{
+  width:100%;padding:13px 14px;border:1px solid var(--line);border-radius:10px;
+  font-size:16px;background:var(--card);color:var(--ink);font-family:inherit}
+input:focus,textarea:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:transparent}
+label{display:block;font-size:13px;color:var(--muted);margin:16px 0 6px}
+.ajuda{font-size:12.5px;color:var(--muted);margin:4px 0 0}
+
+.aviso{position:fixed;left:12px;right:12px;bottom:calc(14px + env(safe-area-inset-bottom));
+  background:#22201d;color:#f7f4ef;padding:12px 14px;border-radius:10px;font-size:14px;z-index:50;
+  box-shadow:0 6px 24px rgba(0,0,0,.18)}
+
+.lista-paginas{font-size:14px}
+details.pagina{background:var(--card);border:1px solid var(--line);border-radius:8px;
+  padding:10px 12px;margin-bottom:8px}
+details.pagina summary{cursor:pointer;color:var(--muted);font-size:13px}
+details.pagina pre{white-space:pre-wrap;font-size:13px;line-height:1.5;color:#3b3833}
+.rodape{margin-top:34px;font-size:12px;color:var(--muted);line-height:1.6}
+.vazio{color:var(--muted);text-align:center;padding:30px 0;font-size:14.5px}
+.barra{position:sticky;bottom:0;background:rgba(250,247,242,.96);backdrop-filter:blur(6px);
+  padding:10px 0;margin-top:10px}

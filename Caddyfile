@@ -1,0 +1,12 @@
+# Troque pelo seu domínio. O Caddy pega o certificado sozinho (Let's Encrypt)
+# no primeiro acesso — só precisa que o DNS já aponte para este servidor.
+diario.seudominio.gov.br {
+	encode zstd gzip
+	header {
+		# portal interno: nada de indexar no Google
+		X-Robots-Tag "noindex, nofollow"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		-Server
+	}
+	reverse_proxy diario:8000
+}

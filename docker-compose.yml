@@ -1,0 +1,54 @@
+# Portal do Diário Oficial — produção.
+#
+#   cp .env.exemplo .env      # preencha a chave e a senha
+#   docker compose up -d --build
+#
+# Dois serviços de app compartilhando o mesmo volume:
+#   diario  -> só interface (gunicorn). Pode reiniciar sem medo.
+#   coletor -> só fila (download, OCR, resumo). Um único consumidor.
+services:
+  diario:
+    build: .
+    restart: unless-stopped
+    environment:
+      DIARIO_DADOS: /app/data
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+      DIARIO_SENHA: ${DIARIO_SENHA}
+      DIARIO_SEGREDO: ${DIARIO_SEGREDO}
+    volumes:
+      - dados:/app/data
+    expose:
+      - "8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://127.0.0.1:8000/saude')"]
+      interval: 60s
+      timeout: 10s
+      retries: 3
+
+  coletor:
+    build: .
+    restart: unless-stopped
+    command: ["python", "run.py", "--so-worker"]
+    environment:
+      DIARIO_DADOS: /app/data
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+      DIARIO_SENHA: ${DIARIO_SENHA}
+      DIARIO_SEGREDO: ${DIARIO_SEGREDO}
+    volumes:
+      - dados:/app/data
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy:/data
+    depends_on:
+      - diario
+
+volumes:
+  dados:
+  caddy:
