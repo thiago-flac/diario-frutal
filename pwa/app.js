@@ -136,6 +136,11 @@ async function todasAsEdicoes() {
 // ------------------------------------------------------------------- utilidade
 const dataBR = (iso) => (iso ? `${iso.slice(8, 10)}/${iso.slice(5, 7)}/${iso.slice(0, 4)}` : "—");
 const escapar = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+// o modelo às vezes devolve 2026-11-11 em vez de 11/11/2026
+const dataBr = (t) => {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(String(t ?? "").trim());
+  return m ? `${m[3]}/${m[2]}/${m[1]}` : String(t ?? "");
+};
 
 // ------------------------------------------------- resumos gerados no GitHub
 // O robô do repositório (GitHub Actions) resume as edições novas e commita
@@ -225,7 +230,7 @@ function pintarLista(edicoes, resumos) {
 }
 
 function cartao(ed, resumo, nova) {
-  const prazo = resumo?.prazo ? `<div class="prazo"><b>prazo</b>${escapar(resumo.prazo)}</div>` : "";
+  const prazo = resumo?.prazo ? `<div class="prazo"><b>prazo</b>${escapar(dataBr(resumo.prazo))}</div>` : "";
   const corpo = resumo?.resumo
     ? `<p class="resumo-curto">${escapar(resumo.resumo)}</p>${prazo}`
     : `<p class="meta" style="margin-top:8px">toque para abrir ou resumir</p>`;
@@ -284,7 +289,7 @@ function blocoResumo(r) {
     <p style="font-size:15.5px">${escapar(r.resumo)}</p>
     <p class="meta">${escapar(r.tipo || "")}${r.relevancia != null ? ` · relevância ${r.relevancia}/3` : ""}${r.fonte === "github" ? " · gerado pelo robô do acervo" : ""}</p>
     ${chips ? `<div class="chips">${chips}</div>` : ""}
-    ${r.prazo ? `<div class="prazo"><b>prazo</b>${escapar(r.prazo)}</div>` : ""}
+    ${r.prazo ? `<div class="prazo"><b>prazo</b>${escapar(dataBr(r.prazo))}</div>` : ""}
     ${destaques ? `<h2>O que saiu</h2>${destaques}` : ""}`;
 }
 
