@@ -80,7 +80,9 @@ def main() -> int:
 
     saida = Path(args.saida)
     textos = Path(args.textos)
-    textos.mkdir(parents=True, exist_ok=True)
+    # checkout limpo do CI não tem data/: sem isso o download do PDF falha
+    for pasta in (config.DADOS, config.PDFS, textos):
+        pasta.mkdir(parents=True, exist_ok=True)
 
     try:
         edicoes = collector.listar()
@@ -98,6 +100,7 @@ def main() -> int:
           f"{len(pendentes)} nesta rodada")
 
     novos = 0
+    falhas = 0
     for ed in pendentes:
         numero = ed["numero"]
         try:
@@ -119,6 +122,7 @@ def main() -> int:
         except collector.SemArquivo:
             print(f"  ed {numero}: o site não tem arquivo para esta edição")
         except Exception as e:  # noqa: BLE001
+            falhas += 1
             print(f"  ed {numero}: falhou ({type(e).__name__}: {e})")
 
     prontos.sort(key=lambda e: e.get("numero", 0), reverse=True)
@@ -126,7 +130,12 @@ def main() -> int:
     removidos = podar_textos(textos, args.manter_textos)
     print(f"gravado {saida} com {len(prontos)} resumos · {novos} novos · "
           f"{removidos} textos antigos removidos")
-    return 0 if novos or pendentes else 0
+
+    # falhar alto: job verde que não resumiu nada é pior que job vermelho
+    if pendentes and not novos and falhas:
+        print(f"ERRO: {falhas} de {len(pendentes)} edições falharam e nenhuma entrou")
+        return 2
+    return 0
 
 
 if __name__ == "__main__":
