@@ -1,0 +1,72 @@
+name: Resumos do diário
+
+# Todo dia às 17h30 de Brasília (20h30 UTC). Dá para rodar na mão em Actions → Run workflow.
+on:
+  schedule:
+    - cron: "30 20 * * *"
+  workflow_dispatch:
+    inputs:
+      limite:
+        description: "Quantas edições resumir nesta rodada"
+        required: false
+        default: "5"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: diario
+  cancel-in-progress: false
+
+jobs:
+  resumir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar OCR
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-por poppler-utils \
+            libreoffice-writer-nogui fonts-dejavu-core
+
+      - name: Resumir as edições novas
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python ferramentas/gerar_resumos.py --limite "${{ github.event.inputs.limite || 5 }}"
+
+      - name: Commitar o que mudou
+        run: |
+          git config user.name "diario-bot"
+          git config user.email "diario-bot@users.noreply.github.com"
+          git add pwa/dados
+          if git diff --staged --quiet; then
+            echo "nada novo hoje"
+          else
+            git commit -m "resumos: $(date -u +%F)"
+            git push
+          fi
+
+  publicar:
+    needs: resumir
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: pwa
+      - id: deployment
+        uses: actions/deploy-pages@v4
