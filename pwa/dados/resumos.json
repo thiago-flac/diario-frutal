@@ -475,5 +475,219 @@
   "paginas": 10,
   "modelo": "gemini-flash-lite-latest",
   "gerado_em": "2026-11-09T23:14:31Z"
+ },
+ {
+  "numero": 542,
+  "data": "2026-10-20",
+  "resumo": "A edição traz a publicação de aviso de licitação para placas de patrimônio, nova instrução normativa sobre inspeção de produtos de origem animal, portarias sobre fluxo de assinaturas de contratos e chefia de enfermagem hospitalar, além de decretos instituindo rito para requisições de órgãos de controle e declarando área de utilidade pública para desapropriação no distrito industrial.",
+  "tipo": "misto",
+  "prazo": "2026-11-06",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria do Produtor Rural",
+   "Fundação Hospital Frei Gabriel",
+   "Procuradoria-Geral do Município",
+   "Departamento de Licitações e Contratos"
+  ],
+  "destaques": [
+   {
+    "titulo": "Pregão Eletrônico para Placas de Patrimônio",
+    "texto": "Abertura de licitação na modalidade pregão eletrônico para registro de preços visando a aquisição de placas de identificação de bens permanentes. Início da fase de lances em 06 de novembro de 2026.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Normas de Autocontrole Animal (SIM)",
+    "texto": "Aprovados novos modelos de formulários, frequências e manual de procedimentos para verificação oficial de autocontroles em estabelecimentos de produtos de origem animal. Estabelecido prazo de 10 dias úteis para apresentação de plano de ação corretiva frente a não conformidades.",
+    "pagina": 2,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Fluxo Obrigatório de Assinaturas em Contratos",
+    "texto": "Instituída a obrigatoriedade de assinaturas sequenciais prévias de secretário da pasta, fiscal de contrato e testemunhas antes da assinatura do Prefeito em instrumentos contratuais do município.",
+    "pagina": 8,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Rito para Requisições de Órgãos de Controle",
+    "texto": "Regulamentado o fluxo interno de tramitação de ofícios do Ministério Público, Judiciário e TCE-MG, fixando prazo interno para secretarias de até 50% do prazo externo recebido e cominando responsabilização pessoal e PAD em caso de atraso.",
+    "pagina": 10,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Desapropriação para Distrito Industrial",
+    "texto": "Declarada de utilidade pública, para fins de desapropriação, a área de 8.000 m² pertencente à Laticínios Sabor de Minas Ltda, destinada à ampliação do distrito industrial, com valor de indenização fixado em R$ 264.400,00 parcelável em até 32 vezes.",
+    "pagina": 19,
+    "categoria": "obras"
+   }
+  ],
+  "paginas": 26,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-10T00:48:20Z"
+ },
+ {
+  "numero": 541,
+  "data": "2026-10-19",
+  "resumo": "Esta edição traz a celebração de convênio com a Caixa para ações sociais no empreendimento habitacional Cabrera Moron e a aprovação do loteamento Reserva Beira Rio. Também registra trocas de cargos comissionados — incluindo a mudança na presidência da Fundação Hospital Frei Gabriel — e a instauração de sindicância contra um agente de segurança.",
+  "tipo": "misto",
+  "prazo": "180 dias para registro do loteamento no CRI e 48 meses para obras de infraestrutura",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Caixa Econômica Federal",
+   "Fundação Hospital Frei Gabriel",
+   "Secretaria Municipal de Saúde",
+   "Secretaria Municipal do Produtor Rural",
+   "Secretaria Municipal de Segurança Pública, Trânsito, Transporte e Mobilidade Urbana"
+  ],
+  "destaques": [
+   {
+    "titulo": "Aprovação do Loteamento Reserva Beira Rio",
+    "texto": "Fica aprovado o loteamento urbanístico Reserva Beira Rio. O loteador tem prazo de 180 dias para registro imobiliário e 48 meses para implantar as redes de água, esgoto, energia e pavimentação.",
+    "pagina": 6,
+    "categoria": "obras"
+   },
+   {
+    "titulo": "Convênio MCMV no Cabrera Moron",
+    "texto": "Parceria entre a Prefeitura e a Caixa Econômica Federal viabiliza R$ 212.355,00 para realização de trabalho social com famílias do empreendimento Cabrera Moron ao longo de 24 meses.",
+    "pagina": 1,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Novo presidente no Hospital Frei Gabriel",
+    "texto": "Jader Sabino da Silva foi exonerado e Leandro Queiroz Macedo foi nomeado para assumir o cargo em comissão de Presidente da Fundação Hospital Frei Gabriel.",
+    "pagina": 9,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Sindicância contra Agente de Segurança",
+    "texto": "Instaurado procedimento disciplinar preliminar (prazo de 30 dias) para apurar suposta ausência não autorizada de servidor do cargo de Agente de Segurança de seu posto.",
+    "pagina": 12,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 14,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-10T00:48:43Z"
+ },
+ {
+  "numero": 540,
+  "data": "2026-10-16",
+  "resumo": "Esta edição do Diário Oficial de Frutal apresenta a atualização da UFM e do valor venal de imóveis rurais para 2027, além de aviso de licitação para serviços gráficos e normas detalhadas com padrões físico-químicos e microbiológicos para água e produtos de origem animal (como laticínios, ovos, carnes e pescados).",
+  "tipo": "misto",
+  "prazo": "03 de novembro de 2026",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Meio Ambiente",
+   "Secretaria Municipal do Produtor Rural"
+  ],
+  "destaques": [
+   {
+    "titulo": "Atualização da UFM para 2027",
+    "texto": "O valor da Unidade Fiscal do Município de Frutal (UFM) passa a ser de R$ 10,53 para o exercício fiscal de 2027, com base na inflação do INPC de 4,29%. O decreto entra em vigor na data de publicação.",
+    "pagina": 2,
+    "categoria": "tributo"
+   },
+   {
+    "titulo": "Valor venal de imóveis rurais para ITBI em 2027",
+    "texto": "Fica estabelecida a pauta do valor venal do hectare de imóveis rurais em R$ 21.864,40 para cálculo do ITBI a partir de 1º de janeiro de 2027.",
+    "pagina": 3,
+    "categoria": "tributo"
+   },
+   {
+    "titulo": "Pregão Eletrônico para livros institucionais",
+    "texto": "A Prefeitura abriu licitação para contratação de serviços gráficos para produção de livros institucionais sobre preservação do patrimônio cultural de alunos do 5º ano. A sessão de abertura ocorre em 03 de novembro de 2026.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Normas para controle de água e produtos de origem animal",
+    "texto": "A Secretaria Municipal do Produtor Rural estabelece os parâmetros físico-químicos e microbiológicos oficiais para verificação de autocontrole da água de abastecimento e de produtos de origem animal em estabelecimentos sob o SIM.",
+    "pagina": 4,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Padrões para Laticínios e Queijos",
+    "texto": "Define parâmetros físico-químicos e microbiológicos, como limites de umidade, gordura e coliformes, para queijos variados, requeijão, ricota e soro de leite.",
+    "pagina": 28,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Normas para Carnes e Embutidos",
+    "texto": "Fixa limites de proteína, gordura, amido, nitrito e padrões microbiológicos para almôndegas, apresuntado, bacon, carnes moídas, linguiças, presuntos e salsichas.",
+    "pagina": 34,
+    "categoria": "norma"
+   }
+  ],
+  "paginas": 53,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-10T00:49:44Z"
+ },
+ {
+  "numero": 539,
+  "data": "2026-10-15",
+  "resumo": "A edição traz o aviso de licitação na modalidade Concorrência Eletrônica nº 12/2026 para a contratação de empresa especializada em Segurança e Medicina do Trabalho. O objetivo é a elaboração de programas, laudos técnicos e avaliações de higiene ocupacional para atender às secretarias do município.",
+  "tipo": "licitação",
+  "prazo": "01/12/2026 às 08:30",
+  "relevancia": 1,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal/MG",
+   "Departamento de Licitações"
+  ],
+  "destaques": [
+   {
+    "titulo": "Concorrência Eletrônica nº 12/2026",
+    "texto": "A Prefeitura Municipal de Frutal abriu licitação para contratar empresa de Segurança e Medicina do Trabalho para elaborar laudos e programas (como PGR, PCMSO e LTCAT) e avaliações de Higiene Ocupacional. A fase de lances terá início no dia 01 de dezembro de 2026, às 08h30.",
+    "pagina": 1,
+    "categoria": "licitação"
+   }
+  ],
+  "paginas": 1,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-10T00:49:52Z"
+ },
+ {
+  "numero": 538,
+  "data": "2026-10-14",
+  "resumo": "Esta edição traz avisos de licitações para materiais de comunicação visual, serviços gráficos e poço artesiano, o resultado preliminar do Edital de Fomento Cultural 'Frutal das Artes', portarias de pessoal do Hospital Frei Gabriel e a concessão de uso de salas no Terminal Rodoviário para o sindicato dos servidores municipais.",
+  "tipo": "misto",
+  "prazo": "2026-11-05",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Cultura",
+   "Fundação Hospital Frei Gabriel"
+  ],
+  "destaques": [
+   {
+    "titulo": "Licitação para Comunicação Visual",
+    "texto": "Aviso de pregão eletrônico para registro de preços visando à aquisição de materiais de comunicação visual para as secretarias municipais. A sessão pública de lances ocorre em 04 de novembro de 2026.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Poço Artesiano na Escola Frei Teodósio",
+    "texto": "Licitação para contratação de empresa responsável pela perfuração e regularização de poço tubular profundo na Escola Municipal Frei Teodósio. A disputa de lances está marcada para 05 de novembro de 2026.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Resultado Preliminar do Fomento Cultural",
+    "texto": "Divulgação da classificação preliminar dos projetos inscritos no Edital 'Frutal das Artes' nas categorias de artes cênicas, audiovisual, cultura popular, literatura e música. O resultado está sujeito a recursos.",
+    "pagina": 3,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Permissão de Uso no Terminal Rodoviário",
+    "texto": "Concessão gratuita de duas salas no Terminal Rodoviário pelo prazo de dois anos para sediar o Sindicato dos Trabalhadores no Serviço Público Municipal de Frutal.",
+    "pagina": 6,
+    "categoria": "norma"
+   }
+  ],
+  "paginas": 6,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-10T00:50:05Z"
  }
 ]
