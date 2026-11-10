@@ -14,6 +14,7 @@ Uso:
 import argparse
 import json
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -49,13 +50,21 @@ def podar_textos(pasta: Path, manter: int) -> int:
     return removidos
 
 
+def data_br(valor) -> str:
+    """O modelo às vezes devolve 2026-11-11; o app mostra dd/mm/aaaa."""
+    import re as _re
+    txt = str(valor or "").strip()
+    m = _re.match(r"^(\d{4})-(\d{2})-(\d{2})", txt)
+    return f"{m.group(3)}/{m.group(2)}/{m.group(1)}" if m else txt
+
+
 def entrada(numero: int, data: str, resultado: dict, modelo: str, paginas: int) -> dict:
     return {
         "numero": numero,
         "data": (data or "")[:10],
         "resumo": resultado.get("resumo_curto", ""),
         "tipo": resultado.get("tipo_documento", ""),
-        "prazo": resultado.get("prazo", "") or "",
+        "prazo": data_br(resultado.get("prazo")),
         "relevancia": resultado.get("relevancia_geral"),
         "orgaos": resultado.get("orgaos", []) or [],
         "destaques": resultado.get("destaques", []) or [],
@@ -70,9 +79,18 @@ def main() -> int:
     ap.add_argument("--limite", type=int, default=3, help="quantas edições resumir nesta rodada")
     ap.add_argument("--saida", default=str(RAIZ / "pwa/dados/resumos.json"))
     ap.add_argument("--textos", default=str(RAIZ / "pwa/dados/textos"))
-    ap.add_argument("--manter-textos", type=int, default=120)
+    ap.add_argument("--manter-textos", type=int, default=700,
+                    help="quantos textos manter (o acervo inteiro são ~553)")
     ap.add_argument("--forcar", action="store_true", help="refaz mesmo as já resumidas")
+    ap.add_argument("--modelo", default="", help="fixa o modelo (ex.: gemini-flash-lite-latest)")
+    ap.add_argument("--pausa", type=float, default=3.0, help="segundos entre edições (cota RPM)")
+    ap.add_argument("--apagar-pdf", action="store_true", help="apaga o PDF depois de extrair")
+    ap.add_argument("--parar-apos-falhas", type=int, default=4,
+                    help="aborta depois de N falhas seguidas (cota estourada)")
     args = ap.parse_args()
+
+    if args.modelo:
+        config.MODELOS = [m.strip() for m in args.modelo.split(",") if m.strip()]
 
     if not config.chave_gemini():
         print("ERRO: defina GEMINI_API_KEY (no GitHub, como secret do repositório).")
@@ -85,7 +103,7 @@ def main() -> int:
         pasta.mkdir(parents=True, exist_ok=True)
 
     try:
-        edicoes = collector.listar()
+        edicoes = collector.todas_as_edicoes()
     except Exception as e:  # noqa: BLE001
         print(f"ERRO ao listar edições: {e}")
         return 1
@@ -101,7 +119,10 @@ def main() -> int:
 
     novos = 0
     falhas = 0
-    for ed in pendentes:
+    sequidas = 0
+    comeco = time.monotonic()
+    total = len(pendentes)
+    for i, ed in enumerate(pendentes, 1):
         numero = ed["numero"]
         try:
             pdf = collector.baixar_pdf(numero, ed.get("url_pdf"))
@@ -112,18 +133,31 @@ def main() -> int:
                 continue
 
             (textos / f"{numero}.txt").write_text(texto, encoding="utf-8")
+            if args.apagar_pdf:
+                Path(pdf).unlink(missing_ok=True)
 
             resultado, modelo = llm.resumir(texto, numero, (ed.get("data") or "")[:10])
             item = entrada(numero, ed.get("data"), resultado, modelo, len(paginas))
             prontos = [e for e in prontos if e.get("numero") != numero] + [item]
+            prontos.sort(key=lambda e: e.get("numero", 0), reverse=True)
+            gravar_json(saida, prontos)  # salva a cada edição: rodada de horas não perde nada
             novos += 1
-            print(f"  ed {numero}: {len(paginas)} páginas ({len(com_ocr)} via OCR) · "
-                  f"{modelo} · {item['resumo'][:90]}…")
+            sequidas = 0
+            gasto = time.monotonic() - comeco
+            print(f"  [{i}/{total}] ed {numero}: {len(paginas)} páginas ({len(com_ocr)} via OCR) · "
+                  f"{modelo} · {item['resumo'][:70]}… ({gasto/60:.0f} min)", flush=True)
         except collector.SemArquivo:
             print(f"  ed {numero}: o site não tem arquivo para esta edição")
         except Exception as e:  # noqa: BLE001
             falhas += 1
-            print(f"  ed {numero}: falhou ({type(e).__name__}: {e})")
+            sequidas += 1
+            print(f"  [{i}/{total}] ed {numero}: falhou ({type(e).__name__}: {e})", flush=True)
+            if sequidas >= args.parar_apos_falhas:
+                print(f"parando: {sequidas} falhas seguidas (cota?). O que já entrou está salvo.")
+                break
+        finally:
+            if i < total:
+                time.sleep(max(0.0, args.pausa))
 
     prontos.sort(key=lambda e: e.get("numero", 0), reverse=True)
     gravar_json(saida, prontos)
