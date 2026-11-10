@@ -6506,6 +6506,35 @@
   "gerado_em": "2026-11-10T02:40:44Z"
  },
  {
+  "numero": 403,
+  "data": "2026-03-06",
+  "resumo": "Esta edição do Diário Oficial contém atos da Secretaria Municipal do Meio Ambiente (SEMMA). O destaque principal é a emissão de dispensa de licenciamento ambiental para a construção de um Espaço Esportivo Comunitário no bairro Alto Boa Vista. Além disso, consta a reemissão de licença ambiental simplificada para um posto de combustíveis local com a definição de suas condicionantes operacionais.",
+  "tipo": "ato",
+  "prazo": "",
+  "relevancia": 1,
+  "orgaos": [
+   "Secretaria Municipal do Meio Ambiente de Frutal - SEMMA",
+   "Prefeitura Municipal de Frutal"
+  ],
+  "destaques": [
+   {
+    "titulo": "Dispensa de licença para Espaço Esportivo no Alto Boa Vista",
+    "texto": "A SEMMA concedeu Certidão de Dispensa de Licenciamento Ambiental para a Prefeitura construir um Espaço Esportivo Comunitário (Tipo B) na Rua Orlando Pinto da Cruz, nº 750, no bairro Alto Boa Vista.",
+    "pagina": 4,
+    "categoria": "obras"
+   },
+   {
+    "titulo": "Licenciamento ambiental para Auto Posto Cristal",
+    "texto": "Foi reemitido o Certificado de Licenciamento Ambiental Simplificado (LAS/Cadastro) para o Auto Posto Cristal Ltda, com validade até janeiro de 2032, exigindo o cumprimento de condicionantes ambientais.",
+    "pagina": 1,
+    "categoria": "outro"
+   }
+  ],
+  "paginas": 5,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-10T03:16:42Z"
+ },
+ {
   "numero": 402,
   "data": "2026-03-05",
   "resumo": "Esta edição traz a convocação de candidata aprovada em Processo Seletivo Simplificado para o cargo de Entrevistador Social do CadÚnico, com prazo imediato para comparecimento. Também publica decreto com exonerações a pedido de servidoras efetivas do município.",
@@ -8091,5 +8120,186 @@
   "paginas": 62,
   "modelo": "gemini-flash-lite-latest",
   "gerado_em": "2026-11-10T02:56:40Z"
+ },
+ {
+  "numero": 361,
+  "data": "2025-12-17",
+  "resumo": "Edição 361 do Diário Oficial de Frutal focada na sanção do Plano Plurianual (PPA) 2026-2029, que define o planejamento orçamentário de R$ 1,67 bilhão para o quadriênio, além de autorizações para alienação de terrenos do Minha Casa Minha Vida, aquisição de kits pedagógicos e readequações orçamentárias.",
+  "tipo": "misto",
+  "prazo": "31/12/2029",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Câmara Municipal de Frutal",
+   "Secretaria Municipal de Educação",
+   "Secretaria Municipal de Finanças e Planejamento",
+   "Fundação Hospital Frei Gabriel"
+  ],
+  "destaques": [
+   {
+    "titulo": "Aprovação do Plano Plurianual 2026-2029",
+    "texto": "Instituído pela Lei Complementar nº 139/2025, o PPA define diretrizes e metas financeiras com previsão de despesas de R$ 1.672.213.232,00 para o quadriênio.",
+    "pagina": 7,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Terrenos para o Minha Casa Minha Vida Faixa 1",
+    "texto": "Autorizada a desafetação e alienação sem licitação de lotes no Loteamento Universe Residence Plaza para beneficiários do programa habitacional.",
+    "pagina": 2,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Manutenção da Fundação Hospital Frei Gabriel",
+    "texto": "Previstos recursos de R$ 200.750.700,00 para o período de 2026 a 2029 destinados à manutenção e funcionamento da unidade hospitalar.",
+    "pagina": 147,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Kits pedagógicos para a rede de ensino",
+    "texto": "Formalizada a compra de kits pedagógicos para escolas municipais no valor global de R$ 511.829,00 até dezembro de 2026.",
+    "pagina": 1,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Crédito suplementar no orçamento",
+    "texto": "Autorizada a readequação orçamentária de R$ 378.951,47 por meio da anulação de dotações de serviços urbanos, esportes e segurança pública.",
+    "pagina": 4,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Projeto Anel de Segurança",
+    "texto": "Destinada contribuição ao CONSEP para a implantação de projeto de segurança com instalação de equipamentos de leitura automática de placas (OCR).",
+    "pagina": 55,
+    "categoria": "norma"
+   }
+  ],
+  "paginas": 152,
+  "modelo": "gemini-3.1-flash-lite",
+  "gerado_em": "2026-11-10T03:20:12Z"
+ },
+ {
+  "numero": 360,
+  "data": "2025-12-16",
+  "resumo": "Esta edição traz a exoneração a pedido de uma servidora municipal e a retificação do edital do processo seletivo público para Agente Comunitário de Saúde e Agente de Combate às Endemias, incluindo regras de escolaridade e o cronograma atualizado de eventos.",
+  "tipo": "misto",
+  "prazo": "28/12/2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal"
+  ],
+  "destaques": [
+   {
+    "titulo": "Exoneração de Servidora",
+    "texto": "Foi aceito o pedido de exoneração da servidora Tayanne Brito de Sousa, ocupante do cargo efetivo de Monitora de Creche, a partir de 11 de dezembro de 2025.",
+    "pagina": 1,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Retificação em Processo Seletivo",
+    "texto": "O processo seletivo para Agente Comunitário de Saúde passou a exigir ensino médio completo, permitindo excepcionalmente o ensino fundamental com prazo de 3 anos para conclusão após a admissão.",
+    "pagina": 2,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Cronograma de Inscrições e Provas",
+    "texto": "As inscrições do processo seletivo vão até 28/12/2025 e a aplicação da prova escrita objetiva está marcada para o dia 25/01/2026.",
+    "pagina": 3,
+    "categoria": "outro"
+   }
+  ],
+  "paginas": 4,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-10T03:20:33Z"
+ },
+ {
+  "numero": 359,
+  "data": "2025-12-12",
+  "resumo": "Esta edição traz o decreto que institui o calendário oficial de feriados e pontos facultativos para o ano de 2026 em Frutal, incluindo o período de recesso de fim de ano da prefeitura e serviços essenciais. Também apresenta a alteração no prazo e obrigações de infraestrutura para o loteamento Chácaras Boa Vista.",
+  "tipo": "decreto",
+  "prazo": "04/01/2027",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal"
+  ],
+  "destaques": [
+   {
+    "titulo": "Calendário de Feriados 2026",
+    "texto": "Fixa os feriados municipais, nacionais e pontos facultativos para o exercício de 2026, garantindo o funcionamento dos serviços essenciais.",
+    "pagina": 1,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Recesso de Fim de Ano",
+    "texto": "Fica decretado recesso funcional no Paço Municipal de 21/12/2026 a 01/01/2027, com retorno do expediente normal em 04 de janeiro de 2027.",
+    "pagina": 2,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Alteração em Loteamento",
+    "texto": "Modifica o decreto de aprovação do loteamento Chácaras Boa Vista, detalhando prazos e obrigações do loteador para a execução de obras de infraestrutura básica.",
+    "pagina": 4,
+    "categoria": "obras"
+   }
+  ],
+  "paginas": 4,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-10T03:20:57Z"
+ },
+ {
+  "numero": 358,
+  "data": "2025-12-11",
+  "resumo": "A edição apresenta aberturas de licitação para manutenção da iluminação pública e elaboração de projetos de engenharia para duplicação de vias públicas e extensão da rede elétrica. Traz também a formação de comissão para avaliar amostras de uniformes escolares e extratos de termos de fomento para a Associação dos Universitários, o CONSEP e entidade educacional.",
+  "tipo": "misto",
+  "prazo": "02/02/2026",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Educação",
+   "Secretaria Municipal de Obras",
+   "Associação dos Universitários de Frutal",
+   "Instituto Educacional Pequeninos de Jesus",
+   "CONSEP - Conselho Comunitário de Segurança Pública de Frutal/MG"
+  ],
+  "destaques": [
+   {
+    "titulo": "Licitação para manutenção da iluminação pública",
+    "texto": "Abertura da Concorrência Eletrônica nº 07/2025 para contratação de empresa de manutenção, revitalização e expansão de cerca de 9.400 pontos de iluminação pública. Sessão de lances agendada para 02/02/2026 às 9h.",
+    "pagina": 4,
+    "categoria": "obras"
+   },
+   {
+    "titulo": "Projeto para duplicação de via pública",
+    "texto": "Publicado aviso da Concorrência Eletrônica nº 06/2025 para contratar projetos de engenharia visando a duplicação de logradouro público, pavimentação e sinalização. Abertura de lances em 13/02/2026 às 14h.",
+    "pagina": 4,
+    "categoria": "obras"
+   },
+   {
+    "titulo": "Projeto de extensão de rede elétrica",
+    "texto": "Aviso da Concorrência Eletrônica nº 08/2025 para elaboração de projeto de extensão da rede de energia elétrica e iluminação pública. Fase de lances agendada para 13/02/2026 às 9h.",
+    "pagina": 5,
+    "categoria": "obras"
+   },
+   {
+    "titulo": "Repasse de R$ 480 mil para Associação de Universitários",
+    "texto": "Termo de Fomento nº 52/2025 formaliza o repasse financeiro de R$ 480.000,00 para a Associação dos Universitários de Frutal, com vigência de seis meses.",
+    "pagina": 1,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Comissão de avaliação dos uniformes escolares",
+    "texto": "A Portaria nº 1.201/2025 nomeia comissão de servidores para fiscalizar e avaliar as amostras de roupas e calçados fornecidos para os alunos da Rede Municipal de Ensino.",
+    "pagina": 3,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Recursos para segurança pública (CONSEP)",
+    "texto": "Assinatura do Termo de Fomento nº 29/2025 para repasse de R$ 60.000,00 ao Conselho Comunitário de Segurança Pública de Frutal/MG, dividido em 6 parcelas.",
+    "pagina": 2,
+    "categoria": "outro"
+   }
+  ],
+  "paginas": 5,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-10T03:21:20Z"
  }
 ]
