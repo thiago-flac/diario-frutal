@@ -1,6 +1,7 @@
 """Coleta: descobre edições novas na API do site, baixa e extrai o texto."""
 import os
 import re
+import socket
 import subprocess
 import time
 import urllib.request
@@ -19,10 +20,43 @@ class SemArquivo(Exception):
 RE_NUM = re.compile(r"EDI[ÇC][ÃA]O\s*0*(\d+)", re.I)
 
 
-def _get(url: str, timeout: int = 60) -> bytes:
-    req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
+_IPV4_FORCADO = False
+
+
+def preferir_ipv4() -> None:
+    """Runner do GitHub às vezes recebe um AAAA sem rota e falha com Errno 101.
+
+    Filtrar o getaddrinfo para AF_INET resolve; se o host só tiver AAAA, cai no
+    comportamento original.
+    """
+    global _IPV4_FORCADO
+    if _IPV4_FORCADO:
+        return
+    original = socket.getaddrinfo
+
+    def so_v4(host, port, family=0, type=0, proto=0, flags=0):
+        achados = original(host, port, socket.AF_INET, type, proto, flags)
+        return achados or original(host, port, family, type, proto, flags)
+
+    socket.getaddrinfo = so_v4
+    _IPV4_FORCADO = True
+
+
+def _get(url: str, timeout: int = 60, tentativas: int = 4) -> bytes:
+    ultimo = None
+    for n in range(1, tentativas + 1):
+        try:
+            req = urllib.request.Request(url, headers=UA)
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read()
+        except Exception as e:  # rede do runner é instável; vale insistir
+            ultimo = e
+            print(f"aviso: falha ao acessar o site ({n}/{tentativas}): {e}")
+            if "unreachable" in str(e).lower() or "101" in str(e):
+                preferir_ipv4()
+            if n < tentativas:
+                time.sleep(3 * n)
+    raise ultimo
 
 
 def listar(pagina: int = 1, por_pagina: int = 100) -> list[dict]:
