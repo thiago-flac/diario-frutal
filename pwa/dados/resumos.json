@@ -689,5 +689,184 @@
   "paginas": 6,
   "modelo": "gemini-flash-lite-latest",
   "gerado_em": "2026-11-10T00:50:05Z"
+ },
+ {
+  "numero": 537,
+  "data": "2026-10-13",
+  "resumo": "Esta edição traz a publicação do Decreto nº 14.350, que determina o fechamento do Paço Municipal de Frutal no dia 13 de outubro de 2026, a partir das 12h00. A medida decorre do falecimento da servidora pública Adriana Castro Assunção e suspende o expediente administrativo no local. Os serviços públicos essenciais continuam funcionando sem interrupção.",
+  "tipo": "decreto",
+  "prazo": "13/10/2026",
+  "relevancia": 1,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal"
+  ],
+  "destaques": [
+   {
+    "titulo": "Suspensão do expediente no Paço Municipal",
+    "texto": "O expediente administrativo no Paço Municipal de Frutal foi suspenso no dia 13/10/2026, a partir das 12h00, em razão do falecimento da servidora Adriana Castro Assunção. A suspensão não afeta o funcionamento dos serviços essenciais.",
+    "pagina": 1,
+    "categoria": "norma"
+   }
+  ],
+  "paginas": 1,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-10T01:24:51Z"
+ },
+ {
+  "numero": 536,
+  "data": "2026-10-09",
+  "resumo": "Esta edição traz o aviso de licitação para contratação de serviços de ornamentação e organização da formatura da Educação Infantil. Também publica decretos que homologam patrocínio e nomeiam comissão especial para o evento esportivo Frutal Run e Pedala Frutal.",
+  "tipo": "misto",
+  "prazo": "27 de outubro de 2026",
+  "relevancia": 1,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Departamento de Licitações",
+   "Comissão Especial"
+  ],
+  "destaques": [
+   {
+    "titulo": "Licitação para Formatura",
+    "texto": "Aviso de pregão eletrônico para contratação de empresa especializada em ornamentação e organização da formatura da Educação Infantil da Rede Municipal.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Patrocínio Evento Esportivo",
+    "texto": "Homologado o parecer da comissão especial para pedido de patrocínio do 5º Frutal Run / 3º Pedala Frutal.",
+    "pagina": 2,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Comissão Organizadora",
+    "texto": "Nomeada a comissão especial responsável por organizar, executar e fiscalizar o evento esportivo 5º Fortes Run / 3º Pedala Frutal.",
+    "pagina": 3,
+    "categoria": "norma"
+   }
+  ],
+  "paginas": 3,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-10T01:25:02Z"
+ },
+ {
+  "numero": 535,
+  "data": "2026-10-08",
+  "resumo": "Esta edição traz um aviso de licitação para contratação de serviços de levantamento radiométrico e testes de controle de qualidade para equipamentos de saúde. Também publica decreto de nomeação dos novos membros da Junta Administrativa de Recursos de Infrações (JARI).",
+  "tipo": "misto",
+  "prazo": "27 de outubro de 2026",
+  "relevancia": 1,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Saúde",
+   "Junta Administrativa de Recursos de Infrações - JARI"
+  ],
+  "destaques": [
+   {
+    "titulo": "Pregão Eletrônico para Saúde",
+    "texto": "Aviso de licitação para contratação de empresa de levantamento radiométrico e controle de qualidade para equipamentos médicos e odontológicos da Secretaria de Saúde.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Novos Membros da JARI",
+    "texto": "Decreto nomeia os novos titulares e suplentes para compor a Junta Administrativa de Recursos de Infrações por um período de dois anos.",
+    "pagina": 2,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 2,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-10T01:25:15Z"
+ },
+ {
+  "numero": 534,
+  "data": "2026-10-07",
+  "resumo": "Esta edição traz a publicação de um extrato de contrato para levantamento planimétrico de área afetada por erosão, a revogação integral de um decreto anterior e a nomeação de novo servidor para cargo em comissão na Secretaria Municipal de Esportes.",
+  "tipo": "misto",
+  "prazo": "06/10/2027",
+  "relevancia": 1,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal do Meio Ambiente",
+   "Secretaria Municipal de Esportes"
+  ],
+  "destaques": [
+   {
+    "titulo": "Contrato de Levantamento Topográfico",
+    "texto": "Contratação de empresa para levantamento planimétrico e mapeamento georreferenciado de área urbana com processo erosivo no Bairro Ipê Amarelo, pelo valor global de R$ 12.350,00.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Revogação de Decreto",
+    "texto": "O Decreto nº 14.345/2026 revoga integralmente o Decreto nº 13.268, de 25 de novembro de 2024.",
+    "pagina": 2,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Nomeação em Cargo Comissionado",
+    "texto": "Otávio Augusto Campos dos Santos foi nomeado para o cargo em comissão de Diretor de Esporte da Secretaria Municipal de Esportes.",
+    "pagina": 3,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 3,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-10T01:25:28Z"
+ },
+ {
+  "numero": 533,
+  "data": "2026-10-06",
+  "resumo": "Esta edição traz licitações para aquisição de materiais e veículo de saúde, a instituição da Política Municipal de Cooperação Tributária, alteração de nome de logradouro, leis de expansão urbana de duas áreas rurais e a nomeação de membros da JARI.",
+  "tipo": "misto",
+  "prazo": "2026-10-23",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Departamento de Licitações",
+   "Secretaria Municipal de Saúde",
+   "Junta Administrativa de Recursos de Infrações - JARI"
+  ],
+  "destaques": [
+   {
+    "titulo": "Pregão Eletrônico para Cadeados e Carimbos",
+    "texto": "Aviso de licitação para registro de preços visando à aquisição de cadeados, confecção de carimbos e serviços de chaveiro para as secretarias municipais.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Pregão para Veículo da Saúde",
+    "texto": "Licitação para aquisição de veículo automotor de passageiros adaptado para acessibilidade destinado à Secretaria Municipal de Saúde.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Política Municipal de Cooperação Tributária",
+    "texto": "Institui diretrizes para integração e modernização da administração tributária municipal e adequação ao novo sistema tributário nacional.",
+    "pagina": 2,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Alteração de Nome de Logradouro",
+    "texto": "Altera a denominação de logradouro público para Rua Presidente Artur da Costa e Silva.",
+    "pagina": 12,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Expansão Urbana da Fazenda Frutal",
+    "texto": "Duas leis transformam áreas rurais da Fazenda Frutal em áreas de expansão urbana para fins de parcelamento do solo.",
+    "pagina": 13,
+    "categoria": "obras"
+   },
+   {
+    "titulo": "Nomeação da JARI",
+    "texto": "Nomeia novos membros e suplentes para compor a Junta Administrativa de Recursos de Infrações pelo prazo de dois anos.",
+    "pagina": 16,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 16,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-10T01:25:58Z"
  }
 ]
