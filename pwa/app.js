@@ -261,8 +261,9 @@ async function telaEdicao(numero) {
     .sort((a, b) => a.n - b.n);
 
   app.innerHTML = `
-    <p class="meta"><span>${dataBR(ed.data)}</span>${paginas.length ? ` · ${paginas.length} páginas` : ""}</p>
+    <div class="fita">${resumo ? '<span class="carimbo">resumida</span>' : ""}<span>${dataBR(ed.data)}</span>${paginas.length ? `<span>·</span><span>${paginas.length} páginas</span>` : ""}</div>
     <h1>Edição ${ed.numero}</h1>
+    <p class="sub">Diário Oficial Eletrônico</p>
     ${ed.arquivo
       ? `<div class="linha-botoes"><a class="botao primario" href="${escapar(ed.arquivo)}" target="_blank" rel="noopener">Abrir PDF</a></div>`
       : `<p class="meta">esta edição não tem arquivo publicado</p>`}
@@ -284,12 +285,12 @@ function blocoResumo(r) {
     <div class="destaque">
       <h4>${escapar(d.titulo)}</h4>
       <p>${escapar(d.texto)}</p>
-      <small>página ${d.pagina || "?"}${d.categoria ? " · " + escapar(d.categoria) : ""}</small>
+      <small>página ${d.pagina || "?"}${d.categoria && !/^outros?$/i.test(d.categoria) ? " · " + escapar(d.categoria) : ""}</small>
     </div>`).join("");
   const chips = (r.orgaos || []).map((o) => `<span class="chip">${escapar(o)}</span>`).join("");
   return `<h2>Resumo</h2>
-    <p style="font-size:15.5px">${escapar(r.resumo)}</p>
-    <p class="meta">${escapar(r.tipo || "")}${r.relevancia != null ? ` · relevância ${r.relevancia}/3` : ""}${r.fonte === "github" ? " · gerado pelo robô do acervo" : ""}</p>
+    <p class="texto-resumo">${escapar(r.resumo)}</p>
+    <p class="meta procedencia">${escapar(r.tipo || "")}${r.relevancia != null ? ` · relevância ${r.relevancia}/3` : ""}${r.fonte === "github" ? " · gerado pelo robô do acervo" : ""}</p>
     ${chips ? `<div class="chips">${chips}</div>` : ""}
     ${r.prazo ? `<div class="prazo"><b>prazo</b>${escapar(dataBr(r.prazo))}</div>` : ""}
     ${destaques ? `<h2>O que saiu</h2>${destaques}` : ""}`;
