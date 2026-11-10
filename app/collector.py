@@ -229,3 +229,22 @@ def enfileirar_backfill(limite: int | None = None, log=print) -> int:
         pagina += 1
     log(f"backfill enfileirado: {total} edições")
     return total
+
+def todas_as_edicoes(teto: int = 40) -> list[dict]:
+    """Percorre todas as páginas da API (100 por página) até acabar ou bater o teto."""
+    vistas: dict[int, dict] = {}
+    for pagina in range(1, teto + 1):
+        try:
+            lote = listar(pagina=pagina)
+        except Exception as e:  # noqa: BLE001
+            if pagina == 1:
+                raise
+            print(f"aviso: parou na página {pagina} da API ({e})")
+            break
+        if not lote:
+            break
+        for ed in lote:
+            vistas.setdefault(ed["numero"], ed)
+        if len(lote) < 100:
+            break
+    return sorted(vistas.values(), key=lambda e: e["numero"], reverse=True)
