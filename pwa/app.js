@@ -24,7 +24,9 @@ const cfg = {
   },
 };
 const chaveGemini = () => cfg.get("chave").trim();
-const proxy = () => cfg.get("proxy").trim();
+// proxy do PDF e servidor de resumo podem vir do dados/config.json do app,
+// para o colega instalar e usar sem configurar nada
+const proxy = () => (cfg.get("proxy") || COMPARTILHADO.proxy || "").trim();
 
 let telaAvisoTimer;
 function avisar(msg, ms = 4000) {
@@ -342,13 +344,22 @@ async function telaAjustes() {
     <h1>Ajustes</h1>
     <p class="meta">${edicoes.length} edições guardadas neste aparelho</p>
 
-    <label for="chave">Chave do Gemini</label>
+    <label for="servidor">Servidor de resumo (opcional)</label>
+    <input type="url" id="servidor" placeholder="https://diario-ia.SEUUSUARIO.workers.dev" value="${escapar(cfg.get("servidor") || "")}">
+    <p class="ajuda">Se quem te passou o app já configurou, este campo vem preenchido pelo próprio app ${COMPARTILHADO.servidor ? "(está usando o servidor de quem te passou)" : ""}.
+      É ele que deixa resumir sem chave nenhuma: a chave mora no servidor.</p>
+
+    <label for="codigo">Código de acesso (opcional)</label>
+    <input id="codigo" placeholder="a palavra que você recebeu" value="${escapar(cfg.get("codigo") || "")}">
+    <p class="ajuda">Vem do mesmo lugar do servidor. Se o código mudar, troque aqui.</p>
+
+    <label for="chave">Chave do Gemini (opcional)</label>
     <input type="password" id="chave" placeholder="AIza… ou AQ.…" value="${escapar(cfg.get("chave"))}">
     <p class="ajuda">Grátis no <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google AI Studio</a>.
-      Fica só no seu aparelho. Sem ela o app lista as edições e abre o PDF, mas não resume.</p>
+      Fica só no seu aparelho. Só serve se você quiser usar a sua conta em vez do servidor compartilhado.</p>
 
     <label for="proxy">Endereço do proxy (opcional)</label>
-    <input type="url" id="proxy" placeholder="https://seu-worker.workers.dev/?u={url}" value="${escapar(cfg.get("proxy"))}">
+    <input type="url" id="proxy" placeholder="https://seu-worker.workers.dev/?u={url}" value="${escapar(cfg.get("proxy") || "")}" placeholder="${escapar(COMPARTILHADO.proxy || "https://seu-worker.workers.dev/?u={url}")}">
     <p class="ajuda">O site da prefeitura não deixa o navegador baixar o PDF direto (falta CORS).
       Com um proxy de 15 linhas — o arquivo <code>worker.js</code> que veio junto — o app baixa e resume.
       Sem proxy, dá para resumir escolhendo o PDF já baixado no aparelho.</p>
@@ -364,6 +375,8 @@ async function telaAjustes() {
   $("#btn-salvar").onclick = () => {
     cfg.set("chave", $("#chave").value.trim());
     cfg.set("proxy", $("#proxy").value.trim());
+    cfg.set("servidor", $("#servidor").value.trim());
+    cfg.set("codigo", $("#codigo").value.trim());
     avisar("Ajustes salvos.");
     telaAjustes();
   };
@@ -389,7 +402,10 @@ async function resumirEdicao(ed) {
   const progresso = $("#progresso");
   const dizer = (t) => { if (progresso) progresso.textContent = t; };
   try {
-    if (!chaveGemini()) { avisar("Falta a chave do Gemini em Ajustes."); return; }
+    if (!chaveGemini() && !servidorIA()) {
+      avisar("Falta configurar o resumo: peça o código a quem te passou o app, ou cole a sua chave em Ajustes.");
+      return;
+    }
     let bytes;
 
     if (proxy()) {
@@ -541,18 +557,56 @@ async function pedirResumo(paginas, imagens) {
   return chamarGemini(partes);
 }
 
+// O dono do app publica dados/config.json com o endereço do Worker e o código
+// de acesso. Quem instala não configura nada; a chave do Gemini fica no Worker.
+let COMPARTILHADO = { servidor: "", codigo: "", proxy: "" };
+
+async function carregarConfigCompartilhada() {
+  try {
+    const r = await fetch("dados/config.json", { cache: "no-cache" });
+    if (!r.ok) return;
+    const d = await r.json();
+    COMPARTILHADO.servidor = String(d?.ia?.servidor || "").trim().replace(/\/+$/, "");
+    COMPARTILHADO.codigo = String(d?.ia?.codigo || "").trim();
+    COMPARTILHADO.proxy = String(d?.proxy || "").trim();
+  } catch (e) { /* app sem configuração compartilhada: cada um usa a própria chave */ }
+}
+
+function servidorIA() {
+  return (cfg.get("servidor") || COMPARTILHADO.servidor || "").trim().replace(/\/+$/, "");
+}
+
+function codigoIA() {
+  return (cfg.get("codigo") || COMPARTILHADO.codigo || "").trim();
+}
+
 async function chamarGemini(partes) {
+  const base = servidorIA();
+  const chave = (cfg.get("chave") || "").trim();
+  const codigo = codigoIA();
+  if (!base && !chave) {
+    throw new Error("Sem chave e sem servidor de resumo: peça o código a quem te passou o app, ou cole a sua chave em Ajustes.");
+  }
   let ultimoErro;
   for (const modelo of MODELOS) {
     try {
-      const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${modelo}:generateContent`, {
+      const url = base
+        ? `${base}/v1beta/models/${modelo}:generateContent`
+        : `https://generativelanguage.googleapis.com/v1beta/models/${modelo}:generateContent`;
+      const cabecalhos = { "Content-Type": "application/json" };
+      if (base) { if (codigo) cabecalhos["x-codigo-acesso"] = codigo; }
+      else cabecalhos["x-goog-api-key"] = chave;
+
+      const r = await fetch(url, {
         method: "POST",
-        headers: { "Content-Type": "application/json", "x-goog-api-key": chaveGemini() },
+        headers: cabecalhos,
         body: JSON.stringify({
           contents: [{ role: "user", parts: partes }],
           generationConfig: { temperature: 0.2, responseMimeType: "application/json", responseSchema: ESQUEMA },
         }),
       });
+      if (r.status === 401) throw new Error("O app pediu o resumo ao servidor e o código de acesso foi recusado. Peça o código atualizado a quem te passou o app.");
+      if (r.status === 429) { ultimoErro = new Error("O limite diário de resumos acabou. Amanhã volta, ou tente de novo mais tarde."); continue; }
       if (!r.ok) { ultimoErro = new Error(`${modelo}: HTTP ${r.status}`); continue; }
       const dados = await r.json();
       const texto = dados.candidates?.[0]?.content?.parts?.map((p) => p.text).join("") || "";
@@ -606,6 +660,7 @@ async function rotear() {
 
 window.addEventListener("hashchange", rotear);
 window.addEventListener("DOMContentLoaded", async () => {
+  await carregarConfigCompartilhada();
   await rotear();
   const importados = await importarResumosProntos();
   if (importados) await rotear();
