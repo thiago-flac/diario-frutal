@@ -51,7 +51,13 @@ jobs:
             echo "nada novo hoje"
           else
             git commit -m "resumos: $(date -u +%F)"
-            git push
+            # alguém pode ter subido arquivo pelo navegador durante a rodada:
+            # rebobina em cima do que está no GitHub em vez de ser rejeitado
+            for tentativa in 1 2 3; do
+              git pull --rebase --autostash origin main && git push && break
+              echo "push recusado (tentativa $tentativa), tentando de novo em 5s"
+              sleep 5
+            done
           fi
 
   publicar:
