@@ -1,0 +1,7 @@
+{
+  "proxy": "https://diario-ia.thiago-techpix.workers.dev/pdf?u={url}",
+  "ia": {
+    "servidor": "https://diario-ia.thiago-techpix.workers.dev",
+    "codigo": "comuna-frutal"
+  }
+}
