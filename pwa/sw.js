@@ -1,6 +1,6 @@
 // Casca do app em cache: abre mesmo sem rede. O conteúdo (edições, resumos) vive
 // no IndexedDB, não aqui.
-const CASCA = "diario-pwa-v1";
+const CASCA = "diario-pwa-v2";
 const ARQUIVOS = ["./", "index.html", "styles.css", "app.js", "manifest.json",
                   "icone-192.png", "icone-512.png", "icone-180.png"];
 
@@ -30,11 +30,13 @@ self.addEventListener("fetch", (e) => {
     return;
   }
 
+  // a casca também é rede-primeiro: assim atualização do app chega no próximo
+  // abrir, e o cache só entra quando não há rede.
   if (url.origin === location.origin) {
-    e.respondWith(caches.match(e.request).then((r) => r || fetch(e.request).then((resp) => {
+    e.respondWith(fetch(e.request).then((resp) => {
       const copia = resp.clone();
       caches.open(CASCA).then((c) => c.put(e.request, copia));
       return resp;
-    }).catch(() => caches.match("index.html"))));
+    }).catch(() => caches.match(e.request).then((r) => r || caches.match("index.html"))));
   }
 });
