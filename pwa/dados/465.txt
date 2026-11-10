@@ -1,0 +1,815 @@
+
+[PAGINA 1]
+PREFEITURA MUNICIPAL DE FRUTAL – AVISO DE ERRATA – PREGÃO ELETRÔNICO PARA
+REGISTRO DE PREÇO Nº 066/2026 – PROCESSO LICITATÓRIO Nº 144/2026. O Departamento
+de Licitações torna pública a retificação do edital do processo em epígrafe, conforme as seguintes
+alterações: Onde se lê: "25/06/2026 às 14:30hs", leia-se: "Abertura da sessão pública e início da
+fase de lances: às 09h30min (horário de Brasília) do dia 26 de junho de 2026." Da Redesignação:
+Visando garantir a ampla competitividade e evitar prejuízos aos licitantes, fica REDESIGNADA a
+data limite para o recebimento dos documentos de habilitação e das propostas financeiras para o
+dia 26 de junho de 2026, às 09h29min (horário de Brasília), antecedendo imediatamente a abertura
+da sessão pública. Obtenção do Edital: O edital completo e seus anexos estão disponíveis nos
+sítios eletrônicos www.licitanet.com.br e www.gov.br/pncp/pt.br. Os arquivos também poderão ser
+solicitados gratuitamente pelo e-mail licitacao@frutal.mg.gov.br ou retirados presencialmente no
+Setor de Licitações, mediante entrega de mídia removível fornecida pelo interessado. O
+Departamento de Licitações não se responsabiliza por eventuais falhas na recepção de
+mensagens via e-mail.
+Frutal/MG, 16 de junho de 2026.
+
+CHRISTIANE SOUZA FERREIRA
+Pregoeira
+
+[PAGINA 2]
+PREFEITURA MUNICIPAL DE
+
+FRUTAL
+
+ 
+
+LEI COMPLEMENTAR Nº 145, DE 16 JUNHO DE 2026
+
+DISPÕE SOBRE O PROCEDIMENTO PARA A INSTALAÇÃO DE
+INFRAESTRUTURA DE SUPORTE PARA ESTAÇÃO TRANSMISSORA
+DE RADIOCOMUNICAÇÃO - ETR AUTORIZADA PELA AGÊNCIA
+NACIONAL DE TELECOMUNICAÇÕES - ANATEL, NOS TERMOS DA
+LEGISLAÇÃO FEDERAL VIGENTE E DÁ OUTRAS PROVIDÊNCIAS.
+
+O Prefeito do Município de Frutal, no uso das atribuições legais que lhe confere a Lei Orgânica do Município,
+faz saber que a Câmara de Vereadores aprovou e ele sanciona a seguinte Lei Complementar:
+
+CAPÍTULO |
+DAS DISPOSIÇÕES INICIAIS
+
+Art. 1º, O procedimento para a instalação no município de Infraestrutura de Suporte para Estação Transmissora
+de Radiocomunicação - ETR, ETR móvel e ETR de pequeno porte, cadastrados, autorizados e/ou homologados pela
+Agência Nacional de Telecomunicações ANATEL, fica disciplinado por esta lei complementa.
+
+Parágrafo único. Não estão sujeitas às prescrições previstas nesta lei complementar as infraestruturas para
+suporte de radares militares e civis, com propósito de defesa ou controle de tráfego aéreo, cujo funcionamento deverá
+obedecer à regulamentação própria
+
+Art. 2º, Para os fins de aplicação desta lei complementar, nos termos da legislação federal vigente, observam-
+se as seguintes definições:
+
+| - Estação Transmissora de Radiocomunicação - ETR: conjunto de equipamentos ou aparelhos, dispositivos
+e demais meios necessários à realização de comunicação, incluindo seus acessórios e periféricos que emitem
+radiofrequências, possibilitando a prestação dos serviços de telecomunicações;
+
+| - Estação Transmissora de Radiocomunicação Móvel - ETR Móvel: conjunto de instalações que comporta
+equipamentos de radiofrequência, destinado à transmissão de sinais de telecomunicações, de caráter transitório;
+
+Il - Estação Transmissora de Radiocomunicação de Pequeno Porte - ETR de Pequeno Porte: conjunto de
+equipamentos de radiofrequência destinado a prover ou aumentar a cobertura ou capacidade de tráfego de transmissão
+de sinais de telecomunicações para a cobertura de determinada área, apresentando dimensões físicas reduzidas e que
+seja apto a atender aos critérios de baixo impacto visual, assim considerados aqueles que observam um dos seguintes
+critérios:
+
+a) os equipamentos sejam ocultos em mobiliário urbano ou enterrados;
+
+b) as antenas sejam instaladas em postes de iluminação pública ou privados, com altura inferior a 25 (vinte e
+cinco) metros e com cabos de energia subterrâneos em estruturas de suporte de sinalização viária, camufladas ou
+harmonizadas em fachadas de edificações residenciais ou comerciais, ou postes multifuncionais de baixo impacto visual
+cujos equipamentos sejam embutidos na própria estrutura ou enterrados, ou em obras de arte;
+
+c) sua instalação não dependa da construção civil de novas infraestruturas ou instalada em edificação ou
+estrutura existente;
+
+d) atender aos demais requisitos do artigo $1º do artigo 15 do Decreto Federal n 10.480, de 1º de setembro
+de 2020 ou da norma que venha a substituí-la.
+
+IV - infraestrutura de Suporte: meios físicos fixos utilizados para dar suporte à instalação de redes de
+telecomunicações, entre os quais; postes, torres, mastros, armários, estruturas de superfície e estruturas suspensas;
+
+V - detentora: pessoa física ou jurídica que detém, administra ou controla, direta ou indiretamente, uma
+infraestrutura de suporte;
+
+VI - prestadora: pessoa jurídica que detém concessão, permissão ou autorização para exploração de serviços
+de telecomunicações;
+
+VII - torre: infraestrutura vertical transversal triangular ou quadrada, treliçada, que pode ser do tipo
+autossuportada ou estaiada;
+
+VIII - poste: infraestrutura vertical cônica e autossuportada, de concreto ou constituída por chapas de aço,
+instalada para suportar equipamentos de telecomunicações;
+
+Praça Dr. França, n.º 100 — Centro — Cep. 38.200-066
+Fone: TELEFAX: (34) 3423-2800
+www .frutal.mg.gov.br
+
+[PAGINA 3]
+PREFEITURA MUNICIPAL DE
+
+FRUTAL
+
+ 
+
+IX - poste de energia ou iluminação: infraestrutura de madeira, cimento, ferro ou aço destinada a sustentar
+linhas de transmissão de energia elétrica e iluminação pública, que pode suportar também os equipamentos de
+telecomunicações;
+
+X - antena: dispositivo para irradiar ou capturar ondas eletromagnéticas no espaço;
+
+XI - instalação externa: instalação em locais não confinados, tais como torres, postes, topo de edificações,
+fachadas, caixas d'água etc;
+
+XII - instalação interna: instalação em locais internos, tais como no interior de edificações, túneis, shopping
+centers, aeroportos, estádios etc.
+
+Art. 3º, A aplicação dos dispositivos desta lei complementar rege-se pelos seguintes princípios:
+
+|- 0 sistema nacional de telecomunicações compõe-se de bens e serviços de utilidade pública e de relevante
+interesse social;
+
+Il - a regulamentação e a fiscalização de aspectos técnicos das redes e dos serviços de telecomunicações é
+competência exclusiva da União, sendo vedado aos Estados, aos Municípios e ao Distrito Federal impor
+condicionamentos que possam afetar a seleção de tecnologia, a topologia das redes e a qualidade dos serviços
+prestados;
+
+III - a atuação do Município não deve comprometer as condições e os prazos impostos ou contratados pela
+União em relação a qualquer serviço de telecomunicações de interesse coletivo.
+
+Art. 4º. As Infraestruturas de Suporte para Estação Transmissora de Radiocomunicação - ETR, ETR móvel e
+ETR de pequeno porte, ficam enquadradas na categoria de equipamento urbano e são considerados bens de utilidade
+pública e relevante interesse social, conforme disposto na Lei Federal nº 13.116, de 20 de abril de 2015 - Lei Geral de
+Antenas, podendo ser implantadas em todas as zonas ou categorias de uso, desde que atendam exclusivamente ao
+disposto nesta Lei Complementar, além de observar os gabaritos de altura estabelecidos na Portarias do DECEA nº
+145, nº 146 e 147/DGCEA de 3 de agosto de 2020, do Comando Aeronáutica, ou outra norma que vier a substituí-la.
+
+8 1º, Em bens privados, é permitida a instalação de Infraestrutura de Suporte para Estação Transmissora de
+Radiocomunicação - ETR, ETR móvel e ETR de pequeno porte, mediante a devida autorização do proprietário do imóvel
+ou, quando não for possivel, do possuidor do imóvel.
+
+8 2º. Nos bens públicos de todos os tipos é permitida a instalação de Infraestrutura de Suporte para Estação
+Transmissora de Radiocomunicação - ETR, ETR móvel e ETR de pequeno porte, mediante Autorização de Uso, que
+será outorgada pela Secretaria Municipal de Administração ou outro órgão que vier a substituí-lo, da qual deverão
+constar as cláusulas convencionais e o atendimento aos parâmetros de ocupação dos bens públicos.
+
+8 3º. Nos bens públicos de uso comum do povo, a Autorização de Uso para implantação da Infraestrutura de
+Suporte para Estação Transmissora de Radiocomunicação - ETR, ETR móvel e ETR de pequeno porte, será outorgada
+pela Secretaria Municipal de Administração ou outro órgão que vier a substituí-lo, a título não oneroso, nos termos da
+legislação federal,
+
+8 4º. Os equipamentos que compõem a Infraestrutura de Suporte e Estação Transmissora de
+Radiocomunicação - ETR, a ETR móvel e a ETR de pequeno porte, não são considerados áreas construídas ou
+edificadas para fins de aplicação do disposto na legislação de uso e ocupação do solo, não se vinculando ao imóvel
+onde ocorrerá a instalação.
+
+CAPÍTULO Il
+DOS PROCEDIMENTOS PARA INSTALAÇÃO
+
+Art. 5º. A instalação da Infraestrutura de Suporte para Estação Transmissora de Radiocomunicação - ETR está
+sujeita ao prévio cadastramento realizado junto ao órgão responsável pelos serviços urbanos, por meio de requerimento
+padronizado, protocolizado junto ao Núcleo de Protocolo Geral ou outro órgão que vier a substituí-lo, instruído com os
+seguintes documentos:
+
+| - requerimento padrão;
+
+II - projeto executivo de implantação da Infraestrutura de Suporte e respectiva ART;
+
+Ill - contrato social da Detentora e comprovante de inscrição no CNPJ - Cadastro nacional de Pessoas
+Jurídicas;
+
+Praça Dr. França, n.º 100 — Centro — Cep. 38.200-066
+Fone: TELEFAX: (34) 3423-2800
+www .frutal.mg.gov.br
+
+[PAGINA 4]
+PREFEITURA MUNICIPAL DE
+
+FRUTAL
+
+ 
+
+IV - documento legal que comprove a autorização do proprietário ou possuidor do imóvel;
+
+V - Anotação de Responsabilidade Técnica - ART ou Registro de Responsabilidade Técnica - RRT pela
+Execução da Infraestrutura de Suporte para Estação Transmissora de Radiocomunicação - ETR;
+
+VI - Anotação de Responsabilidade Técnica - ART ou Registro de Responsabilidade Técnica - RRT pelo
+Projeto/Execução da instalação da Infraestrutura de Suporte para Estação Transmissora de Radiocomunicação - ETR;
+
+VII - comprovante do pagamento da taxa de cadastramento prevista no inciso Il do art. 19 desta Lei
+Complementar;
+
+VIII - Declaração de Cadastro do PRÉ-COMAR ou Declaração de Inexigibilidade de Aprovação do Comando
+da Aeronáutica - COMAER, nos casos em que a instalação ultrapassar a edificação existente ou, ainda, caso tais
+Declarações não estejam disponíveis ao tempo do Cadastramento previsto no caput, laudo de empresa especializada
+que ateste que a estrutura observa o gabarito de altura estabelecido pelo COMAER.
+
+8 1º, O cadastramento, de natureza auto declaratória, a que se refere o caput, consubstancia autorização do
+Município para a instalação da Infraestrutura de Suporte para Estação Transmissora de Radiocomunicação - ETR, no
+ato do protocolo dos documentos necessários, tendo por base as informações prestadas pela Detentora.
+
+8 2º, A taxa para o cadastramento será paga no ato do protocolo do respectivo requerimento.
+
+8 3º. O cadastramento deverá ser renovado a cada 10 (dez) anos ou quando ocorrer a modificação da
+Infraestrutura de Suporte instalada.
+
+8 4º. A alteração de características técnicas decorrente de processo de remanejamento, substituição ou
+modernização tecnológica não caracteriza a ocorrência de modificação para fins de aplicação do $ 3º, observado o
+seguinte:
+
+| - remanejamento é o ato de alterar a disposição, ou a localização dos elementos que compõem uma estação
+transmissora de radiocomunicação;
+
+II - substituição é a troca de um ou mais elementos que compõem a Infraestrutura de Suporte de Estação
+Transmissora de Radiocomunicação - ETR, ETR Móvel e ETR de Pequeno Porte por outro similar,
+
+Ill - modernização é a possibilidade de inclusão ou troca de um ou mais elementos que compõem uma Estação
+Transmissora de Radiocomunicação - ETR, com a finalidade de melhoria da prestação de serviços e/ou eficiência
+operacional.
+
+Art. 6º. Quando se tratar de instalação de Infraestrutura de Suporte para Estação Transmissora de
+Radiocomunicação - ETR, ETR móvel e ETR de pequeno porte que envolva supressão de vegetação, intervenção em
+Área de Preservação Permanente ou Unidade de Conservação, ou em Área de Bem protegido como Patrimônio Cultural
+do Município, será expedida pelo Município Licença de Instalação, mediante expediente administrativo único e
+simplificado, consultando-se os órgãos responsáveis para que analisem o pedido no prazo máximo de 60 (sessenta)
+dias.
+
+8 1º, O expediente administrativo referido no caput será iniciado por meio de requerimento padronizado,
+instruído com os seguintes documentos:
+
+| - requerimento padrão;
+
+II - projeto executivo de implantação da infraestrutura de suporte e respectiva ART;
+
+Ill - contrato social da detentora e comprovante de inscrição no Cadastro Nacional de Pessoas Jurídicas -
+CNPJ;
+
+IV - documento legal que comprove a autorização do proprietário do imóvel ou possuidor do imóvel;
+
+V - licenciamento ambiental compatível com intervenção necessária à instalação da Infraestrutura de Suporte
+para Estação Transmissora de Radiocomunicação - ETR, ETR móvel e ETR de pequeno porte;
+
+VI - Anotação de Responsabilidade Técnica - ART ou Registro de Responsabilidade Técnica - RRT pelo
+Projeto/Execução da instalação da Infraestrutura de Suporte para Estação Transmissora de Radiocomunicação - ETR;
+
+VII - atestado técnico ou termo de responsabilidade técnica, emitido por profissional habilitado, atestando que
+os elementos que compõem a Infraestrutura de Suporte para Estação Transmissora de Radiocomunicação - ETR
+atendem a legislação em vigor;
+
+VIII - comprovante do pagamento da taxa de cadastramento prevista no inciso Il do art. 19 deste diploma legal;
+
+Praça Dr. França, n.º 100 — Centro — Cep. 38.200-066
+Fone: TELEFAX: (34) 3423-2800
+www frutal.mg.gov.br
+
+[PAGINA 5]
+PREFEITURA MUNICIPAL DE
+
+FRUTAL
+
+ 
+
+IX - declaração de Inexigibilidade de Aprovação do Comando da Aeronáutica - COMAER ou laudo técnico
+atestando a conformidade das características do empreendimento aos requisitos estabelecidos pelo COMAER do local
+de instalação, sem prejuízo da validação posterior.
+
+8 2º, Em não havendo a manifestação dos órgãos responsáveis no prazo referido no caput, o Município
+expedirá imediatamente a Licença de Instalação de Infraestrutura de Suporte para Estação Transmissora de
+Radiocomunicação - ETR, baseado nas informações prestadas pela Detentora, com as respectivas Anotações de
+Responsabilidade Técnica, e no atestado técnico ou termo de responsabilidade técnica atestando que os elementos
+que compõem a Infraestrutura de Suporte para Estação Transmissora de Radiocomunicação - ETR atendem a
+legislação em vigor.
+
+CAPÍTULO II
+DAS RESTRIÇÕES DE INSTALAÇÃO E OCUPAÇÃO DO SOLO
+
+Art. 7º. Visando à proteção da paisagem urbana a instalação da Infraestrutura de Suporte para Estação
+Transmissora de Radiocomunicação - ETR, ETR móvel e ETR de pequeno porte, em bens privados ou bens públicos
+de uso especial ou dominiais, deverá atender a distância de 1,5m (um metro e cinquenta centimetros) do alinhamento
+frontal, das divisas laterais e de fundos, em relação às divisas do imóvel ocupado, contados a partir do eixo para a
+instalação de postes ou da face externa da base para a instalação de torres.
+
+8 1º. Poderá ser autorizada a instalação de Infraestrutura de Suporte para Estação Transmissora de
+Radiocomunicação - ETR, ETR móvel e ETR de pequeno porte desobrigadas das limitações previstas neste artigo, nos
+casos de impossibilidade técnica para prestação dos serviços, compatíveis com a qualidade exigida pela União,
+devidamente justificada junto ao órgão municipal competente, mediante laudo que justifique detalhadamente a
+necessidade de instalação e os prejuízos pela falta de cobertura no local,
+
+$ 2º. As restrições estabelecidas no caput deste artigo, não se aplicam à Estação Transmissora de
+Radiocomunicação - ETR e à ETR de pequeno porte, edificados ou a edificar, implantadas no topo de edificações.
+
+Art. 8º. À instalação de abrigos de equipamentos da Estação Transmissora de Radiocomunicação - ETR é
+admitida, desde que respeitada a distância de 1,5 m (um metro e meio) das divisas do lote.
+
+Art. 9º, À instalação de Infraestrutura de Suporte para Estação Transmissora de Radiocomunicação - ETR e
+ETR de pequeno porte, com containers e mastros, no topo e fachadas de edificações, obedecerão às limitações das
+divisas do terreno que contém o imóvel, não podendo ter projeção vertical que ultrapasse o limite da edificação existente
+para o lote vizinho, quando a edificação ocupar todo o lote próprio.
+
+Art. 10, Os equipamentos que compõem a Estação Transmissora de Radiocomunicação - ETR deverão
+receber, se necessário, tratamento acústico para que o ruído não ultrapasse os limites máximos estabelecidos em
+legislação pertinente.
+
+Art. 11. O compartilhamento das Infraestruturas de Suporte pelas prestadoras de serviços de
+telecomunicações que utilizam estações transmissoras de radiocomunicação observará as disposições das
+regulamentações federais pertinentes.
+
+CAPÍTULO IV
+DA FISCALIZAÇÃO E DAS PENALIDADES
+Art. 12. Nenhuma Estação Transmissora de Radiocomunicação - ETR, ETR móvel e ETR de pequeno porte
+poderá ser instalada sem a prévia licença ou de cadastro da infraestrutura.
+
+Art. 13. Compete à Secretaria Municipal de Obras, ou outro órgão que vier a substituí-la, a ação fiscalizatória
+referente ao atendimento das normas previstas nesta lei complementar, a qual deverá ser desenvolvida de ofício ou
+mediante notícia de irregularidade, observado o procedimento estabelecido neste capítulo.
+
+Art. 14. Constatado o desatendimento das obrigações e exigências legais, a detentora ficará sujeita às
+seguintes medidas:
+
+Praça Dr. França, n.º 100 — Centro — Cep. 38.200-066
+Fone: TELEFAX: (34) 3423-2800
+www frutal.mg.gov.br
+
+[PAGINA 6]
+PREFEITURA MUNICIPAL DE
+
+FRUTAL
+
+ 
+
+|-no caso de ETR previamente licenciada e de ETR móvel ou ETR de pequeno porte previamente cadastrados:
+
+a) intimação para remoção ou regularização no prazo de 30 (trinta) dias, contado da data do seu recebimento;
+
+b) não atendida a intimação de que trata a alínea "a" deste inciso, nova intimação para a retirada da instalação
+no prazo de 30 (trinta) dias, contado da data do seu recebimento, com a concomitante aplicação de multa no valor
+estipulado no inciso Il do "caput" deste artigo;
+
+II - no caso de Infraestrutura de Suporte para Estação Transmissora de Radiocomunicação - ETR, ETR móvel
+ou ETR de pequeno porte instalada sem a prévia licença ou de cadastro tratado nesta lei complementar:
+
+a) intimação para remoção ou regularização no prazo de 30 (trinta) dias, contado da data do seu recebimento,
+com a concomitante aplicação de multa no valor estipulado no inciso III do "caput" deste artigo;
+
+b) não atendida a intimação de que trata a alínea "a" deste inciso, nova intimação para a retirada da instalação
+ou do equipamento no prazo de 30 (trinta) dias, contado da data do seu recebimento, com a concomitante aplicação de
+multa no valor estipulado no inciso III do "caput" deste artigo;
+
+III - observado o previsto nos incisos | e II do caput deste artigo, a detentora ficará sujeita à aplicação de multa
+no valor de R$ 2.000,00 (dois mil reais).
+
+8 1º. O valor mencionado no inciso III do caput deste artigo será atualizado anualmente pela variação positiva
+do INPC, ou por outro índice que vier a substituí-lo.
+
+8 2º. Em caso de reincidência de autuação a multa será aplicada em dobro.
+
+8 3º, Será considerada como reincidente a atuação que ocorrer em até 01 (um) ano da data da lavratura da
+anterior que servir de referência para o cálculo referido no parágrafo anterior.
+
+Art. 15. Na hipótese de não regularização ou de não remoção de ETR ou da infraestrutura de suporte por parte
+da detentora, a Prefeitura poderá adotar as medidas para remoção, cobrando da infratora os custos correlatos, sem
+prejuízo da aplicação das multas e demais sanções cabíveis.
+
+Art. 16. As notificações e intimações deverão ser encaminhadas à detentora por mensagem em endereço
+eletrônico indicado no requerimento da licença ou no cadastro, quando houver.
+
+Art. 17. O Executivo poderá utilizar a base de dados, disponibilizada pela Anatel, do sistema de informação de
+localização de ETRs, ETRs móvel e ETRs de pequeno porte destinados à operação de serviços de telecomunicações.
+
+8 1º. Caberá à prestadora orientar e informar à Secretaria Municipal de Obras, ou outro órgão que vier a
+substituí-la, como se dará o acesso à base de dados e a extração de informações de que trata o caput,
+
+8 2º. Fica facultado à Secretaria Municipal de Obras, ou outro órgão que vier a substituí-la, a exigência de
+informações complementares acerca das ETRs instaladas, a ser regulamentado em decreto.
+
+Art. 18. Os profissionais habilitados e técnicos responsáveis respondem pela correta instalação e manutenção
+da infraestrutura de suporte, nos limites de sua atuação, segundo as disposições desta lei complementar, de seu decreto
+regulamentar e das Normas Técnicas - NTs vigentes, bem como por qualquer sinistro ou acidente decorrente de
+deficiências de projeto, execução, instalação e manutenção.
+
+Parágrafo único. Caso comprovada a inveracidade dos documentos e informações apresentados pelos
+profissionais habilitados e técnicos responsáveis, bem como a deficiência do projeto, execução, instalação e
+manutenção em razão da atuação ou omissão desses profissionais, a Prefeitura bloqueará o seu cadastramento por
+até 5 (cinco) anos em novos processos de licenciamento, comunicando o respectivo órgão de classe.
+
+CAPÍTULO V
+DAS TAXAS
+Art. 19. Para os fins desta lei complementar ficam criadas as seguintes taxas:
+| - taxa de cadastramento para infraestrutura de suporte para ETR móvel ou de pequeno porte descritos nesta
+lei complementar, valor de R$ 500,00 (quinhentos reais);
+|| - taxa de implantação de infraestrutura de suporte para ETR móvel ou de pequeno porte em bem público
+municipal neste município - R$ 2.000,00 (dois mil reais) por ETR de pequeno porte ou ETR móvel;
+IIl - emissão de alvará para implantação de infraestrutura de suporte para ETR (taxa de exame e verificação -
+R$ 500,00 (quinhentos reais);
+Praça Dr. França, n.º 100 — Centro — Cep. 38.200-066
+
+Fone: TELEFAX: (34) 3423-2800
+www .frutal.mg.gov.br
+
+[PAGINA 7]
+PREFEITURA MUNICIPAL DE
+
+FRUTAL
+
+ 
+
+IV - TPU - Taxa de Implantação de infraestrutura de suporte para ETR móvel ou de pequeno porte em bem
+público municipal - R$ 2.000,00 (dois mil reais) por ETR de pequeno porte ou ETR móvel.
+
+8 1º, Os valores das taxas serão reajustados anualmente pela variação positiva do INPC ou por outro índice
+que vier a substituí-lo.
+
+$ 2º. As taxas de implantação e de cadastramento, previstas nos incisos |, Il e IV serão devidas por ERB, móvel
+ou de pequeno porte, e cobradas anualmente.
+
+83º. O alvará para implantação, previsto no inciso III do presente artigo, terá validade de 10 (dez) anos.
+
+CAPÍTULO VI
+DAS DISPOSIÇÕES FINAIS E TRANSITÓRIAS
+
+Art. 20. As Infraestruturas de Suporte para Estação Transmissora de Radiocomunicação - ETR, ETR móvel e
+ETR de pequeno porte, que estiverem instaladas na data de publicação desta lei e não possuírem autorização municipal
+competente, ficam sujeitas ao atendimento das previsões contidas nesta Lei complementar, devendo a sua Detentora
+promover o Cadastro, e obter a Licença de Instalação referidos, respectivamente, nos artigos 5º e 6º
+
+8 1º, Para atendimento ao disposto no caput, fica concedido o prazo de 2 (dois) anos, contados da publicação
+desta lei complementar, para que a Detentora adeque as Infraestruturas de Suporte para Estação Transmissora de
+Radiocomunicação - ETR, ETR móvel e ETR de pequeno porte, aos parâmetros estabelecidos nesta Lei complementar,
+realizando cadastramento, a comunicação ou o licenciamento de instalação referidos nos artigos 5º e 6º
+
+$ 2º. Verificada a impossibilidade de adequação, a detentora deverá apresentar laudo que justifique
+detalhadamente a necessidade de permanência da ETR, bem como apontar os prejuizos pela falta de cobertura no
+local à Prefeitura, que poderá decidir por sua manutenção.
+
+8 3º. Durante o prazo disposto no $1º deste artigo, não poderá ser aplicada sanção administrativa às
+infraestruturas de suporte para Estação Transmissora de Radiocomunicação - ETR, ETR móvel e ETR de pequeno
+porte, mencionadas no caput, motivadas pela falta de cumprimento da presente Lei Complementar.
+
+8 4º. No caso de remoção de Infraestruturas de Suporte para Estação Transmissora de Radiocomunicação -
+ETR, ETR móvel e ETR de pequeno porte, o prazo mínimo será de 360 (trezentos e sessenta) dias, contados a partir
+do cadastramento, da comunicação ou do licenciamento de instalação referidos nos artigos 5º e 6º, para a infraestrutura
+de suporte que substituirá a Infraestrutura de Suporte a ser remanejada.
+
+85º. Para fins de licenciamento, todas as ETR, deverão obrigatoriamente seguir o procedimento estabelecido
+nessa Lei Complementar, seja instalada dentro da zona urbana ou na zona rural.
+
+Art. 21, Os atos para execução desta Lei Complementar, caso necessários, serão regulamentados por decreto.
+
+Art. 22. Revogando as disposições em contrário, esta Lei Complementar entra em vigor na data de sua
+publicação, revogando especialmente a Lei Municipal nº 4.849 de 14 de agosto de 2001.
+
+Prefeitura Municipal de Frutal,
+Em 16 de junho de 2026 138 anos de Emancipação do Município de Frutal
+
+Assinado de forma
+BRUNO AUGUSTO digital por BRUNO
+
+DE JESUS AUGUSTO DE JESUS
+FERREIRA:084185 FERREIRA:08418588616
+Dados: 2026.06.16
+88616 15:49:51 -03'00'
+BRUNO AUGUSTO DE JESUS FERREIRA
+Prefeito Municipal
+
+Praça Dr. França, n.º 100 — Centro — Cep. 38.200-066
+Fone: TELEFAX: (34) 3423-2800
+www .frutal.mg.gov.br
+
+[PAGINA 8]
+PREFEITURA MUNICIPAL DE
+
+FRUTAL
+
+ 
+
+DECRETO Nº 14.194, DE 16 DE JUNHO DE 2026.
+
+PROÍBE O COMÉRCIO AMBULANTE DE
+QUAISQUER PRODUTOS NAS PROXIMIDADES DA
+PRAÇA GEORGINO JOSÉ VIEIRA, DISTRITO DE
+APARECIDA DE MINAS, NOS DIAS 19 E 20 DE
+JUNHO DE 2026 E DÁ OUTRAS PROVIDÊNCIAS
+
+O Prefeito Municipal de Frutal, Estado de Minas Gerais, no uso de suas atribuições legais, em
+especial o previsto no inciso |, do $1º da Lei Complementar nº 006/91,
+
+DECRETA:
+
+Art. 1º, Fica proibido o comércio ambulante no período compreendido entre os dias 19 e 20 de
+junho de 2026, num raio de 100 (cem) metros da Praça Georgino José Vieira, onde será realizado o
+evento JUNINÃO DE APARECIDA DE MINAS, com a realização de shows.
+
+Art. 2º. Os infratores do disposto no art. 1º deste Decreto serão penalizados conforme o Código
+de Posturas do Município de Frutal/MG, inclusive multas e outras penalidades administrativas, bem como
+a responsabilização civil e criminal.
+
+Art. 3º. A fiscalização do cumprimento do estabelecido no artigo 1º, deste Decreto, fica a cargo
+do Departamento de Tributos, que deverá tomar todas as providências necessárias e inclusive solicitar
+reforço policial se necessário para o fim estabelecido.
+
+Art. 4º. Revogando as disposições em contrário, este Decreto entra em vigor na data de sua
+publicação.
+
+Registre-se, publique-se, cumpra-se.
+
+Prefeitura Municipal de Frutal,
+hos 16 de junho de 2026 138 anos de Emancipação do Município de Frutal.
+BRUNO AUGUSTO Assinado de forma digital
+
+por BRUNO AUGUSTO DE
+
+DE JESUS JESUS
+
+FERREIRA:084185 FERREIRA:08418588616
+Dados: 2026.06.16 15:48:47
+
+88616 -03/00'
+BRUNO AUGUSTO DE JESUS FERREIRA
+Prefeito Municipal
+
+Praça Dr. França, n.º 100 — Centro — Cep. 38.200-066
+Fone: TELEFAX: (34) 3423-2800
+www. frutal.mg.gov.br
+
+[PAGINA 9]
+E Frutal | Diário Oficial Eletrônico
+
+ 
+
+ 
+
+ 
+
+PREFEITURA MUNICIPAL DE
+
+FRUTAL
+
+ 
+
+DECRETO N.º 14.195, DE 16 DE JUNHO DE 2026
+
+NOMEIA A CONSELHEIRA TUTELAR MARIA HELENA
+DA SILVA, PARA CUMPRIMENTO DE MANDATO DÁ
+OUTRAS PROVIDÊNCIAS
+
+O Prefeito Municipal de Frutal, Estado de Minas Gerais, no uso de suas atribuições legais, embasado na
+Lei n.º 6.662, de 07 de março de 2023 e,
+
+CONSIDERANDO a Resolução n.º 03, de 10 de junho de 2026, que convocou a Sra. Maria Helena da
+Silva, para tomar posse como Conselheira Titular e
+
+CONSIDERANDO o Ofício n.º 008/26, do Conselho Municipal dos Direitos da Criança e do Adolescente,
+onde solicita a posse da Conselheira,
+
+DECRETA:
+
+Art. 1º, Fica nomeada, a partir de 15 de junho de 2026, para compor o Conselho Tutelar de Frutal, Estado
+de Minas Gerais, órgão permanente e autônomo, não jurisdicional, encarregado pela sociedade de zelar pelo
+cumprimento dos direitos da criança e do adolescente, definidos em Lei, para um mandato de 1 (um) ano, 6 (seis)
+meses e 25 (vinte e cinco) dias, a iniciar em 15/06/2026 e encerrando em 09/01/2028, a Sra. MARIA HELENA DA
+SILVA.
+
+Art. 2º. Revogando as disposições em contrário, este Decreto entra em vigor na data de sua publicação.
+
+Registre-se, Publique-se. Cumpra-se.
+Prefeitura Municipal de Frutal.
+
+Aos 16 de junho de 2026 138 anos de Emancipação do Município de Frutal
+BRUNO Assinado de forma
+AUGUSTO DE digital por BRUNO
+AUGUSTO DE JESUS
+JESUS FERREIRA:08418588616
+
+FERREIRA:0841 8 Dados: 2026.06.16
+58861 6 15:49:08 -03'00'
+
+BRUNO AUGUSTO DE JESUS FERREIRA
+Prefeito Municipal
+
+Praça Dr. França, n.º 100 — Centro — Cep. 38.200-066
+Fone: TELEFAX: (34) 3423-2800
+www. frutal.mg.gov.br
+
+[PAGINA 10]
+PREFEITURA MUNICIPAL DE
+
+FRUTAL
+
+ 
+
+DECRETO N.º 14.196, DE 16 DE JUNHO DE 2026
+
+RETIFICA ART. 1º DO DECRETO N.º 14.036, DE 30 DE JANEIRO
+DE 2026, QUE PRORROGA O PRAZO DE VALIDADE DO
+CONCURSO PÚBLICO 001/2023, PARA PROVIMENTO DE
+CARGOS EFETIVOS DA PREFEITURA MUNICIPAL DE FRUTAL
+CORRESPONDE AO EDITAL N.º 001/2023
+
+O Prefeito Municipal de Frutal, Estado de Minas Gerais, no uso de suas atribuições legais, embasado na
+Lei Complementar Municipal n.º 043, de 02 de junho de 2004, e
+
+DECRETA:
+
+Art. 1º. Fica RETIFICADO o art. 1º do Decreto n.º 14.036, de 30 de janeiro de 2026, que passa a ter
+a seguinte redação:
+“Art. 1º Fica prorrogado por 02 (dois) anos, o prazo de validade do Concurso
+Público 001/2023, para provimento de cargos efetivos da Prefeitura Municipal
+de Frutal, correspondente ao Edital n.º 001/2023, homologado em 14 de
+março de 2024."
+
+Art. 2º, Revogando as disposições em contrário, este Decreto entra em vigor na data de sua
+
+publicação.
+
+Registre-se. Publique-se. Cumpra-se.
+
+Prefeitura Municipal de Frutal.
+
+Aos 16 de junho de 2026 138 anos de Emancipação do Município de Frutal
+
+Assinado de forma digital
+BRUNO AUGUSTO por BRUNO AUGUSTO DE
+
+DE JESUS JESUS
+
+FERREIRA:084185 FERREIRA:08418588616
+Dados: 2026.06.16
+
+88616 16:51:47 -03'00'
+BRUNO AUGUSTO DE JESUS FERREIRA
+Prefeito Municipal
+
+Praça Dr. França, n.º 100 — Centro — Cep. 38.200-066
+Fone: TELEFAX: (34) 3423-2800
+www frutal.mg.gov.br
+
+ 
+
+x a , À j 10
+
+[PAGINA 11]
+/ E Frutal | Diário Oficial Eletrônico
+
+ 
+
+ 
+
+ 
+
+PREFEITURA MUNICIPAL DE
+
+FRUTAL
+
+ 
+
+DECRETO N.º 14.200, DE 16 DE JUNHO DE 2026
+
+DECRETA APROVAÇÃO DE PROJETO DE LOTEAMENTO
+DENOMINADO DE “LOTEAMENTO JARDIM MORUMBI!”
+
+O Prefeito Municipal de Frutal, Estado de Minas Gerais, no uso de suas atribuições legais, e em
+conformidade com a Lei Federal n.º 6.766 de 19 de dezembro de 1.979, alterada pela Lei n.º 9.785 de 29 de janeiro
+de 1.999 e Lei Municipal n.º 5.977, de 30 de maio de 2012;
+
+CONSIDERANDO que a empresa Jardim Morumbi Empreendimentos Imobiliários SPE Ltda, inscrita no
+CNPJ sob o n.º 37.262.605/0001-67, é proprietária de uma área de 146.417,00 m?, matriculado sob o n.º 72.624,
+do C.R. local, apresentou requerimento à Prefeitura Municipal solicitando a aprovação do Projeto de Loteamento
+da referida área;
+
+CONSIDERANDO, que o Loteamento em questão encontra-se de acordo com as diretrizes para o uso
+do solo, traçado de lotes, do sistema viário da cidade, dos espaços livres e das áreas reservadas para
+equipamentos urbanos;
+
+CONSIDERANDO, que é parte integrante do projeto do Loteamento o cronograma para execução dos
+serviços constituídos de rede de abastecimento de água, rede de esgotamento sanitário, rede de energia elétrica,
+da demarcação e abertura de ruas, da demarcação das quadras e dos lotes e pavimentação asfáltica das ruas,
+bem como a previsão de área institucional e área verde;
+
+CONSIDERANDO que pela Secretaria Municipal de Obras foi aprovado o Projeto de Loteamento
+apresentado,
+
+DECRETA:
+
+Art. 1º. Fica aprovado com fundamentos na Lei n.º 6.766/79, o loteamento “LOTEAMENTO JARDIM
+MORUMBI", conforme planta urbanística e memoriais descritivos constantes do projeto.
+
+Art. 2º, Fica caucionado em nome do Município de Frutal os lotes a seguir:
+|- lotes 01 a 30, da quadra 1685;
+81º Os lotes caucionados acima, se dá a título de ressarcimento das importâncias que poderão ser
+despendidas com equipamentos urbanos, independentemente de outras penalidades previstas em lei municipal.
+82º A liberação dos lotes caucionados se dará mediante requerimento do interessado, acompanhado de
+laudo expedido pela Secretaria Municipal de Planejamento, Obras e Serviços Urbanos que comprove a realização
+Praça Dr. França, n.º 100 - Centro - Cep. 38.200-066
+
+Fone: TELEFAX: (34) 3423-2800
+www. frutal.mg.gov.br
+
+[PAGINA 12]
+PREFEITURA MUNICIPAL DE
+
+FRUTAL
+
+ 
+
+das obras de infraestrutura no loteamento, desde que os lotes remanescentes sejam suficientes para garantir as
+
+infraestruturas pendentes.
+
+Art. 3º, A aprovação do loteamento denominado “LOTEAMENTO JARDIM MORUMBI!" só se considerará
+em vigor depois que o loteador e proprietário atender integralmente às seguintes exigências:
+
+|- inscrição ou registro do loteamento no Cartório de Registro de Imóveis de Frutal/MG, no prazo de 180
+dias e na forma da legislação federal em vigor;
+
+Il - apresentação, concomitantemente ao registro do loteamento, de escritura pública de constituição de
+hipoteca, devidamente registrada, em favor da Prefeitura Municipal de Frutal, em garantia da execução dos
+melhoramentos públicos no empreendimento, previstos no artigo 2º deste Decreto.
+
+Il - apresentação dos projetos complementares constituídos de rede de abastecimento de água, rede de
+esgotamento sanitário, rede de energia elétrica e pavimentação asfáltica das ruas com sinalização de trânsito,
+
+para a devida aprovação pela Prefeitura Municipal de Frutal;
+
+Art. 4º. Os equipamentos urbanos previstos para implantação do referido empreendimento deverão ser
+executados em conformidade com os projetos e cronograma aprovados e que integram o projeto do loteamento,
+constante do Processo Administrativo.
+
+81º O loteador se obriga a executar no referido loteamento, dentro do prazo de quarenta e oito meses, a
+contar da data da do registro do loteamento no Cartório de Registro de Imóveis desta Comarca de Frutal das
+seguintes obras de infraestruturas dos equipamentos públicos deste loteamento:
+
+a) rede de esgoto sanitário e o respectivo lançamento, bem como ligação do lote na rede mestra, conforme
+o projeto completo aprovado pela COPASA/MG;
+
+b) rede de abastecimento de água, com a respectiva tomada e ligações nos lotes, conforme o projeto
+completo aprovado pela COPASA/MG;
+
+c) guias e sarjetas, segundo o padrão aprovado pela Prefeitura Municipal;
+
+d) rede de energia elétrica e de iluminação pública, de acordo com o projeto aprovado pela concessionária
+local ou por ela executado;
+
+e) pavimentação asfáltica das vias e praças, tipo CBUQ, de acordo com as normas da ABNT com
+sinalização de trânsito e a respectiva aprovação pela Secretaria Municipal de Planejamento, Obras e Serviços
+Urbanos;
+
+f) galerias de águas pluviais, devidamente dimensionadas conforme normas da ABNT, com o respectivo
+
+lançamento e seu licenciamento nos órgãos competentes. As bocas de lobo deverão ser instaladas na sarjeta,
+
+Praça Dr. França, n.º 100 — Centro — Cep. 38.200-066
+Fone: TELEFAX: (34) 3423-2800
+www. frutal.mg.gov.br
+
+[PAGINA 13]
+: Frutal | Diário Oficial Eletrônico
+
+ 
+
+ 
+
+ 
+
+PREFEITURA MUNICIPAL DE
+
+FRUTAL
+
+ 
+
+dimensionadas de acordo com as normas da ABNT em placas de concreto ou ferro fundido, tendo a respectiva
+
+aprovação pela Secretaria Municipal de Planejamento, Obras e Serviços Urbanos.
+
+Art. 5º, O loteador fica obrigado a cumprir rigorosamente o cronograma de obras de infra-estrutura
+constantes do processo supramencionado, sob pena de se sujeitar às penalidades previstas em lei, estando ciente
+que deverá observar a legislação que esteja vigor com suas respectivas alterações durante a execução do
+
+empreendimento.
+
+Art. 6º. Será proibido o desmembramento ou desdobro de lotes no Loteamento “LOTEAMENTO JARDIM
+MORUMBP.
+
+Art. 7º, Uma vez registrado o loteamento e entregues os melhoramentos, a manutenção dos mesmos,
+
+salvo período de garantia de obras, será transferida a municipalidade por força da transmissão dos bens dominiais.
+
+Art. 8º. Revogando as disposições em contrário, este Decreto entra em vigor na data de sua publicação.
+
+Registre-se. Publique-se. Cumpra-se.
+
+Prefeitura Municipal de Frutal,
+
+hos 16 de junho de 2026 138 anos de Emancipação do Município de Frutal
+BRUNO Assinado de forma
+AUGUSTO DE digital por BRUNO
+JESUS AUGUSTO DE JESUS
+FERREIRA:08418588616
+FERREIRA:084185 Dados: 2026.06.16
+88616 16:46:33 -03'00'
+BRUNO AUGUSTO DE JESUS FERREIRA
+Prefeito Municipal
+
+MUNICIPIO DE Assinado de forma digital por
+
+MUNICIPIO DE
+
+FRUTAL:1844913200 FRUTAL:18449132000160
+Dados: 2026.06.16 17:29:55
+
+0160 -03'00'
+
+Praça Dr. França, n.º 100 — Centro — Cep. 38.200-066
+Fone: TELEFAX: (34) 3423-2800
+www. frutal.mg.gov.br
