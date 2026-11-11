@@ -8301,5 +8301,234 @@
   "paginas": 5,
   "modelo": "gemini-3.5-flash",
   "gerado_em": "2026-11-10T03:21:20Z"
+ },
+ {
+  "numero": 357,
+  "data": "2025-12-10",
+  "resumo": "A edição traz a aprovação do Sistema de Estradas Municipais Rurais e a criação do Programa de Hortas Comunitárias. Destaca-se a fixação do vale-alimentação em R$ 500,00 para servidores municipais a partir de janeiro de 2026. Há também errata nos requisitos de escolaridade do Processo Seletivo para ACE e ACS, crédito suplementar orçamentário e licenças ambientais para postos de combustíveis.",
+  "tipo": "misto",
+  "prazo": "01/01/2026",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Câmara de Vereadores",
+   "Secretaria Municipal de Assistência Social",
+   "Secretaria Municipal do Produtor Rural",
+   "Secretaria Municipal de Meio Ambiente - SEMMA",
+   "Fundação Hospital Frei Gabriel"
+  ],
+  "destaques": [
+   {
+    "titulo": "Ticket Alimentação dos Servidores",
+    "texto": "Altera o valor máximo do ticket alimentação para R$ 500,00 a partir de 01 de janeiro de 2026 para servidores ativos, secretários, conselheiros tutelares e funcionários da Fundação Hospital Frei Gabriel.",
+    "pagina": 12,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Errata no Processo Seletivo ACE e ACS",
+    "texto": "Retifica os requisitos do Edital nº 006/2025: o cargo de Agente de Combate às Endemias (ACE) passa a exigir Curso Técnico em Vigilância em Saúde, e o cargo de Agente Comunitário de Saúde (ACS) passa a exigir Curso Técnico em Agente Comunitário de Saúde.",
+    "pagina": 27,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Programa de Hortas Comunitárias",
+    "texto": "Institui o programa de hortas urbanas e rurais em terrenos públicos e particulares. O Município arcará com despesas e IPTU de terrenos privados cedidos por no mínimo 12 meses, contratando pessoal via processo seletivo simplificado.",
+    "pagina": 10,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Regulamentação das Estradas Rurais",
+    "texto": "Define o Sistema de Estradas Municipais, regras de faixas marginais de 3 a 5 metros, normas para alterações por proprietários rurais e proibições de obstrução das vias públicas.",
+    "pagina": 1,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Crédito Suplementar Orçamentário",
+    "texto": "Autoriza abertura de crédito suplementar no valor de R$ 894.862,98 para adequação orçamentária de secretarias municipais através da anulação parcial de dotações vigentes.",
+    "pagina": 7,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Utilidade Pública para Entidade de Saúde",
+    "texto": "Declara de Utilidade Pública Municipal a Associação de Apoio aos Portadores de Câncer do Triângulo Mineiro.",
+    "pagina": 14,
+    "categoria": "saúde"
+   }
+  ],
+  "paginas": 27,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-11T00:50:23Z"
+ },
+ {
+  "numero": 356,
+  "data": "2025-12-09",
+  "resumo": "Esta edição publica o resultado final das eleições para diretores das escolas municipais e CEMEIs para a gestão 2026-2029.\nTraz a concessão de licença ambiental concomitante válida por 10 anos para a Cervejaria Cidade Imperial S.A.\nContém a convocação de candidata aprovada em processo seletivo para o cargo de Cuidador Social.",
+  "tipo": "misto",
+  "prazo": "10/12/2025 às 12h00",
+  "relevancia": 2,
+  "orgaos": [
+   "Secretaria Municipal de Educação e Inclusão",
+   "Secretaria Municipal do Meio Ambiente de Frutal - SEMMA",
+   "Secretaria Municipal de Assistência Social",
+   "Prefeitura Municipal de Frutal"
+  ],
+  "destaques": [
+   {
+    "titulo": "Resultado da eleição para diretores escolares",
+    "texto": "Divulgada a lista dos diretores eleitos para os CEMEIs e Escolas Municipais de Frutal para o quadriênio 2026 a 2029.",
+    "pagina": 1,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Licenciamento ambiental da Cervejaria Cidade Imperial",
+    "texto": "Concedida licença ambiental (LAC1) com validade até 13/11/2034 para fabricação de bebidas não alcoólicas. O empreendimento deve cumprir condicionantes em até 30 dias após início das operações.",
+    "pagina": 3,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Convocação para vaga de Cuidador Social",
+    "texto": "Candidata classificada no Processo Seletivo Simplificado nº 03/2025 é convocada para entregar documentos na Secretaria de Assistência Social.",
+    "pagina": 6,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 6,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-11T00:50:48Z"
+ },
+ {
+  "numero": 355,
+  "data": "2025-12-08",
+  "resumo": "Esta edição traz o edital retificado do Processo Seletivo nº 006/2025 da Prefeitura de Frutal para Agentes de Endemias (ACE) e Agentes de Saúde (ACS), detalhando vagas, regras de residência e cronograma. Inclui também o mapa de territorialização das UBSs e portarias relativas a Processos Administrativos Disciplinares (PAD).",
+  "tipo": "misto",
+  "prazo": "28/12/2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal"
+  ],
+  "destaques": [
+   {
+    "titulo": "Vagas e remuneração para ACE e ACS",
+    "texto": "A seleção oferece vagas diretas e cadastro de reserva para Agente de Combate às Endemias e Agente Comunitário de Saúde. O salário base é de R$ 3.036,00 para uma jornada de 40 horas semanais.",
+    "pagina": 1,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Exigência de residência local para ACS",
+    "texto": "Candidatos ao cargo de Agente Comunitário de Saúde devem obrigatoriamente residir na área de abrangência da UBS pretendida desde a data de publicação do edital, sob pena de eliminação.",
+    "pagina": 3,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Inscrições e valor da taxa",
+    "texto": "As inscrições devem ser efetuadas exclusivamente pela internet no portal da banca examinadora Império Concursos, com taxa fixada no valor de R$ 67,00.",
+    "pagina": 4,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Data e horário das provas objetivas",
+    "texto": "A prova escrita objetiva está prevista para ser realizada em 25 de janeiro de 2026, sendo aplicadas às 08h30min para ACS e às 13h30min para ACE.",
+    "pagina": 10,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Territorialização das UBSs",
+    "texto": "Divulgação do mapa detalhado com a área de abrangência e ruas atendidas por cada uma das Unidades Básicas de Saúde (UBS) de Frutal e distritos.",
+    "pagina": 24,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Instauração de PAD",
+    "texto": "Portaria nº 1.198/2025 instaura Processo Administrativo Disciplinar para apurar irregularidades de servidor municipal, com prazo de 60 dias para conclusão.",
+    "pagina": 41,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 43,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-11T00:52:13Z"
+ },
+ {
+  "numero": 354,
+  "data": "2025-12-05",
+  "resumo": "Esta edição traz a publicação do extrato de aditivo ao Contrato de Rateio nº 15/2025 firmado entre a Prefeitura de Frutal e o consórcio CISTRISUL. O investimento de R$ 220.775,75 destina-se ao financiamento de equipes médicas do SAMU 192 e ao suporte aéreo avançado de vida (SAAV). O contrato possui vigência estendida até 31 de dezembro de 2025.",
+  "tipo": "contrato",
+  "prazo": "31/12/2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "CISTRISUL – Consórcio Público Intermunicipal de Urgência e Emergência da Saúde da Rede de Microrregião do Triângulo Sul"
+  ],
+  "destaques": [
+   {
+    "titulo": "Repasse para SAMU 192 e Resgate Aéreo (SAAV)",
+    "texto": "Formalização de aditivo de R$ 220.775,75 com o CISTRISUL para custear equipes de médicos/enfermeiros, gestão do SAMU 192 e operação do serviço de suporte aéreo avançado de vida na região.",
+    "pagina": 1,
+    "categoria": "saúde"
+   }
+  ],
+  "paginas": 1,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-11T00:52:24Z"
+ },
+ {
+  "numero": 353,
+  "data": "2025-12-04",
+  "resumo": "A edição nº 353 do Diário Oficial traz extratos de contratos para serviços urbanos e culturais, termos de fomento a entidades assistenciais e educacionais, além de um conjunto expressivo de decretos municipais de abertura de créditos adicionais e suplementares para adequação orçamentária, folhas de pagamento, saúde, educação, obras e serviços urbanos.",
+  "tipo": "misto",
+  "prazo": "31/07/2026",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Serviços Urbanos",
+   "Secretaria Municipal de Saúde",
+   "Secretaria Municipal de Educação",
+   "Secretaria Municipal de Assistência Social",
+   "Secretaria Municipal de Cultura, Lazer, Esporte e Inclusão",
+   "Fundo Municipal de Saúde",
+   "Fundo Municipal de Assistência Social",
+   "Fundação Hospital Frei Gabriel"
+  ],
+  "destaques": [
+   {
+    "titulo": "Locação de Caminhões e Serviços Urbanos",
+    "texto": "Contrato de R$ 8.330.396,80 com a União Cooperativa de Transportes para prestação de serviços de locação de caminhões caçamba e carroceria, com equipe multitarefa para roçada, capina, limpeza e coleta, com vigência até 31/07/2026.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Shows da Festa de Santa Luzia e Eventos",
+    "texto": "Contratações de atrações artísticas para a Festa em Louvor a Santa Luzia, festividades no Povoado de Vila Barroso e show para entrega de kits escolares em janeiro de 2026, incluindo artistas como Bruna e Calil, Patrick Lesssa, Netto Silva, Rodrigo e Alex, Cleiton e Raphael, e Maria Clara e JP.",
+    "pagina": 1,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Abertura de Créditos Adicionais e Suplementares",
+    "texto": "Diversos decretos abrem créditos suplementares que somam milhões de reais (incluindo Decretos nº 13.853, 13.854 e 13.867) para reforçar o orçamento de pessoal, encargos, serviços de saúde, educação, transporte escolar superior e manutenção de vias.",
+    "pagina": 11,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Recursos Estaduais para o Hospital Frei Gabriel",
+    "texto": "Liberação de R$ 1.555.494,62 provenientes do Governo Estadual para aquisição de material de consumo e serviços de terceiros no Hospital Frei Gabriel.",
+    "pagina": 123,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Crédito para Transporte Escolar do Ensino Superior",
+    "texto": "O Decreto nº 13.867 autoriza crédito suplementar no valor de R$ 480.000,00 voltado ao custeio do transporte escolar de estudantes do ensino superior, mediante transferência a entidades parceiras.",
+    "pagina": 181,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Termos de Fomento a Entidades",
+    "texto": "Diversos termos de fomento celebrados com entidades assistenciais e educacionais, como Asilo Pio XII, Casa da Criança Santo Antônio de Pádua, Educandário Padre Lourenço, APAE e associações locais, para repasse de recursos financeiros ao longo de 12 meses.",
+    "pagina": 3,
+    "categoria": "outro"
+   }
+  ],
+  "paginas": 190,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-11T00:56:02Z"
  }
 ]
