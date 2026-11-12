@@ -1,5 +1,61 @@
 [
  {
+  "numero": 554,
+  "data": "2026-11-11",
+  "resumo": "A edição traz a abertura de licitações importantes para a compra de medicamentos e fórmulas manipuladas para a rede de saúde. Destaca-se também a concessão de terreno no Distrito Industrial 2 para implantação de fábrica que deve gerar ao menos 60 empregos. Além disso, foram publicadas mudanças de cargos na saúde e Hospital Frei Gabriel, e contratos para gêneros alimentícios e eventos da educação.",
+  "tipo": "misto",
+  "prazo": "25/11/2026",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal do Meio Ambiente (SEMMA)",
+   "Secretaria Municipal de Saúde",
+   "Secretaria Municipal de Educação e Inclusão",
+   "Fundação Hospital Frei Gabriel"
+  ],
+  "destaques": [
+   {
+    "titulo": "Licitações para aquisição de medicamentos",
+    "texto": "Abertura de pregões para compra de medicamentos de distribuição gratuita e fórmulas manipuladas judiciais/UBS. As sessões ocorrem nos dias 25 e 30 de novembro de 2026, às 08h30.",
+    "pagina": 4,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Permissão de imóvel para polo industrial e empregos",
+    "texto": "Autorizada a concessão de lote de 3.600 m² no Distrito Industrial 2 para a empresa Kevy Kenned Martins Rosa Ltda implantar fábrica metalúrgica, com exigência de gerar 60 empregos.",
+    "pagina": 8,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Contrato anual para fornecimento de padaria",
+    "texto": "Homologada contratação da Panificadora Frutal Ltda no valor total de R$ 381.783,15 para atendimento continuado das secretarias municipais até novembro de 2027.",
+    "pagina": 12,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Troca de chefia na Seção de Compras do Hospital Frei Gabriel",
+    "texto": "Exonerado Adjalma Lemes Martins Filho e nomeada Andressa Cristina Heitor para o cargo de Chefe da Seção de Compras da Fundação Hospital Frei Gabriel.",
+    "pagina": 5,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Nova gerente de fornecimento de insumos da Saúde",
+    "texto": "Camilla Garcia Nogueira foi nomeada para ocupar o cargo em comissão de Gerente de Controle de Fornecimento de Medicamentos e Insumos da Saúde.",
+    "pagina": 7,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Contratação para formatura da Educação Infantil",
+    "texto": "Contratada a empresa Leandro Caetano Decorações e Buffet Ltda por R$ 47.500,00 para organização cenográfica da formatura do 2º Período da Educação Infantil.",
+    "pagina": 12,
+    "categoria": "educação"
+   }
+  ],
+  "paginas": 12,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-12T01:59:34Z"
+ },
+ {
   "numero": 553,
   "data": "2026-11-09",
   "resumo": "Esta edição traz atos da Secretaria de Cultura sobre o Edital de Fomento Cultural 'Frutal das Artes', incluindo convocação de habilitados para entrega de dados bancários, convocação de suplentes e publicação do resultado final. Também apresenta a emissão de uma certidão de dispensa de licenciamento ambiental para espaço de eventos e a nomeação de um assessor comissionado na Secretaria de Administração.",
@@ -8530,5 +8586,186 @@
   "paginas": 190,
   "modelo": "gemini-flash-lite-latest",
   "gerado_em": "2026-11-11T00:56:02Z"
+ },
+ {
+  "numero": 352,
+  "data": "2025-12-03",
+  "resumo": "A edição nº 352 do Diário Oficial traz a publicação do Edital do Processo Seletivo Público nº 006/2025 da Prefeitura de Frutal para os cargos de Agente Comunitário de Saúde e Agente de Combate às Endemias, com remuneração de R$ 3.036,00. Inclui também o Decreto nº 13.966/2025 com reajuste dos valores venais do IPTU para 2026, a delimitação territorial de atendimento das UBSs e a nomeação de comissão técnica para licitação de telefonia VoIP.",
+  "tipo": "misto",
+  "prazo": "28/12/2025",
+  "relevancia": 3,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Comissão Especial do Processo Seletivo Público",
+   "Secretaria Municipal de Administração"
+  ],
+  "destaques": [
+   {
+    "titulo": "Vagas e Remuneração para Agentes de Saúde",
+    "texto": "Abertura de vagas para Agente de Combate às Endemias (50 + CR) e Agente Comunitário de Saúde (diversas UBSs + CR). O salário inicial é de R$ 3.036,00 para 40h semanais.",
+    "pagina": 1,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Prazo e Valor das Inscrições",
+    "texto": "As inscrições devem ser feitas online pelo site da empresa organizadora de 10 a 28 de dezembro de 2025. A taxa é de R$ 67,00, com vencimento do boleto em 29/12/2025.",
+    "pagina": 4,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Data e Formato das Provas",
+    "texto": "A prova objetiva será realizada no dia 25 de janeiro de 2026 no município de Frutal. O exame terá 25 questões com duração máxima de 3 horas.",
+    "pagina": 10,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Atualização dos valores venais do IPTU para 2026",
+    "texto": "O Decreto nº 13.966 reajusta os valores venais dos terrenos e construções em 4,49% com base no INPC acumulado, impactando o cálculo do IPTU a partir de 1º de janeiro de 2026.",
+    "pagina": 43,
+    "categoria": "tributo"
+   },
+   {
+    "titulo": "Mapeamento e territorialização das UBS",
+    "texto": "Foi publicada a lista detalhada de ruas e numerações abrangidas por cada uma das Unidades Básicas de Saúde do município para atendimento da população.",
+    "pagina": 25,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Comissão de prova de conceito para licitação de telefonia",
+    "texto": "A Portaria nº 1.197 nomeia servidores para avaliar a solução de telefonia fixa e PABX Virtual em nuvem referente ao Pregão Eletrônico nº 087/2025.",
+    "pagina": 41,
+    "categoria": "licitação"
+   }
+  ],
+  "paginas": 47,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-12T02:01:12Z"
+ },
+ {
+  "numero": 351,
+  "data": "2025-12-02",
+  "resumo": "Esta edição traz o edital e o cronograma do Processo Seletivo Público nº 006/2025 da Prefeitura de Frutal para Agentes Comunitários de Saúde e Agentes de Combate às Endemias, a Lei nº 6.956/2025 que proíbe intervenções não autorizadas na sinalização viária, os Decretos nº 13.964/2025 e 13.965/2025 reajustando os valores venais de imóveis (IPTU e ITBI) em 4,49% para 2026, além de contratos de serviços de saúde.",
+  "tipo": "misto",
+  "prazo": "28/12/2025 (término das inscrições no Processo Seletivo nº 006/2025)",
+  "relevancia": 3,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Saúde",
+   "Secretaria Municipal de Segurança Pública, Trânsito, Transportes e Mobilidade Urbana",
+   "Câmara de Vereadores"
+  ],
+  "destaques": [
+   {
+    "titulo": "Abertura de Processo Seletivo na Saúde",
+    "texto": "O Edital nº 006/2025 abre seleção pública para provimento de vagas e cadastro de reserva nos cargos de Agente de Combate às Endemias e Agente Comunitário de Saúde, com salário de R$ 3.036,00.",
+    "pagina": 10,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Data da Prova Objetiva do Processo Seletivo",
+    "texto": "A prova objetiva para os cargos de Agente Comunitário de Saúde e Agente de Combate às Endemias está prevista para o dia 25 de janeiro de 2026, com divulgação dos locais em 12 de janeiro de 2026.",
+    "pagina": 18,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Proibição de sinalização viária sem autorização",
+    "texto": "A Lei nº 6.956/2025 proíbe instalar, pintar, alterar ou retirar marcações de trânsito em vias públicas sem autorização prévia da Secretaria de Trânsito, sob pena de multa de 100 UFMs.",
+    "pagina": 2,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Atualização dos valores do IPTU para 2026",
+    "texto": "O Decreto nº 13.965/2025 atualiza a pauta de valores venais dos imóveis urbanos em Frutal para o cálculo do IPTU 2026, aplicando correção monetária de 4,49% (INPC).",
+    "pagina": 5,
+    "categoria": "tributo"
+   },
+   {
+    "titulo": "Reajuste do valor venal de imóveis rurais (ITBI)",
+    "texto": "O Decreto nº 13.964/2025 fixa a pauta do valor venal atribuído ao hectare de imóvel rural em R$ 20.965,00 para fins de cálculo do ITBI em 2026, com reajuste de 4,49%.",
+    "pagina": 4,
+    "categoria": "tributo"
+   },
+   {
+    "titulo": "Fornecimento de óculos de grau pelo Projeto Miguilim",
+    "texto": "Extrato de Contrato nº 107/2025 credencia a empresa Ótica Previne Ltda para prestar serviços de saúde ocular e fornecer óculos de grau aos atendidos pelo Projeto Miguilim, no valor global de R$ 93.502,72.",
+    "pagina": 1,
+    "categoria": "saúde"
+   }
+  ],
+  "paginas": 31,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-12T02:03:39Z"
+ },
+ {
+  "numero": 350,
+  "data": "2025-12-01",
+  "resumo": "Esta edição do Diário Oficial traz a publicação do extrato do Contrato nº 172/2025 firmado pela Prefeitura de Frutal.\nO documento formaliza a contratação de empresa especializada em rádio comunicação digital em VHF.\nO serviço atenderá às demandas das Secretarias de Segurança Pública, Produtor Rural e Saúde pelo período de 12 meses.",
+  "tipo": "contrato",
+  "prazo": "26/11/2026",
+  "relevancia": 1,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria de Segurança Pública",
+   "Secretaria do Produtor Rural",
+   "Secretaria de Saúde"
+  ],
+  "destaques": [
+   {
+    "titulo": "Contratação de rádio comunicação digital VHF",
+    "texto": "A empresa WR Telecom Ltda foi contratada pelo valor total de R$ 113.949,84 para fornecimento, instalação, locação e manutenção de sistema de rádio VHF. Os serviços atenderão as secretarias de Segurança Pública, Produtor Rural e Saúde durante o período de um ano.",
+    "pagina": 1,
+    "categoria": "licitação"
+   }
+  ],
+  "paginas": 1,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-12T02:03:52Z"
+ },
+ {
+  "numero": 349,
+  "data": "2025-11-27",
+  "resumo": "Esta edição reúne avisos de pregões eletrônicos para registro de preços de equipamentos de informática e fornecimento de gás GLP para as secretarias municipais. Além disso, foram publicados extratos de contratação direta por inexigibilidade para apresentações musicais em eventos culturais da cidade.",
+  "tipo": "misto",
+  "prazo": "10/12/2025",
+  "relevancia": 1,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Departamento de Licitações"
+  ],
+  "destaques": [
+   {
+    "titulo": "Licitação de informática e impressão",
+    "texto": "Abertura do Pregão Eletrônico nº 112/2025 para aquisição eventual de equipamentos de informática e impressão. A fase de lances será em 10/12/2025 às 13h30.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Licitação para compra de gás GLP",
+    "texto": "Abertura do Pregão Eletrônico nº 113/2025 para aquisição parcelada de gás GLP e afins para secretarias municipais. A fase de lances ocorre em 11/12/2025 às 08h30.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Contratação de show: Preto Z",
+    "texto": "Contratação do cantor Preto Z pelo valor de R$ 3.000,00 para shows nos eventos Sarau da Consciência Negra e Festa dos Marujos.",
+    "pagina": 2,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Contratação de show: Herick e Bruno",
+    "texto": "Contratação da dupla sertaneja Herick e Bruno no valor de R$ 5.000,00 para apresentação no Sarau da Consciência Negra.",
+    "pagina": 2,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Contratação de show: DJ Witch",
+    "texto": "Contratação da DJ Witch pelo valor total de R$ 3.000,00 para apresentação artística no Sarau da Consciência Negra.",
+    "pagina": 2,
+    "categoria": "outro"
+   }
+  ],
+  "paginas": 2,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-12T02:04:08Z"
  }
 ]
