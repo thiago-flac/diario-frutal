@@ -1,5 +1,50 @@
 [
  {
+  "numero": 555,
+  "data": "2026-11-12",
+  "resumo": "Esta edição traz a instituição da Política Municipal Integrada da Primeira Infância (PMIPI) e a criação do seu Comitê Intersetorial em Frutal.\nTambém constam os extratos de contrato para a aquisição de dois veículos zero quilômetro destinados ao Conselho Tutelar e ao CRAM.\nPor fim, foram atualizados os nomes dos gestores de parcerias no âmbito da Secretaria Municipal de Saúde.",
+  "tipo": "misto",
+  "prazo": "26/10/2027",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Saúde",
+   "Secretaria Municipal de Assistência Social",
+   "Secretaria Municipal de Educação e Inclusão",
+   "Conselho Tutelar",
+   "Centro de Referência ao Atendimento à Mulher (CRAM)"
+  ],
+  "destaques": [
+   {
+    "titulo": "Instituída Política da Primeira Infância",
+    "texto": "O Decreto nº 14.395 institui a Política Municipal Integrada da Primeira Infância (PMIPI) para promover o desenvolvimento e a proteção integral de crianças de 0 a 6 anos. É criado também o Comitê Intersetorial encarregado de elaborar o Plano Municipal quadrienal.",
+    "pagina": 3,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Veículo para o Conselho Tutelar",
+    "texto": "Contratada a empresa SMV Distribuidora de Veículos Ltda pelo valor de R$ 85.000,00 para fornecimento de 01 veículo 0km destinado ao atendimento das demandas do Conselho Tutelar.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Veículo para o CRAM",
+    "texto": "Firmado contrato no valor de R$ 85.000,00 com a SMV Distribuidora de Veículos Ltda para aquisição de 01 veículo 0km destinado às atividades do Centro de Referência ao Atendimento à Mulher.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Gestores de Parcerias na Saúde",
+    "texto": "A Portaria nº 1.261 altera a indicação dos gestores das parcerias da Secretaria Municipal de Saúde, designando os servidores Paula Carolina Silveira Araújo e Julio Cesar da Silva Junior.",
+    "pagina": 2,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 6,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-13T01:24:15Z"
+ },
+ {
   "numero": 554,
   "data": "2026-11-11",
   "resumo": "A edição traz a abertura de licitações importantes para a compra de medicamentos e fórmulas manipuladas para a rede de saúde. Destaca-se também a concessão de terreno no Distrito Industrial 2 para implantação de fábrica que deve gerar ao menos 60 empregos. Além disso, foram publicadas mudanças de cargos na saúde e Hospital Frei Gabriel, e contratos para gêneros alimentícios e eventos da educação.",
@@ -8767,5 +8812,208 @@
   "paginas": 2,
   "modelo": "gemini-3.5-flash",
   "gerado_em": "2026-11-12T02:04:08Z"
+ },
+ {
+  "numero": 348,
+  "data": "2025-11-26",
+  "resumo": "A Secretaria Municipal de Educação divulgou as orientações para o pleito eleitoral de escolha democrática de Diretores Escolares da rede municipal de Frutal. O documento define a data da votação para 28 de novembro, especifica quem tem direito a voto (servidores, alunos a partir de 14 anos e pais/responsáveis) e estabelece regras de campanha, quórum mínimo e critérios de desempate.",
+  "tipo": "ato",
+  "prazo": "28/11/2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Secretaria Municipal de Educação de Frutal",
+   "Passaporte PDH — Seleção e Desenvolvimento Humano, Assessoria e Consultoria Técnica Ltda"
+  ],
+  "destaques": [
+   {
+    "titulo": "Data e horário da eleição",
+    "texto": "O pleito para escolha de Diretor Escolar ocorre no dia 28/11, das 07h às 17h na maioria das unidades, com horários especiais (13h30 às 17h) em duas escolas e atendimento na Secretaria de Educação para servidores da zona rural.",
+    "pagina": 1,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Quem pode votar",
+    "texto": "Podem votar os responsáveis legais que assinaram a matrícula de 2025, todos os servidores da unidade escolar e alunos matriculados a partir de 14 anos de idade, exigindo-se documento de identificação com foto.",
+    "pagina": 1,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Quórum mínimo de validação",
+    "texto": "Para que a votação na unidade escolar seja validada, será exigida a participação de no mínimo 50% mais um dos possíveis eleitores.",
+    "pagina": 2,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Vedações durante a campanha",
+    "texto": "É proibida a propaganda que ofereça vantagens, use horário de aula, perturbe o sossego público ou utilize materiais de consumo e recursos da própria unidade escolar.",
+    "pagina": 2,
+    "categoria": "educação"
+   }
+  ],
+  "paginas": 2,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-13T01:24:36Z"
+ },
+ {
+  "numero": 347,
+  "data": "2025-11-25",
+  "resumo": "Esta edição traz a promulgação das Leis nº 6.954 (expansão urbana na Fazenda São Bento da Ressaca) e nº 6.955 (criação do Conselho e Fundo de Desenvolvimento Sustentável). No âmbito administrativo, destaca-se o contrato assinado para a realização de processo seletivo para Agentes de Saúde e Endemias, a licitação para aquisição de instrumentos musicais para a Escola de Música e a contratação de capacitação para professores municipais.",
+  "tipo": "misto",
+  "prazo": "Sessão pública do Pregão nº 111/2025 em 10/12/2025 às 08:30",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Cultura",
+   "Secretaria Municipal de Obras",
+   "Secretaria Municipal de Educação",
+   "Secretaria Municipal de Saúde",
+   "Secretaria Municipal de Desenvolvimento Econômico, Parcerias, Turismo e Inovação",
+   "Câmara de Vereadores"
+  ],
+  "destaques": [
+   {
+    "titulo": "Contratação de banca para Processo Seletivo de Saúde",
+    "texto": "Foi formalizada a contratação da empresa Império Assessoria e Concursos para organizar e realizar processo seletivo público para os cargos de Agente Comunitário de Saúde (ACS) e Agente de Combate às Endemias (ACE).",
+    "pagina": 2,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Criação do Conselho e Fundo de Desenvolvimento Sustentável",
+    "texto": "Sancionada a Lei nº 6.955, que cria o CMDS e o FMDS para planejar, fiscalizar e financiar políticas de sustentabilidade, inovação e meio ambiente no município.",
+    "pagina": 5,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Transformação de área rural para expansão urbana",
+    "texto": "A Lei nº 6.954 autoriza a conversão de 28,2 hectares na Fazenda São Bento da Ressaca em área de expansão urbana para futuro loteamento.",
+    "pagina": 3,
+    "categoria": "obras"
+   },
+   {
+    "titulo": "Licitação de instrumentos para a Escola de Música",
+    "texto": "Abertura de pregão eletrônico para registro de preços visando a aquisição de instrumentos musicais para a Escola Municipal de Música João Adriano de Barros, agendado para 10/12/2025.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Formação presencial para professores da rede municipal",
+    "texto": "Contratação de empresa especializada para ofertar treinamento aos professores da rede pública municipal baseado no método 'Alfabetizando com as Onomatopéias'.",
+    "pagina": 2,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Revogação de licitação de projetos de engenharia",
+    "texto": "Foi cancelado o Pregão nº 64/2025 para contratação de projetos de arquitetura e engenharia para obras públicas, devido a incorreções na descrição do objeto.",
+    "pagina": 1,
+    "categoria": "licitação"
+   }
+  ],
+  "paginas": 8,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-13T01:26:44Z"
+ },
+ {
+  "numero": 346,
+  "data": "2025-11-24",
+  "resumo": "Edição com importantes alterações normativas e administrativas em Frutal. Traz leis municipais reestruturando as Secretarias de Obras e Serviços Urbanos com revisão de cargos em comissão, a abertura de crédito suplementar de R$ 3,3 milhões para serviços públicos e a doação de imóveis para a Arquidiocese de Uberaba. Conta também com avisos de licitação para contratação de manutenção e veículo para a saúde, além de licenças ambientais.",
+  "tipo": "misto",
+  "prazo": "03/12/2025 (POC Telefonia), 08/12/2025 (Pregão 109) e 09/12/2025 (Pregão 110)",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Educação",
+   "Secretaria Municipal de Saúde",
+   "Secretaria Municipal de Obras",
+   "Secretaria Municipal de Serviços Urbanos",
+   "Secretaria Municipal do Meio Ambiente"
+  ],
+  "destaques": [
+   {
+    "titulo": "Reestruturação de Secretarias e Cargos",
+    "texto": "A Lei nº 6.952 altera atribuições das Secretarias de Obras e Serviços Urbanos e fixa o quantitativo e salários dos cargos em comissão da Prefeitura com vigência a partir de janeiro de 2026.",
+    "pagina": 10,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Crédito Suplementar Orçamentário",
+    "texto": "Lei nº 6.949 autoriza remanejamento de R$ 3,3 milhões no orçamento municipal para adequar despesas prioritárias como limpeza pública e transporte escolar.",
+    "pagina": 3,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Doação de Imóveis para Arquidiocese",
+    "texto": "A Lei nº 6.951 autoriza a desafetação e doação formal de lotes nos bairros Jardim Brasil e Ipê Amarelo à Arquidiocese de Uberaba para regularização de propriedade.",
+    "pagina": 9,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Licitações para Manutenção e Veículo da Saúde",
+    "texto": "Abertura dos Pregões Eletrônicos 109/2025 (manutenção de eletrodomésticos) e 110/2025 (aquisição de motocicleta scooter 0km para a Saúde do Trabalhador), com sessões em 08 e 09 de dezembro de 2025.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Prova de Conceito de Telefonia Fixa",
+    "texto": "Convocação da Algar Telecom S/A para apresentar demonstração prática (POC) da solução de telefonia VoIP/nuvem no departamento de licitações.",
+    "pagina": 28,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Utilidade Pública do Rotary Club",
+    "texto": "Sancionada a Lei nº 6.953, que declara de utilidade pública municipal o Rotary Club de Frutal Clemente Teodoro.",
+    "pagina": 33,
+    "categoria": "norma"
+   }
+  ],
+  "paginas": 33,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-13T01:29:13Z"
+ },
+ {
+  "numero": 345,
+  "data": "2025-11-18",
+  "resumo": "Esta edição traz avisos de licitação importantes para a população, incluindo a compra de uniformes e calçados escolares para a rede municipal, a modernização do sistema semafórico da cidade e a contratação de serviços de medicina do trabalho. Além disso, a Secretaria do Meio Ambiente publicou certidões de licenciamento e dispensa ambiental para um loteamento urbano, um posto de combustível e outros comércios locais.",
+  "tipo": "misto",
+  "prazo": "03/12/2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Secretaria Municipal do Meio Ambiente de Frutal - SEMMA",
+   "Departamento de Licitações da Prefeitura Municipal de Frutal"
+  ],
+  "destaques": [
+   {
+    "titulo": "Compra de uniformes escolares",
+    "texto": "Licitação para aquisição de roupas e calçados escolares para os alunos da Rede Municipal de Ensino. A sessão do pregão eletrônico será realizada no dia 05/12/2025.",
+    "pagina": 11,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Revitalização do sistema semafórico",
+    "texto": "Abertura de pregão eletrônico para contratar empresa especializada na modernização e revitalização dos semáforos de Frutal. Sessão marcada para 09/12/2025.",
+    "pagina": 10,
+    "categoria": "obras"
+   },
+   {
+    "titulo": "Serviços de medicina do trabalho",
+    "texto": "Pregão eletrônico para futura contratação de empresa especializada em medicina do trabalho para atender as demandas da Prefeitura. Sessão em 03/12/2025.",
+    "pagina": 10,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Dispensa ambiental para loteamento",
+    "texto": "Emissão de certidão de dispensa ambiental para o loteamento de solo urbano Nova Brasília Empreendimentos (6,48 hectares), exigindo cumprimento de condicionantes antes do início das obras.",
+    "pagina": 8,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Licenciamento de posto de combustíveis",
+    "texto": "Reemissão da Licença Ambiental Simplificada (LAS) para o Auto Posto Brasil Petro Frutal II, com validade até 23/12/2031 e exigência de programas de automonitoramento e testes periódicos.",
+    "pagina": 1,
+    "categoria": "outro"
+   }
+  ],
+  "paginas": 11,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-13T01:30:25Z"
  }
 ]
