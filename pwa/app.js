@@ -115,6 +115,19 @@ async function sincronizar(progresso, maxPaginas = 6) {
   return edicoes;
 }
 
+let sincronizando = false;
+
+function tempoCurto(ts) {
+  const min = Math.floor((Date.now() - ts) / 60000);
+  if (!ts) return "nunca";
+  if (min < 1) return "agora";
+  if (min < 60) return `há ${min} min`;
+  const h = Math.floor(min / 60);
+  if (h < 24) return `há ${h} h`;
+  const d = Math.floor(h / 24);
+  return d === 1 ? "ontem" : `há ${d} dias`;
+}
+
 function guardarRetrato(edicoes, resumos) {
   try {
     localStorage.setItem("diario.retrato", JSON.stringify({
@@ -224,6 +237,7 @@ function pintarLista(edicoes, resumos) {
   app.innerHTML = `
     <h1>Edições</h1>
     <p class="meta">${edicoes.length} guardadas · ${mapa.size} resumidas${novas ? ` · <span style="color:var(--accent);font-weight:600">${novas} nova(s)</span>` : ""}</p>
+    <p class="meta linha-sync">conferido ${tempoCurto(parseInt(cfg.get("ultimaSync", "0"), 10))}${cfg.get("semRede", "") ? " · sem falar com o site" : ""}</p>
     <div id="lista">${edicoes.map((e) => cartao(e, mapa.get(e.numero), !primeiraVez && e.numero > vistoAte)).join("")}</div>
     <div class="barra"><button class="botao" id="btn-atualizar">Atualizar</button></div>`;
 
@@ -623,10 +637,42 @@ async function chamarGemini(partes) {
 }
 
 // ---------------------------------------------------------------- navegação
+// Ao abrir o app ele confere o site sozinho — sem pedir, sem atrapalhar.
+// Se falhar, segue mostrando o que já está guardado e diz que não falou.
+async function atualizarSilencioso({ forcar = false } = {}) {
+  if (sincronizando) return 0;
+  const ultima = parseInt(cfg.get("ultimaSync", "0"), 10);
+  if (!forcar && Date.now() - ultima < 120000) return 0;   // 2 min de folga
+  sincronizando = true;
+  try {
+    const antes = (await todasAsEdicoes())[0]?.numero || 0;
+    const edicoes = await sincronizar();
+    cfg.set("ultimaSync", String(Date.now()));
+    cfg.set("semRede", "");
+    const novas = edicoes.filter((e) => e.numero > antes).length;
+    await importarResumosProntos();
+    // só repinta se algo mudou ou se ele está na lista: assim quem está lendo
+    // uma edição não perde a posição da rolagem ao voltar para o app
+    const rota = location.hash || "#/";
+    const naLista = !/^#\/(edicao|busca|ajustes)/.test(rota);
+    if (novas || naLista) await rotear();
+    if (novas) avisar(novas === 1 ? "Saiu edição nova." : `Saíram ${novas} edições novas.`);
+    return novas;
+  } catch (e) {
+    cfg.set("semRede", "1");
+    await rotear();
+    return 0;
+  } finally {
+    sincronizando = false;
+  }
+}
+
 async function atualizarComAviso() {
   avisar("buscando as edições no site…", 8000);
   try {
     const edicoes = await sincronizar((n) => avisar(`conferindo… ${n} edições`), 8);
+    cfg.set("ultimaSync", String(Date.now()));
+    cfg.set("semRede", "");
     avisar(`${edicoes.length} edições conferidas.`);
     await rotear();
   } catch (e) {
@@ -660,12 +706,17 @@ async function rotear() {
 })();
 
 window.addEventListener("hashchange", rotear);
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible") atualizarSilencioso();
+});
+window.addEventListener("online", () => atualizarSilencioso({ forcar: true }));
 window.addEventListener("DOMContentLoaded", async () => {
   await carregarConfigCompartilhada();
   await rotear();
   const importados = await importarResumosProntos();
   if (importados) await rotear();
   if (!(await todasAsEdicoes()).length) atualizarComAviso();
+  else atualizarSilencioso();
   if ("serviceWorker" in navigator && window.isSecureContext) {
     navigator.serviceWorker.register("sw.js", { updateViaCache: "none" }).catch(() => {});
   }
