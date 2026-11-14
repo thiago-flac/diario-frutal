@@ -115,6 +115,8 @@ async function sincronizar(progresso, maxPaginas = 6) {
   return edicoes;
 }
 
+const VERSAO = "v5";
+
 let sincronizando = false;
 
 function tempoCurto(ts) {
@@ -385,7 +387,8 @@ async function telaAjustes() {
 
     <div class="linha-botoes"><button class="botao" id="btn-salvar">Salvar</button></div>
     <div class="linha-botoes"><button class="botao" id="btn-limpar">Apagar tudo do aparelho</button></div>
-    <p class="rodape">Diário de Frutal · app instalável, funciona offline para o que já foi baixado.</p>`;
+    <p class="rodape">Diário de Frutal · app instalável, funciona offline para o que já foi baixado.<br>
+      versão ${VERSAO} · conferido ${tempoCurto(parseInt(cfg.get("ultimaSync", "0"), 10))}</p>`;
 
   $("#btn-salvar").onclick = () => {
     cfg.set("chave", $("#chave").value.trim());
@@ -718,6 +721,30 @@ window.addEventListener("DOMContentLoaded", async () => {
   if (!(await todasAsEdicoes()).length) atualizarComAviso();
   else atualizarSilencioso();
   if ("serviceWorker" in navigator && window.isSecureContext) {
-    navigator.serviceWorker.register("sw.js", { updateViaCache: "none" }).catch(() => {});
+    navigator.serviceWorker.register("sw.js", { updateViaCache: "none" }).then((reg) => {
+      // procura versão nova agora e sempre que o app voltar ao primeiro plano
+      reg.update().catch(() => {});
+      document.addEventListener("visibilitychange", () => {
+        if (document.visibilityState === "visible") reg.update().catch(() => {});
+      });
+      setInterval(() => reg.update().catch(() => {}), 1800000);   // 30 min
+
+      reg.addEventListener("updatefound", () => {
+        const novo = reg.installing;
+        if (!novo) return;
+        novo.addEventListener("statechange", () => {
+          if (novo.state === "installed" && navigator.serviceWorker.controller) {
+            novo.postMessage({ tipo: "assumir" });      // entra em vigor já
+          }
+        });
+      });
+    }).catch(() => {});
+
+    // trocou a casca: recarrega uma vez só, para o app abrir na versão nova
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+      if (sessionStorage.getItem("diario.trocouVersao")) return;
+      sessionStorage.setItem("diario.trocouVersao", "1");
+      location.reload();
+    });
   }
 });

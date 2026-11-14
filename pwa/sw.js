@@ -1,6 +1,6 @@
 // Casca do app em cache: abre mesmo sem rede. O conteúdo (edições, resumos) vive
 // no IndexedDB, não aqui.
-const CASCA = "diario-pwa-v4";
+const CASCA = "diario-pwa-v5";
 const ARQUIVOS = ["./", "index.html", "styles.css", "fontes.css", "app.js", "manifest.json",
                   "icone-192.png", "icone-512.png", "icone-180.png",
                   "fontes/ebgaramond-var-lat.woff2", "fontes/crimsontext-400-lat.woff2",
@@ -8,6 +8,11 @@ const ARQUIVOS = ["./", "index.html", "styles.css", "fontes.css", "app.js", "man
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CASCA).then((c) => c.addAll(ARQUIVOS)).then(() => self.skipWaiting()));
+});
+
+// O app avisa quando encontrou versão nova: assume já, sem esperar a aba fechar.
+self.addEventListener("message", (e) => {
+  if (e.data && e.data.tipo === "assumir") self.skipWaiting();
 });
 
 self.addEventListener("activate", (e) => {
