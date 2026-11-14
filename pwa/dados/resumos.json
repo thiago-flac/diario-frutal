@@ -1,5 +1,35 @@
 [
  {
+  "numero": 556,
+  "data": "2026-11-13",
+  "resumo": "Esta edição traz a autorização de uso de área institucional para instalação de poços artesianos destinados ao abastecimento de água do Residencial Francisco Cabrera Moron, além do resultado preliminar do Edital de Premiação de Pontos de Cultura.",
+  "tipo": "misto",
+  "prazo": "",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Cultura",
+   "Secretaria Municipal de Planejamento, Obras e Serviços Urbanos"
+  ],
+  "destaques": [
+   {
+    "titulo": "Instalação de Poços Artesianos",
+    "texto": "Decreto autoriza o uso de área pública para perfuração e instalação de dois poços artesianos pela Construtora Italiana S.A. para abastecer o Residencial Francisco Cabrera Moron II.",
+    "pagina": 1,
+    "categoria": "obras"
+   },
+   {
+    "titulo": "Resultado Preliminar de Pontos de Cultura",
+    "texto": "Divulgada a lista preliminar de classificação dos projetos inscritos no Edital de Premiação de Pontos de Cultura, sujeito a recursos conforme as regras do edital.",
+    "pagina": 17,
+    "categoria": "outro"
+   }
+  ],
+  "paginas": 17,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-14T01:00:04Z"
+ },
+ {
   "numero": 555,
   "data": "2026-11-12",
   "resumo": "Esta edição traz a instituição da Política Municipal Integrada da Primeira Infância (PMIPI) e a criação do seu Comitê Intersetorial em Frutal.\nTambém constam os extratos de contrato para a aquisição de dois veículos zero quilômetro destinados ao Conselho Tutelar e ao CRAM.\nPor fim, foram atualizados os nomes dos gestores de parcerias no âmbito da Secretaria Municipal de Saúde.",
@@ -9015,5 +9045,167 @@
   "paginas": 11,
   "modelo": "gemini-3.5-flash",
   "gerado_em": "2026-11-13T01:30:25Z"
+ },
+ {
+  "numero": 344,
+  "data": "2025-11-17",
+  "resumo": "Esta edição traz a contratação direta de serviços de contabilidade pública por R$ 60 mil para defesa da Prefeitura junto ao TCE/MG. Além disso, institui a comissão responsável pelo próximo Processo Seletivo para Agentes Comunitários de Saúde e de Combate às Endemias, e prorroga por 60 dias a apuração de um processo disciplinar.",
+  "tipo": "misto",
+  "prazo": "60 dias",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Finanças e Planejamento",
+   "Secretaria Municipal de Saúde"
+  ],
+  "destaques": [
+   {
+    "titulo": "Contratação de defesa técnica contábil",
+    "texto": "A Prefeitura formalizou a contratação direta da empresa LH7 Consultoria por R$ 60.000,00 para realizar defesa técnica perante o TCE/MG referente a irregularidades do SICOM 2024.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Comissão para Processo Seletivo na Saúde",
+    "texto": "Foi criada a comissão responsável por supervisionar o Processo Seletivo Público nº 06/2025 para vagas de Agente Comunitário de Saúde (ACS) e Agente de Combate às Endemias (ACE).",
+    "pagina": 2,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Prorrogação de Processo Disciplinar",
+    "texto": "A Portaria nº 1.196 prorroga por 60 dias o prazo para a comissão concluir as apurações do Processo Administrativo Disciplinar nº 001/2025.",
+    "pagina": 3,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 3,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-14T01:00:30Z"
+ },
+ {
+  "numero": 343,
+  "data": "2025-11-14",
+  "resumo": "Esta edição traz o aviso de licitação para aquisição de kits pedagógicos para a rede municipal de ensino, com lances marcados para 1º de dezembro de 2025. Destaca-se também a sanção da Lei nº 6.948/2025, que obriga comerciantes de pneus e borracharias a implementarem a logística reversa e armazenamento adequado de pneus inservíveis, estabelecendo prazos, regras de segurança e penalidades em caso de descumprimento.",
+  "tipo": "misto",
+  "prazo": "01/12/2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Educação",
+   "Departamento de Licitações"
+  ],
+  "destaques": [
+   {
+    "titulo": "Licitação para Kits Pedagógicos",
+    "texto": "Abertura de pregão eletrônico para compra de kits pedagógicos destinados à Rede Municipal de Ensino. A sessão de lances ocorrerá no dia 1º de dezembro de 2025, às 9h.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Logística Reversa de Pneus Inservíveis",
+    "texto": "Aprovada a Lei nº 6.948/2025, que obriga empresas comerciais, borracharias e fabricantes a garantirem o recolhimento e destinação ambientalmente adequada de pneus usados.",
+    "pagina": 2,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Regras de Armazenamento e Placas Informativas",
+    "texto": "Locais de estocagem transitória devem ser cobertos, protegidos contra acúmulo de água e limitar a permanência dos pneus a 60 dias. É obrigatório afixar placa alertando o consumidor sobre riscos à saúde.",
+    "pagina": 3,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Penalidades e Multas por Descarte Irregular",
+    "texto": "Infratores estarão sujeitos a advertência (com 90 dias para adequação), multas fixadas em UFM e, em caso de reincidência, aplicação em dobro da penalidade e cassação do alvará de funcionamento.",
+    "pagina": 4,
+    "categoria": "norma"
+   }
+  ],
+  "paginas": 5,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-14T01:00:54Z"
+ },
+ {
+  "numero": 342,
+  "data": "2025-11-13",
+  "resumo": "Esta edição do Diário Oficial divulga o cronograma e as instruções para a apresentação dos Planos de Gestão Escolar da rede municipal de Frutal. As apresentações dos candidatos ocorrem entre os dias 14 e 19 de novembro de 2025 nas próprias unidades escolares. O documento define também as regras do processo, incluindo tempo de fala, espaço para perguntas e proibição de material publicitário.",
+  "tipo": "plano",
+  "prazo": "14/11/2025 a 19/11/2025",
+  "relevancia": 1,
+  "orgaos": [
+   "Município de Frutal",
+   "Passaporte Seleção & Desenvolvimento Humano"
+  ],
+  "destaques": [
+   {
+    "titulo": "Cronograma de apresentação dos Planos de Gestão",
+    "texto": "Define datas, horários e locais para os candidatos apresentarem seus Planos de Gestão nas escolas municipais e CEMEIs entre 14 e 19 de novembro de 2025.",
+    "pagina": 1,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Regras e orientações para os candidatos",
+    "texto": "Estabelece que a apresentação terá duração de 30 minutos seguida de 15 minutos para perguntas, sendo vedada a distribuição de material de divulgação.",
+    "pagina": 2,
+    "categoria": "educação"
+   }
+  ],
+  "paginas": 2,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-14T01:01:09Z"
+ },
+ {
+  "numero": 341,
+  "data": "2025-11-12",
+  "resumo": "Esta edição traz a aprovação da Lei nº 6.947/2025, que altera a matriz de vencimentos e regras de progressão dos servidores municipais. No setor de educação, divulga o resultado da prova objetiva para Diretores Escolares e fixa prazo urgente para envio do plano de ação. Além disso, publica avisos de licitação para saúde auditiva, práticas integrativas e serviços gráficos, bem como a lista final de habilitados da Lei Aldir Blanc.",
+  "tipo": "misto",
+  "prazo": "13/11/2025 para plano de ação de diretores e sessão do Cartão Social; 26 e 27/11/2025 para licitações",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Saúde",
+   "Secretaria Municipal de Educação e Inclusão",
+   "Câmara de Vereadores"
+  ],
+  "destaques": [
+   {
+    "titulo": "Nova matriz de vencimentos dos servidores",
+    "texto": "A Lei nº 6.947/2025 altera a estrutura salarial dos cargos efetivos municipais e define que a progressão para o padrão 'M' exige 730 dias no padrão 'L', sem pagamento retroativo.",
+    "pagina": 26,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Prazo para Plano de Ação de Diretores Escolares",
+    "texto": "Candidatos ao cargo de Diretor Escolar aprovados na prova objetiva devem enviar o Plano de Ação até 13/11/2025, às 15h, via e-mail.",
+    "pagina": 5,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Licitação para Saúde Auditiva (Projeto Miguilim)",
+    "texto": "Abertura do Pregão Eletrônico nº 103/2025 para aquisição de equipamentos permanentes voltados à saúde auditiva. Sessão em 27/11/2025 às 09h.",
+    "pagina": 1,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Insumos para Práticas Integrativas no SUS",
+    "texto": "Pregão Eletrônico nº 104/2025 visa registro de preços para compra de equipamentos e insumos de Práticas Integrativas e Complementares (PICS). Sessão marcada para 26/11/2025 às 08h30.",
+    "pagina": 1,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Resultado da Habilitação da Lei Aldir Blanc",
+    "texto": "Divulgada a lista final com coletivos e entidades culturais habilitados no Edital 01/2025 para Pontos de Cultura de Frutal.",
+    "pagina": 3,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Sessão de retomada para o Cartão Social",
+    "texto": "Convocação para o retorno da sessão pública do Pregão Eletrônico nº 89/2025 no dia 13/11/2025, às 09h, após aprovação técnica da Prova de Conceito.",
+    "pagina": 2,
+    "categoria": "licitação"
+   }
+  ],
+  "paginas": 27,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-14T01:01:46Z"
  }
 ]
