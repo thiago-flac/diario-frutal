@@ -9207,5 +9207,212 @@
   "paginas": 27,
   "modelo": "gemini-3.5-flash",
   "gerado_em": "2026-11-14T01:01:46Z"
+ },
+ {
+  "numero": 340,
+  "data": "2025-11-11",
+  "resumo": "Esta edição traz a alteração nas datas do recesso de fim de ano da Prefeitura, que ocorrerá de 22/12/2025 a 02/01/2026, e a criação/nomeação da comissão encarregada da revisão do Plano Diretor Municipal. Além disso, apresenta exonerações a pedido de diversos servidores efetivos e concessão de licença não remunerada.",
+  "tipo": "misto",
+  "prazo": "22/12/2025 a 02/01/2026",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Desenvolvimento Econômico, Parcerias, Turismo e Inovação",
+   "Secretaria Municipal de Obras",
+   "Procuradoria Geral do Município"
+  ],
+  "destaques": [
+   {
+    "titulo": "Recesso de fim de ano na Prefeitura",
+    "texto": "Decretado recesso funcional no Paço Municipal do dia 22/12/2025 a 02/01/2026, com atendimento normal retornando em 05/01/2026.",
+    "pagina": 2,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Comissão para revisão do Plano Diretor",
+    "texto": "Nomeados os membros de diversas secretarias e entidades civis que farão os estudos para a revisão do Plano Diretor Municipal de Frutal.",
+    "pagina": 6,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Composição de comissão municipal",
+    "texto": "Atualizada a estrutura de órgãos e entidades representativas que compõem comissão coordenada pela Secretaria de Desenvolvimento Econômico.",
+    "pagina": 5,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Exonerações a pedido",
+    "texto": "Exoneração a pedido de diversos servidores efetivos de funções como monitora de creche, professores, assistente social e auxiliares de serviços gerais.",
+    "pagina": 1,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Licença sem remuneração",
+    "texto": "Concedida licença para tratar de interesses particulares à servidora ocupante do cargo de Auxiliar de Serviços Gerais pelo período de 03/11/2025 a 02/11/2027.",
+    "pagina": 4,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 6,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-15T00:08:13Z"
+ },
+ {
+  "numero": 339,
+  "data": "2025-11-10",
+  "resumo": "Esta edição traz o extrato de contrato para a locação dos enfeites do projeto 'Natal Congelante', com valor total de R$ 1.000.100,00, a serem instalados no município e distrito. Também publica aviso de dispensa eletrônica de licitação para contratação de clínica de internação médica imediata em atendimento a decisão judicial.",
+  "tipo": "misto",
+  "prazo": "13 de novembro de 2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Cultura",
+   "Consórcio Intermunicipal para o Desenvolvimento do Alto Suaçuí Grande – CIDASG",
+   "Departamento de Licitações"
+  ],
+  "destaques": [
+   {
+    "titulo": "Contrato para locação de iluminação natalina",
+    "texto": "A Prefeitura formalizou contrato de R$ 1.000.100,00 com a empresa N G Rosa Ltda para locação de enfeites do 'Natal Congelante' em praças, vias públicas e entradas de Frutal e Aparecida de Minas.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Dispensa eletrônica para internação por decisão judicial",
+    "texto": "Abertura de dispensa eletrônica para contratar clínica especializada para internação médica imediata de paciente em cumprimento à decisão da Comarca de Frutal.",
+    "pagina": 1,
+    "categoria": "saúde"
+   }
+  ],
+  "paginas": 1,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-15T00:08:25Z"
+ },
+ {
+  "numero": 338,
+  "data": "2025-11-07",
+  "resumo": "Esta edição traz a criação da Comissão Especial encarregada dos estudos de revisão do Plano Diretor Municipal e a instauração de sindicância investigativa para apurar suposto dano ao erário municipal. Também apresenta certidões de dispensa de licenciamento ambiental concedidas pela SEMMA e decretos de exoneração de servidores comissionados.",
+  "tipo": "misto",
+  "prazo": "30 dias (sindicância); 60 dias (comprovação PRECEND); 90 dias (renovação AVCB)",
+  "relevancia": 1,
+  "orgaos": [
+   "Secretaria Municipal do Meio Ambiente - SEMMA",
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Administração"
+  ],
+  "destaques": [
+   {
+    "titulo": "Comissão de Revisão do Plano Diretor",
+    "texto": "A Portaria nº 1.192/2025 nomeia os membros da Comissão Especial que fará a análise e estudos para a revisão do Plano Diretor Municipal de Frutal.",
+    "pagina": 5,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Sindicância por Suposto Dano ao Erário",
+    "texto": "A Portaria nº 1.193/2025 instaura Sindicância Administrativa Investigativa nº 011/2025 para apurar irregularidades e possível dano ao erário cometidos por servidora, fixando prazo de 30 dias.",
+    "pagina": 6,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Licenciamento Ambiental para Oficina Mecânica",
+    "texto": "Certidão nº 066/2025 concede dispensa de licença ambiental à Clinicar Manutenção Automotiva Ltda, exigindo cumprimento de condicionantes como AVCB em 90 dias e PRECEND em 60 dias.",
+    "pagina": 4,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Exoneração na Secretaria de Administração",
+    "texto": "O Decreto nº 13.935/2025 exonera Rogério Marcos Ribeiro do cargo em comissão de Assessor Administrativo II a contar de 03/11/2025.",
+    "pagina": 8,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Exoneração na Secretaria de Meio Ambiente",
+    "texto": "O Decreto nº 13.936/2025 exonera Ana Caroline Silva do Nascimento do cargo em comissão de Assessora de Suporte à Gestão I a contar de 07/11/2025.",
+    "pagina": 9,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 9,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-15T00:08:53Z"
+ },
+ {
+  "numero": 337,
+  "data": "2025-11-06",
+  "resumo": "Esta edição traz a homologação e adjudicação do processo licitatório para credenciamento de empresa no setor da construção civil. A empresa selecionada elaborará proposta junto à Caixa Econômica Federal para viabilizar a execução do Programa Minha Casa Minha Vida em Frutal. Os recursos serão provenientes do Fundo de Arrendamento Residencial (FAR).",
+  "tipo": "licitação",
+  "prazo": "",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal"
+  ],
+  "destaques": [
+   {
+    "titulo": "Credenciamento para o Minha Casa Minha Vida",
+    "texto": "A empresa Plus Empreendimentos Imobiliários Ltda foi homologada e adjudicada para elaborar proposta junto à Caixa Econômica Federal. A medida visa viabilizar novas moradias populares no município com recursos do FAR.",
+    "pagina": 1,
+    "categoria": "obras"
+   }
+  ],
+  "paginas": 1,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-15T00:09:03Z"
+ },
+ {
+  "numero": 336,
+  "data": "2025-11-05",
+  "resumo": "Esta edição traz o aviso de licitação do Pregão Eletrônico nº 101/2025 para aquisição de medicamentos de urgência/emergência da Secretaria de Saúde, além da divulgação da lista final de beneficiários da Assistência Social. Na Educação, publica-se o resultado parcial do Processo Seletivo nº 001/2025 para diretores escolares com prazo aberto para recursos. Também constam leis que alteram o salário do Controlador Interno e criam semanas comemorativas, além de decretos com exonerações de servidores.",
+  "tipo": "misto",
+  "prazo": "06/11/2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Saúde",
+   "Secretaria Municipal de Assistência Social",
+   "Secretaria Municipal de Educação",
+   "Secretaria Municipal de Esporte",
+   "Unidade de Controle Interno"
+  ],
+  "destaques": [
+   {
+    "titulo": "Licitação para aquisição de medicamentos",
+    "texto": "Abertura do Pregão Eletrônico nº 101/2025 para registro de preços de medicamentos não padronizados pela Remume para atendimento de urgência e emergência da Secretaria de Saúde. Início dos lances em 17/11/2025 às 08h30.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Prazo de recurso do Processo Seletivo 001/2025",
+    "texto": "Divulgação do resultado parcial da prova objetiva para diretores escolares. Recursos contra o gabarito parcial podem ser protocolados do dia 05/11/2025 até às 23h59 do dia 06/11/2025.",
+    "pagina": 6,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Lista final de beneficiários (Edital 002/2025 - SMAS)",
+    "texto": "Publicada a lista final dos beneficiários considerados compatíveis após a análise financeira realizada pela Caixa Econômica Federal.",
+    "pagina": 2,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Alteração de salário do Controlador Interno",
+    "texto": "A Lei nº 6.943/2025 fixa os novos vencimentos do cargo em comissão de Controlador Interno no valor de R$ 7.409,61.",
+    "pagina": 29,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Instituição da Semana Municipal da Saúde Bucal",
+    "texto": "A Lei nº 6.946/2025 inclui no calendário oficial a Semana da Saúde Bucal na última semana de outubro, prevendo campanhas educativas e distribuição de kits de higiene.",
+    "pagina": 32,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Exonerações e aposentadorias de servidores",
+    "texto": "Os Decretos nº 13.931 e 13.932/2025 formalizam a exoneração a pedido de 12 servidores efetivos e a aposentadoria de 4 servidoras municipais.",
+    "pagina": 33,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 34,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-15T00:09:44Z"
  }
 ]
