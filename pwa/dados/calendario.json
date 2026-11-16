@@ -1,0 +1,135 @@
+{
+ "ano": 2026,
+ "titulo": "Calendário Municipal 2026",
+ "nota": "Feriados e pontos facultativos do município, como publicados pela Prefeitura de Frutal.",
+ "atualizado": "2026-11-15",
+ "fonte": "arquivo local",
+ "datas": [
+  {
+   "data": "2026-01-01",
+   "tipo": "feriado",
+   "nome": "Confraternização Universal",
+   "nota": null
+  },
+  {
+   "data": "2026-02-16",
+   "tipo": "facultativo",
+   "nome": "Ponto Facultativo",
+   "nota": null
+  },
+  {
+   "data": "2026-02-17",
+   "tipo": "feriado",
+   "nome": "Carnaval",
+   "nota": null
+  },
+  {
+   "data": "2026-02-18",
+   "tipo": "facultativo",
+   "nome": "Quarta-Feira de Cinzas",
+   "nota": "até as 12:00"
+  },
+  {
+   "data": "2026-04-02",
+   "tipo": "facultativo",
+   "nome": "Quinta-Feira Santa",
+   "nota": "após as 12:00"
+  },
+  {
+   "data": "2026-04-03",
+   "tipo": "feriado",
+   "nome": "Sexta-Feira Santa",
+   "nota": null
+  },
+  {
+   "data": "2026-04-20",
+   "tipo": "facultativo",
+   "nome": "Ponto Facultativo",
+   "nota": null
+  },
+  {
+   "data": "2026-04-21",
+   "tipo": "feriado",
+   "nome": "Tiradentes",
+   "nota": null
+  },
+  {
+   "data": "2026-05-01",
+   "tipo": "feriado",
+   "nome": "Dia do Trabalho",
+   "nota": null
+  },
+  {
+   "data": "2026-06-04",
+   "tipo": "feriado",
+   "nome": "Corpus Christi",
+   "nota": null
+  },
+  {
+   "data": "2026-06-05",
+   "tipo": "facultativo",
+   "nome": "Ponto Facultativo",
+   "nota": null
+  },
+  {
+   "data": "2026-07-16",
+   "tipo": "municipal",
+   "nome": "Nossa Senhora do Carmo",
+   "nota": "padroeira de Frutal"
+  },
+  {
+   "data": "2026-07-17",
+   "tipo": "facultativo",
+   "nome": "Ponto Facultativo",
+   "nota": null
+  },
+  {
+   "data": "2026-09-07",
+   "tipo": "feriado",
+   "nome": "Independência do Brasil",
+   "nota": null
+  },
+  {
+   "data": "2026-10-04",
+   "tipo": "municipal",
+   "nome": "Aniversário de Frutal",
+   "nota": null
+  },
+  {
+   "data": "2026-10-12",
+   "tipo": "feriado",
+   "nome": "Nossa Senhora Aparecida",
+   "nota": "padroeira do Brasil"
+  },
+  {
+   "data": "2026-10-28",
+   "tipo": "feriado",
+   "nome": "Dia do Servidor Público",
+   "nota": null
+  },
+  {
+   "data": "2026-11-02",
+   "tipo": "feriado",
+   "nome": "Finados",
+   "nota": null
+  },
+  {
+   "data": "2026-11-15",
+   "tipo": "feriado",
+   "nome": "Proclamação da República",
+   "nota": null
+  },
+  {
+   "data": "2026-11-20",
+   "tipo": "feriado",
+   "nome": "Dia da Consciência Negra",
+   "nota": null
+  },
+  {
+   "data": "2026-12-25",
+   "tipo": "feriado",
+   "nome": "Natal",
+   "nota": null
+  }
+ ]
+}
