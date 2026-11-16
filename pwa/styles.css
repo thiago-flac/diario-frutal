@@ -128,6 +128,42 @@ details.pagina pre{white-space:pre-wrap;font:400 14px/1.55 var(--texto);color:#3
   background:var(--tinta);color:#f6f2e7;padding:12px 14px;border-radius:2px;
   font:400 14px/1.5 var(--texto);z-index:50;box-shadow:0 8px 26px rgba(28,26,21,.22)}
 
+/* ---------- coluna do calendário (telas largas) ---------- */
+.lateral{display:none}
+
+.lateral-topo{display:flex;align-items:baseline;justify-content:space-between;gap:10px;
+  padding-bottom:8px;border-bottom:1px solid var(--linha);margin-bottom:12px}
+.lateral-topo h2{font:600 9.5px/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;
+  color:var(--verde);margin:0}
+.lateral-topo a{font:400 12.5px/1 var(--texto);color:var(--tinta2);text-decoration:none;
+  border-bottom:1px solid var(--linha);padding-bottom:2px}
+.proximas{list-style:none;margin:14px 0 0;padding:0}
+.proximas li{display:flex;gap:10px;align-items:flex-start;padding:8px 0;
+  border-bottom:1px solid var(--linha)}
+.proximas li:last-child{border-bottom:none}
+.proximas .dia-num{font-family:var(--serif);font-size:19px;line-height:1.1;min-width:24px;
+  color:var(--tinta)}
+.proximas .rotulo{min-width:0;font-size:14.5px;line-height:1.35}
+.proximas .rotulo b{display:block;font-weight:400}
+.proximas .rotulo small{display:block;font:600 8.5px/1.4 var(--sans);letter-spacing:.1em;
+  text-transform:uppercase;color:var(--tinta2);margin-top:3px}
+.fonte-lateral{margin:12px 0 0;font-size:11.5px;line-height:1.45;color:#8b8474}
+
+@media (min-width:980px){
+  main{max-width:980px}
+  #app{display:grid;grid-template-columns:minmax(0,620px) 300px;gap:22px 44px;
+    align-items:start}
+  #app > *{grid-column:1}
+  #app > .lateral{grid-column:2;grid-row:1 / span 20;display:block;position:sticky;top:18px}
+  .lateral .grade{padding:8px 6px 9px}
+  .lateral .grade .celula{height:29px;font-size:13.5px}
+  .lateral .grade .cab span{font-size:7.5px}
+  .lateral #detalhe-dia:empty{display:none}
+  .lateral .detalhe{margin-top:10px;padding:9px 11px}
+  .lateral .detalhe b{font-size:15px}
+  .lateral .vazio-dia{font-size:12.5px;margin:8px 0 0}
+}
+
 @media (max-width:359px){
   header.topo{justify-content:flex-start}
   nav{width:100%;justify-content:space-between;gap:8px}

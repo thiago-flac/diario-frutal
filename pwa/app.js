@@ -115,7 +115,7 @@ async function sincronizar(progresso, maxPaginas = 6) {
   return edicoes;
 }
 
-const VERSAO = "v6";
+const VERSAO = "v7";
 
 let sincronizando = false;
 
@@ -363,6 +363,44 @@ function montarGrade(ano, mes, mapa) {
   return celulas.join("");
 }
 
+function diaDoMes(iso) {
+  return String(Number(iso.slice(8, 10)));
+}
+
+async function desenharLateral() {
+  const cal = await carregarCalendario();          // pega do cache depois da primeira vez
+  const alvo = document.getElementById("lateral"); // recheca: a lista pode ter sido repintada
+  if (!alvo) return;
+  const datas = (cal.datas || []).slice().sort((a, b) => a.data.localeCompare(b.data));
+  const mapa = new Map(datas.map((d) => [d.data, d]));
+  const hoje = new Date();
+  const mes = hoje.getFullYear() === cal.ano ? hoje.getMonth() : 0;
+  const proximas = datas.filter((d) => diasAte(d.data) >= 0).slice(0, 4);
+  alvo.innerHTML = `
+    <div class="lateral-topo">
+      <h2>Calendário ${cal.ano}</h2>
+      <a href="#/calendario">ver tudo</a>
+    </div>
+    <div class="grade">
+      <div class="cab">${DIAS_CURTOS.map((d) => `<span>${d}</span>`).join("")}</div>
+      ${montarGrade(cal.ano, mes, mapa)}
+    </div>
+    <div id="detalhe-dia"></div>
+    ${proximas.length ? `<ul class="proximas">${proximas.map((d) => `
+      <li>
+        <span class="dia-num">${diaDoMes(d.data)}</span>
+        <span class="rotulo">
+          <b>${escapar(d.nome)}</b>
+          <small>${escapar(quando(diasAte(d.data)))} · ${escapar(rotuloTipo(d.tipo))}</small>
+        </span>
+      </li>`).join("")}</ul>` : `<p class="vazio-dia">sem datas marcadas neste ano.</p>`}
+    <p class="fonte-lateral">${escapar(cal.nota || "")}</p>`;
+
+  alvo.querySelectorAll(".celula[data-data]").forEach((el) => {
+    el.onclick = () => mostrarDia(el.dataset.data);
+  });
+}
+
 function mostrarDia(iso) {
   const alvo = document.getElementById("detalhe-dia");
   if (!alvo) return;
@@ -401,9 +439,11 @@ function pintarLista(edicoes, resumos) {
     <p class="meta">${edicoes.length} guardadas · ${mapa.size} resumidas${novas ? ` · <span style="color:var(--accent);font-weight:600">${novas} nova(s)</span>` : ""}</p>
     <p class="meta linha-sync">conferido ${tempoCurto(parseInt(cfg.get("ultimaSync", "0"), 10))}${cfg.get("semRede", "") ? " · sem falar com o site" : ""}</p>
     <div id="lista">${edicoes.map((e) => cartao(e, mapa.get(e.numero), !primeiraVez && e.numero > vistoAte)).join("")}</div>
-    <div class="barra"><button class="botao" id="btn-atualizar">Atualizar</button></div>`;
+    <div class="barra"><button class="botao" id="btn-atualizar">Atualizar</button></div>
+    <aside class="lateral" id="lateral"></aside>`;
 
   $("#btn-atualizar").onclick = () => atualizarComAviso();
+  desenharLateral();
   cfg.set("vistoAte", String(Math.max(...edicoes.map((e) => e.numero))));
 }
 
