@@ -115,7 +115,7 @@ async function sincronizar(progresso, maxPaginas = 6) {
   return edicoes;
 }
 
-const VERSAO = "v5";
+const VERSAO = "v6";
 
 let sincronizando = false;
 
@@ -212,6 +212,166 @@ async function garantirTextos(limite = 40) {
     } catch (e) { /* arquivo ausente: segue sem ele */ }
   }
   return faltando.length;
+}
+
+// ------------------------------------------------------------------ calendário
+const MESES = ["janeiro","fevereiro","março","abril","maio","junho",
+               "julho","agosto","setembro","outubro","novembro","dezembro"];
+const DIAS_CURTOS = ["D","S","T","Q","Q","S","S"];
+
+let CAL = null;
+
+async function carregarCalendario() {
+  if (CAL) return CAL;
+  try {
+    const r = await fetch("dados/calendario.json", { cache: "no-cache" });
+    if (!r.ok) throw new Error(r.status);
+    CAL = await r.json();
+    localStorage.setItem("diario.calendario", JSON.stringify(CAL));
+  } catch (e) {
+    try { CAL = JSON.parse(localStorage.getItem("diario.calendario") || "null"); } catch (e2) { CAL = null; }
+    if (!CAL) CAL = { ano: new Date().getFullYear(), datas: [], titulo: "Calendário" };
+  }
+  return CAL;
+}
+
+function porData(iso) {
+  const [a, m, d] = iso.split("-").map(Number);
+  return new Date(a, m - 1, d);
+}
+
+function hojeISO() {
+  const h = new Date();
+  return `${h.getFullYear()}-${String(h.getMonth() + 1).padStart(2, "0")}-${String(h.getDate()).padStart(2, "0")}`;
+}
+
+function diasAte(iso) {
+  const h = new Date(); h.setHours(0, 0, 0, 0);
+  return Math.round((porData(iso) - h) / 86400000);
+}
+
+function quando(d) {
+  if (d === 0) return "é hoje";
+  if (d === 1) return "amanhã";
+  if (d < 0) return `há ${-d} dia${-d === 1 ? "" : "s"}`;
+  return `faltam ${d} dias`;
+}
+
+function rotuloTipo(tipo) {
+  if (tipo === "facultativo") return "ponto facultativo";
+  if (tipo === "municipal") return "data do município";
+  return "feriado";
+}
+
+function nomeDoDia(iso) {
+  const nomes = ["domingo","segunda-feira","terça-feira","quarta-feira","quinta-feira","sexta-feira","sábado"];
+  return nomes[porData(iso).getDay()];
+}
+
+let MES_CAL = null;   // mês escolhido sobrevive a uma repintura de fundo
+
+async function telaCalendario(mesPedido) {
+  marcarNav("calendario");
+  const cal = await carregarCalendario();
+  const datas = (cal.datas || []).slice().sort((a, b) => a.data.localeCompare(b.data));
+  const mapa = new Map(datas.map((d) => [d.data, d]));
+
+  const hoje = new Date(); hoje.setHours(0, 0, 0, 0);
+  if (mesPedido !== undefined) MES_CAL = mesPedido;
+  const base = MES_CAL !== null
+    ? MES_CAL
+    : (hoje.getFullYear() === cal.ano ? hoje.getMonth() : 0);
+  const mes = Math.min(11, Math.max(0, base));
+  MES_CAL = mes;
+
+  const feriados = datas.filter((d) => d.tipo === "feriado").length;
+  const facultativos = datas.filter((d) => d.tipo === "facultativo").length;
+  const municipais = datas.filter((d) => d.tipo === "municipal").length;
+
+  const proxima = datas.find((d) => diasAte(d.data) >= 0);
+  const faixa = proxima ? `
+    <div class="proxima">
+      <div class="quando">${escapar(quando(diasAte(proxima.data)))}</div>
+      <div class="dia">${escapar(dataBr(proxima.data))}</div>
+      <div class="nome">${escapar(proxima.nome)}</div>
+      <div class="tipo">${escapar(rotuloTipo(proxima.tipo))}${proxima.nota ? " · " + escapar(proxima.nota) : ""}</div>
+    </div>` : "";
+
+  const grade = montarGrade(cal.ano, mes, mapa);
+
+  const porMes = MESES.map((nome, i) => {
+    const doMes = datas.filter((d) => porData(d.data).getMonth() === i);
+    if (!doMes.length) return "";
+    return `<h3 class="mes-lista">${escapar(nome)}</h3>
+      <ul class="lista-cal">${doMes.map((d) => `
+        <li><span class="dia-num">${escapar(d.data.slice(8, 10))}</span>
+          <span class="marca ${d.tipo}"></span>
+          <span class="rotulo"><b>${escapar(d.nome)}</b>${d.nota ? `<small>${escapar(d.nota)}</small>` : ""}</span>
+          <span class="dia-sem">${escapar(nomeDoDia(d.data).split("-")[0])}</span></li>`).join("")}
+      </ul>`;
+  }).join("");
+
+  app.innerHTML = `
+    <h1>Calendário</h1>
+    <p class="meta">${cal.ano} · ${feriados} feriados · ${facultativos} facultativos${municipais ? ` · ${municipais} municipais` : ""}</p>
+    ${faixa}
+    <div class="mes-topo">
+      <button class="seta" id="mes-antes" aria-label="mês anterior">‹</button>
+      <span class="mes-nome">${escapar(MESES[mes])} ${cal.ano}</span>
+      <button class="seta" id="mes-depois" aria-label="próximo mês">›</button>
+    </div>
+    <div class="grade">
+      <div class="cab">${DIAS_CURTOS.map((d) => `<span>${d}</span>`).join("")}</div>
+      ${grade}
+    </div>
+    <div id="detalhe-dia"></div>
+    <h2>Datas do ano</h2>
+    <p class="legenda-cal">
+      <span><i class="marca feriado"></i>feriado</span>
+      <span><i class="marca facultativo"></i>ponto facultativo</span>
+      <span><i class="marca municipal"></i>data do município</span>
+    </p>
+    ${porMes}
+    <p class="rodape">${escapar(cal.nota || "")}${cal.fonte
+      ? ` <a href="${escapar(cal.fonte)}" target="_blank" rel="noopener">Calendário oficial da Prefeitura</a>.`
+      : ""}</p>`;
+
+  $("#mes-antes").onclick = () => telaCalendario(mes === 0 ? 11 : mes - 1);
+  $("#mes-depois").onclick = () => telaCalendario(mes === 11 ? 0 : mes + 1);
+  app.querySelectorAll(".celula[data-data]").forEach((c) => {
+    c.onclick = () => mostrarDia(c.dataset.data);
+  });
+}
+
+function montarGrade(ano, mes, mapa) {
+  const primeiro = new Date(ano, mes, 1).getDay();
+  const dias = new Date(ano, mes + 1, 0).getDate();
+  const antes = new Date(ano, mes, 0).getDate();
+  const hoje = hojeISO();
+  const celulas = [];
+
+  for (let i = primeiro - 1; i >= 0; i--) celulas.push(`<span class="celula fora">${antes - i}</span>`);
+  for (let d = 1; d <= dias; d++) {
+    const iso = `${ano}-${String(mes + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
+    const ev = mapa.get(iso);
+    const classes = ["celula"];
+    if (ev) classes.push(ev.tipo);
+    if (iso === hoje) classes.push("hoje");
+    celulas.push(`<span class="${classes.join(" ")}" data-data="${iso}">${d}</span>`);
+  }
+  while (celulas.length % 7) celulas.push(`<span class="celula fora"></span>`);
+  return celulas.join("");
+}
+
+function mostrarDia(iso) {
+  const alvo = document.getElementById("detalhe-dia");
+  if (!alvo) return;
+  const ev = (CAL?.datas || []).find((d) => d.data === iso);
+  if (!ev) { alvo.innerHTML = `<p class="vazio-dia">${escapar(dataBr(iso))} · ${escapar(nomeDoDia(iso))} — sem data marcada.</p>`; return; }
+  alvo.innerHTML = `<div class="detalhe ${ev.tipo}">
+      <b>${escapar(ev.nome)}</b>
+      <span>${escapar(dataBr(iso))} · ${escapar(nomeDoDia(iso))} · ${escapar(ev.tipo)}${ev.nota ? " · " + escapar(ev.nota) : ""}</span>
+    </div>`;
 }
 
 // ------------------------------------------------------------------ telas
@@ -693,6 +853,7 @@ async function rotear() {
   try {
     if (rota === "edicao" && param) return await telaEdicao(parseInt(param, 10));
     if (rota === "busca") return await telaBusca(decodeURIComponent(location.hash.split("?q=")[1] || ""));
+    if (rota === "calendario") return await telaCalendario();
     if (rota === "ajustes") return await telaAjustes();
     return await telaLista();
   } catch (e) {
