@@ -92,7 +92,11 @@ function linkDoArquivo(html) {
 async function sincronizar(progresso, maxPaginas = 6) {
   const edicoes = [];
   for (let pagina = 1; pagina <= maxPaginas; pagina++) {
-    const r = await fetch(`${API}?per_page=100&page=${pagina}&orderby=date&order=desc&_fields=${CAMPOS}`);
+    // a API da prefeitura manda cache-control de 7 dias: sem no-store o navegador
+    // devolve a mesma lista por uma semana e o app fica preso na edição antiga.
+    const marca = `${Date.now()}-${pagina}`;
+    const r = await fetch(`${API}?per_page=100&page=${pagina}&orderby=date&order=desc&_fields=${CAMPOS}&_=${marca}`,
+      { cache: "no-store" });
     if (r.status === 400 || r.status === 404) break;   // passou da última página
     if (!r.ok) throw new Error("A API respondeu " + r.status);
     const posts = await r.json();
@@ -115,7 +119,7 @@ async function sincronizar(progresso, maxPaginas = 6) {
   return edicoes;
 }
 
-const VERSAO = "v7";
+const VERSAO = "v8";
 
 let sincronizando = false;
 
