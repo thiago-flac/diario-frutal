@@ -9414,5 +9414,207 @@
   "paginas": 34,
   "modelo": "gemini-3.5-flash",
   "gerado_em": "2026-11-15T00:09:44Z"
+ },
+ {
+  "numero": 335,
+  "data": "2025-11-04",
+  "resumo": "Esta edição traz o reagendamento da Prova de Conceito (POC) do Pregão nº 89/2025 para 12/11/2025 e a homologação/contratação de 2 ônibus escolares no valor total de R$ 1,018 milhão. Além disso, publica a alteração do cronograma da seleção para Diretor Escolar e convoca coletivos culturais para a entrega de documentos do Edital Aldir Blanc entre 05 e 11/11/2025.",
+  "tipo": "misto",
+  "prazo": "11 de novembro de 2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Educação e Inclusão",
+   "Departamento de Licitações"
+  ],
+  "destaques": [
+   {
+    "titulo": "Adiado teste presencial (POC) do Pregão 89/2025",
+    "texto": "A sessão presencial de Prova de Conceito (POC) foi reagendada para o dia 12/11/2025, às 09:00, no Departamento de Licitações, em razão de licença de saúde do pregoeiro titular.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Compra de 2 ônibus escolares por R$ 1 milhão",
+    "texto": "Foi homologada a licitação e assinado contrato com a Marcopolo S/A para aquisição de 2 ônibus escolares zero km (29 lugares) pelo valor de R$ 1.018.000,00, via Convênio Mãos Dadas.",
+    "pagina": 2,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Novo cronograma para seleção de diretores escolares",
+    "texto": "Foi alterado o anexo IV do Edital nº 001/2025 referente ao processo seletivo para diretores escolares, definindo prazos para recursos da prova objetiva (05 a 06/11) e votação em 28/11/2025.",
+    "pagina": 3,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Convocação de coletivos para a Lei Aldir Blanc",
+    "texto": "Pontos de cultura selecionados no Edital 01/2025 foram convocados para apresentar documentação de habilitação entre os dias 05 e 11 de novembro de 2025.",
+    "pagina": 4,
+    "categoria": "outro"
+   }
+  ],
+  "paginas": 5,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-16T00:15:24Z"
+ },
+ {
+  "numero": 334,
+  "data": "2025-11-03",
+  "resumo": "Esta edição publica o resultado das igrejas evangélicas selecionadas no Edital de Credenciamento nº 04/2025. O documento formaliza a escolha de seis instituições religiosas e seus representantes legais para a participação no evento '8º ABALA FRUTAL 2025'. A publicação é homologada pelo Prefeito Municipal de Frutal.",
+  "tipo": "licitação",
+  "prazo": "",
+  "relevancia": 1,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria de Cultura"
+  ],
+  "destaques": [
+   {
+    "titulo": "Resultado do Credenciamento do 8º ABALA FRUTAL 2025",
+    "texto": "Divulgada a relação das 6 igrejas evangélicas selecionadas via Edital nº 04/2025 para participar do evento 8º ABALA FRUTAL 2025.",
+    "pagina": 1,
+    "categoria": "licitação"
+   }
+  ],
+  "paginas": 1,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-16T00:15:44Z"
+ },
+ {
+  "numero": 333,
+  "data": "2025-10-31",
+  "resumo": "Esta edição traz a abertura de licitação para sistemas de rádio comunicação e a contratação de manutenção para equipamento de combate à dengue. No âmbito orçamentário, foram sancionadas leis que elevam a margem de suplementação municipal e autorizam o remanejamento de R$ 1,33 milhão para garantir a folha de pagamento de servidores. Também foram estabelecidos modelos padronizados para relatórios de prestação de contas de parcerias com OSCs.",
+  "tipo": "misto",
+  "prazo": "17 de novembro de 2025, às 09:00 (Abertura dos lances do Pregão Eletrônico nº 096/2025)",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Departamento de Licitações",
+   "Departamento de Vigilância Epidemiológica",
+   "Secretaria de Serviços Urbanos",
+   "Secretaria Municipal de Esporte",
+   "Secretaria Municipal de Segurança Pública, Trânsito, Transportes e Mobilidade Urbana",
+   "Secretaria do Produtor Rural",
+   "Secretaria de Saúde"
+  ],
+  "destaques": [
+   {
+    "titulo": "Licitação para rádio comunicação digital",
+    "texto": "Abertura do Pregão Eletrônico nº 096/2025 para locação e manutenção de sistema de rádio comunicação digital em VHF por 12 meses. A contratação atenderá às Secretarias de Segurança Pública, Produtor Rural e Saúde.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Manutenção de fumacê contra a Dengue",
+    "texto": "Contratação direta da empresa Concorre Comercio Ltda por R$ 16.967,86 para manutenção de equipamento UBV pesado. O serviço é destinado ao combate ao Aedes aegypti pelo Departamento de Vigilância Epidemiológica.",
+    "pagina": 1,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Elevação do limite de suplementação orçamentária",
+    "texto": "A Lei nº 6.941/2025 autoriza o aumento da margem de suplementação orçamentária em 10%, fixando o novo limite em até 25% do montante total do orçamento de 2025.",
+    "pagina": 2,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Crédito suplementar para folha de pessoal",
+    "texto": "A Lei nº 6.942/2025 autoriza a suplementação de R$ 1.330.500,00 para adequação da folha de pagamento (outubro a dezembro/2025) em secretarias recém-criadas, remanejando verbas da iluminação pública.",
+    "pagina": 3,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Padronização de relatórios de parcerias com OSCs",
+    "texto": "A Portaria nº 1.191/2025 institui modelos padronizados de relatórios técnicos e pareceres para avaliação da prestação de contas de Termos de Fomento e Colaboração celebrados com OSCs.",
+    "pagina": 5,
+    "categoria": "norma"
+   }
+  ],
+  "paginas": 20,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-16T00:16:30Z"
+ },
+ {
+  "numero": 332,
+  "data": "2025-10-30",
+  "resumo": "Esta edição traz decisões e atas de julgamento da Junta Administrativa de Recursos de Infrações (JARI) de Frutal/MG. Entre as deliberações, consta o indeferimento do recurso de um condutor autuado por avançar o sinal vermelho, mantendo-se a multa e os pontos, e o provimento de outro recurso que resultou na anulação de penalidade devido a erro material na identificação do veículo autuado. Consta também edital de convocação dos membros da JARI para sessão de julgamento.",
+  "tipo": "ato",
+  "prazo": "30 (trinta) dias para interposição de recurso à segunda instância administrativa no caso mantido",
+  "relevancia": 0,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Junta Administrativa de Recursos de Infrações - JARI",
+   "DETRAN Frutal"
+  ],
+  "destaques": [
+   {
+    "titulo": "Manutenção de multa por avanço de sinal vermelho",
+    "texto": "A JARI negou provimento ao recurso de Bruno Faria de Abreu, mantendo integralmente a multa do art. 208 do CTB e a pontuação na CNH por avanço de sinal vermelho.",
+    "pagina": 4,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Anulação de multa de trânsito por erro material",
+    "texto": "Foi provido o recurso de Adriano Pascoalino Reis, declarando a nulidade do Auto de Infração nº AG5917586 devido a divergência entre a espécie do veículo autuado e o do proprietário.",
+    "pagina": 9,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Convocação de membros da JARI para reunião",
+    "texto": "Edital convocou os membros da JARI para reunião por videoconferência realizada em 30/09/2025 para deliberar sobre recurso de infração de trânsito.",
+    "pagina": 17,
+    "categoria": "outro"
+   }
+  ],
+  "paginas": 19,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-16T00:17:28Z"
+ },
+ {
+  "numero": 331,
+  "data": "2025-10-29",
+  "resumo": "Esta edição traz a divulgação do resultado da seleção do Edital de Pontos de Cultura (Lei Aldir Blanc), a convocação de profissionais de odontologia para atuação na APAC e Presídio de Frutal, e a abertura de licitação para serviços de cerimonial e ornamentação das formaturas da rede municipal de ensino infantil. Constam também a contratação de show musical para a formatura do Tiro de Guerra e uma exoneração a pedido.",
+  "tipo": "misto",
+  "prazo": "15 dias corridos para convocados da saúde apresentarem documentos no RH; 14/11/2025 às 08:30 para o pregão de cerimonial",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Saúde",
+   "Secretaria Municipal de Educação"
+  ],
+  "destaques": [
+   {
+    "titulo": "Convocação de profissionais de saúde para o Presídio/APAC",
+    "texto": "O 2º Edital de Convocação do Processo Seletivo nº 005/2025 (PNAISP) convoca as candidatas aprovadas para os cargos de Dentista e Auxiliar de Consultório Dentário. As convocadas devem comparecer ao RH da Prefeitura munidas dos documentos exigidos.",
+    "pagina": 4,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Licitação para ornamentação e cerimonial de formaturas infantis",
+    "texto": "Abertura do Pregão Eletrônico para Registro de Preço nº 100/2025 visando contratar empresa para cerimonial de formatura dos alunos da rede municipal de educação infantil. A sessão pública ocorrerá dia 14 de novembro de 2025, às 08h30.",
+    "pagina": 3,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Resultado da seleção dos Pontos de Cultura (Aldir Blanc)",
+    "texto": "Publicado o resultado da fase de seleção do Edital 01/2025, que classifica 8 coletivos/entidades culturais aprovados e 1 não aprovado no município.",
+    "pagina": 1,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Contratação de show para evento do Tiro de Guerra",
+    "texto": "Extrato do Contrato nº 154/2025 referente à contratação da dupla sertaneja João Vittor e Fernando para se apresentar no evento de Formatura do Tiro de Guerra/2025 pelo valor de R$ 2.000,00.",
+    "pagina": 3,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Exoneração a pedido de professora efetiva",
+    "texto": "O Decreto nº 13.917/2025 formaliza a exoneração a pedido da servidora Aldeane José Gomes do cargo de Professora PEB I Magistério.",
+    "pagina": 2,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 5,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-16T00:18:00Z"
  }
 ]
