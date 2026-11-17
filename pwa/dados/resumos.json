@@ -1,5 +1,28 @@
 [
  {
+  "numero": 557,
+  "data": "2026-11-16",
+  "resumo": "Esta edição publica o extrato de contrato relativo à contratação de atração musical para a Festa Cultural da rede municipal de ensino. O evento comemora os 25 Anos da Escola Municipal Ângelo Ricardo e contará com show da dupla Bruna & Calil no dia 19 de novembro de 2026. O contrato tem vigência de 30 dias com valor total de R$ 5.000,00.",
+  "tipo": "contrato",
+  "prazo": "19/11/2026",
+  "relevancia": 1,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Escola Municipal Ângelo Ricardo"
+  ],
+  "destaques": [
+   {
+    "titulo": "Show para a Festa Cultural de Escola Municipal",
+    "texto": "Contratação da dupla Bruna & Calil por R$ 5.000,00 para apresentação na Festa Cultural de 25 Anos da Escola Municipal Ângelo Ricardo, marcada para 19/11/2026.",
+    "pagina": 1,
+    "categoria": "educação"
+   }
+  ],
+  "paginas": 1,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-17T03:05:18Z"
+ },
+ {
   "numero": 556,
   "data": "2026-11-13",
   "resumo": "Esta edição traz a autorização de uso de área institucional para instalação de poços artesianos destinados ao abastecimento de água do Residencial Francisco Cabrera Moron, além do resultado preliminar do Edital de Premiação de Pontos de Cultura.",
@@ -9616,5 +9639,179 @@
   "paginas": 5,
   "modelo": "gemini-3.5-flash",
   "gerado_em": "2026-11-16T00:18:00Z"
+ },
+ {
+  "numero": 330,
+  "data": "2025-10-24",
+  "resumo": "Esta edição traz a divulgação do local e horários de prova do Processo Seletivo nº 001/2025 da Secretaria de Educação, agendada para 26/10/2025. Além disso, apresenta avisos de licitação para contratação de serviços médicos e exames especializados de saúde, e para perfuração de poço artesiano no Povoado Garimpo do Bandeira.",
+  "tipo": "misto",
+  "prazo": "26/10/2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Departamento de Licitações",
+   "Secretaria Municipal de Saúde",
+   "Secretaria de Educação do Município de Frutal"
+  ],
+  "destaques": [
+   {
+    "titulo": "Local e horário da prova do Processo Seletivo da Educação",
+    "texto": "A prova do Edital nº 001/2025 será realizada em 26/10/2025 no Auditório do SINE (Rua Iturama, 1491). O fechamento dos portões ocorre às 13h50 e a prova das 14h às 17h.",
+    "pagina": 2,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Contratação de serviços médicos e exames especializados",
+    "texto": "Dispensa Eletrônica nº 17/2025 para contratação de consórcio público para consultas, exames e procedimentos de saúde. Disputa de preços agendada para 03/11/2025.",
+    "pagina": 1,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Licitação para poço artesiano no Garimpo do Bandeira",
+    "texto": "Pregão Eletrônico nº 098/2025 para perfuração de poço tubular profundo de 200 metros, incluindo análises e equipamentos. Fase de lances agendada para 17/11/2025 às 14h.",
+    "pagina": 1,
+    "categoria": "obras"
+   }
+  ],
+  "paginas": 3,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-17T03:05:35Z"
+ },
+ {
+  "numero": 329,
+  "data": "2025-10-23",
+  "resumo": "Esta edição traz a abertura do Pregão Eletrônico nº 93/2025 para registro de preços visando a aquisição de materiais de higiene e limpeza para as secretarias municipais. Além disso, publica o Decreto nº 13.916/2025, que concede o descaucionamento parcial de lotes no loteamento Condomínio Parque Ecológico após verificação das obras de infraestrutura.",
+  "tipo": "misto",
+  "prazo": "13 de novembro de 2025",
+  "relevancia": 1,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Departamento de Licitações",
+   "Secretaria Municipal de Obras"
+  ],
+  "destaques": [
+   {
+    "titulo": "Licitação para materiais de higiene e limpeza",
+    "texto": "Foi publicado o edital do Pregão Eletrônico nº 93/2025 para futura e eventual aquisição de materiais de higiene e limpeza para atender diversas secretarias municipais por 12 meses. A sessão de lances será realizada no dia 13 de novembro de 2025, às 9h.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Liberação de garantia no Loteamento Parque Ecológico",
+    "texto": "O Decreto nº 13.916/2025 autorizou o descaucionamento parcial dos lotes 01 a 18 da quadra 1154 e 01 a 28 da quadra 1166 do Condomínio Parque Ecológico, após verificação das obras de urbanização pela Secretaria de Obras.",
+    "pagina": 2,
+    "categoria": "obras"
+   }
+  ],
+  "paginas": 2,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-17T03:05:48Z"
+ },
+ {
+  "numero": 328,
+  "data": "2025-10-22",
+  "resumo": "Esta edição traz informações sobre as próximas etapas e prazos do Programa Minha Casa Minha Vida para 99 selecionados e 30 suplentes. Além disso, foram sancionadas a lei que institui o Estatuto da Igualdade Étnico-Racial, a norma que isenta tributos municipais para pequenos produtores rurais na feira e a lei do Programa Municipal de Saúde Preventiva.",
+  "tipo": "misto",
+  "prazo": "5 dias úteis a contar da publicação para impugnação do Edital nº 003/2025 - SMAS",
+  "relevancia": 3,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Assistência Social",
+   "Câmara de Vereadores",
+   "Secretaria Municipal do Produtor Rural",
+   "Conselho Municipal de Habitação"
+  ],
+  "destaques": [
+   {
+    "titulo": "Minha Casa Minha Vida e Impugnação",
+    "texto": "Define as fases de avaliação de crédito junto à CEF para 99 pré-selecionados e 30 suplentes. Qualquer cidadão pode impugnar o edital fundamentadamente em até 5 dias úteis na Assistência Social.",
+    "pagina": 1,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Estatuto da Igualdade Étnico-Racial",
+    "texto": "Sancionada a Lei nº 6.938/2025 que define políticas públicas contra o racismo, diretrizes na educação e saúde, além de criar o Conselho Municipal de Promoção da Igualdade Étnico-Racial.",
+    "pagina": 6,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Isenção para Pequenos Produtores Rurais",
+    "texto": "A Lei nº 6.939/2025 regulamenta a feira de pequenos produtores rurais e garante isenção de tributos municipais aos produtores devidamente cadastrados na Secretaria do Produtor Rural.",
+    "pagina": 23,
+    "categoria": "tributo"
+   },
+   {
+    "titulo": "Programa de Saúde Preventiva e Bem-Estar",
+    "texto": "A Lei nº 6.940/2025 institui mutirões de saúde, exames gratuitos e prevenção de doenças crônicas na rede municipal, com foco em populações em situação de vulnerabilidade social.",
+    "pagina": 24,
+    "categoria": "saúde"
+   }
+  ],
+  "paginas": 25,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-17T03:06:35Z"
+ },
+ {
+  "numero": 327,
+  "data": "2025-10-21",
+  "resumo": "Esta edição reúne decretos municipais de abertura de créditos adicionais e suplementares para áreas como cultura, limpeza urbana, infraestrutura rural e saúde, além de licitação para contratação de serviços de telefonia VoIP e PABX Virtual e atualizações de pessoal nas secretarias.",
+  "tipo": "misto",
+  "prazo": "10 de novembro de 2025",
+  "relevancia": 1,
+  "orgaos": [
+   "Câmara Municipal de Frutal",
+   "Fundo Municipal de Saúde",
+   "Fundação Hospital Frei Gabriel",
+   "Prefeitura Municipal de Frutal",
+   "Secretaria de Serviços Urbanos",
+   "Secretaria Municipal de Administração",
+   "Secretaria Municipal de Cultura, Lazer, Esporte e Inclusão",
+   "Secretaria Municipal de Esportes",
+   "Secretaria Municipal de Planejamento de Obras e Serviços Urbanos",
+   "Secretaria Municipal de Saúde",
+   "Secretaria Municipal de Segurança Pública, Trânsito, Transporte e Mobilidade Urbana",
+   "Secretaria Municipal do Produtor Rural"
+  ],
+  "destaques": [
+   {
+    "titulo": "Crédito para Eventos Culturais",
+    "texto": "O Decreto nº 13.824 autoriza a abertura de crédito suplementar no valor de R$ 2.960.000,00 para realização de eventos culturais na cidade.",
+    "pagina": 47,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Remanejamento Orçamentário Municipal",
+    "texto": "Abertura de crédito adicional suplementar no valor global de R$ 2.238.029,38, ajustando dotações de diversas secretarias e fundos municipais.",
+    "pagina": 3,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Limpeza Pública e Serviços Urbanos",
+    "texto": "O Decreto nº 13.845 abre crédito suplementar de R$ 1.940.390,00 focado na manutenção urbana, serviços de limpeza pública e esporte.",
+    "pagina": 58,
+    "categoria": "obras"
+   },
+   {
+    "titulo": "Licitação para Telefonia VoIP e PABX Virtual",
+    "texto": "Abertura do Pregão Eletrônico nº 087/2025 para contratação de empresa de telefonia fixa comutada (tecnologia VoIP e PABX Virtual em nuvem) por 12 meses. A sessão pública de lances ocorrerá no dia 10 de novembro de 2025, às 09:30.",
+    "pagina": 2,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Manutenção de Estradas Vicinais",
+    "texto": "O Decreto nº 13.844 remaneja R$ 830.000,00 para conservação de estradas rurais e aquisição de equipamentos para o produtor rural.",
+    "pagina": 55,
+    "categoria": "obras"
+   },
+   {
+    "titulo": "Recursos para Hospital Frei Gabriel",
+    "texto": "O Decreto nº 13.816 destina R$ 509.306,20 para serviços de terceiros e auxílio-alimentação na Fundação Hospital Frei Gabriel.",
+    "pagina": 38,
+    "categoria": "saúde"
+   }
+  ],
+  "paginas": 68,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-17T03:08:00Z"
  }
 ]
