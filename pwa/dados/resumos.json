@@ -1,5 +1,34 @@
 [
  {
+  "numero": 558,
+  "data": "2026-11-17",
+  "resumo": "A edição traz o resultado preliminar do Edital de Fomento Cultural - Frutal das Artes nº 02/2026 para a habilitação de projetos suplentes nas áreas de Artes Cênicas e Literatura. Além disso, publica o Decreto Municipal nº 14.397, que revoga integralmente o Decreto nº 14.390 anterior.",
+  "tipo": "misto",
+  "prazo": "",
+  "relevancia": 1,
+  "orgaos": [
+   "Secretaria Municipal de Cultura",
+   "Prefeitura Municipal de Frutal"
+  ],
+  "destaques": [
+   {
+    "titulo": "Resultado preliminar do Edital Frutal das Artes",
+    "texto": "Publicada a habilitação preliminar de projetos suplentes no Edital nº 02/2026 para as categorias de Artes Cênicas e Literatura. A decisão cabe recurso.",
+    "pagina": 1,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Revogação do Decreto Municipal nº 14.390",
+    "texto": "O Prefeito sancionou o Decreto nº 14.397, que anula totalmente o Decreto nº 14.390 de 9 de novembro de 2026.",
+    "pagina": 2,
+    "categoria": "norma"
+   }
+  ],
+  "paginas": 2,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-18T02:35:48Z"
+ },
+ {
   "numero": 557,
   "data": "2026-11-16",
   "resumo": "Esta edição publica o extrato de contrato relativo à contratação de atração musical para a Festa Cultural da rede municipal de ensino. O evento comemora os 25 Anos da Escola Municipal Ângelo Ricardo e contará com show da dupla Bruna & Calil no dia 19 de novembro de 2026. O contrato tem vigência de 30 dias com valor total de R$ 5.000,00.",
@@ -9813,5 +9842,169 @@
   "paginas": 68,
   "modelo": "gemini-3.5-flash",
   "gerado_em": "2026-11-17T03:08:00Z"
+ },
+ {
+  "numero": 326,
+  "data": "2025-10-20",
+  "resumo": "Esta edição (326) do Diário Oficial de Frutal/MG traz a convocação para a Conferência Municipal de Educação e diversos decretos de abertura de créditos adicionais suplementares por anulação de dotação e superávit financeiro para reforço orçamentário de secretarias, fundos municipais, Câmara e Fundação Hospital Frei Gabriel.",
+  "tipo": "misto",
+  "prazo": "19/11/2025",
+  "relevancia": 1,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Câmara Municipal de Vereadores de Frutal",
+   "Secretaria Municipal de Educação e Inclusão",
+   "Secretaria Municipal de Administração",
+   "Secretaria Municipal de Finanças e Planejamento",
+   "Secretaria Municipal do Produtor Rural",
+   "Secretaria Municipal de Planejamento de Obras e Serviços Urbanos",
+   "Secretaria Municipal de Assistência Social",
+   "Secretaria Municipal de Cultura, Lazer, Esporte e Inclusão",
+   "Secretaria Municipal de Desenvolvimento Econômico, Turismo e Inovação",
+   "Procuradoria Geral do Município",
+   "Fundo Municipal de Assistência Social",
+   "Fundo Municipal do Meio Ambiente",
+   "Fundo Municipal de Saúde",
+   "Fundação Hospital Frei Gabriel",
+   "Secretaria Municipal de Segurança Pública, Trânsito, Transportes e Mobilidade Urbana",
+   "Secretaria de Serviços Urbanos"
+  ],
+  "destaques": [
+   {
+    "titulo": "Conferência Municipal de Educação",
+    "texto": "Fica convocada a Conferência Municipal de Educação de Frutal para o dia 19 de novembro de 2025, a partir das 7h30min, na Câmara Municipal de Vereadores, visando debater eixos temáticos e eleger delegados.",
+    "pagina": 1,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Crédito Adicional Suplementar (Decreto 13.779)",
+    "texto": "A Prefeitura abriu crédito adicional suplementar no valor de R$ 3.561.838,19 destinado ao reforço orçamentário de diversas secretarias e fundos municipais, mediante anulação parcial de dotações.",
+    "pagina": 2,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Crédito Adicional por Alteração de Fonte (Decreto 13.780)",
+    "texto": "A Prefeitura abriu crédito adicional suplementar no valor de R$ 2.791.219,49 para reforço orçamentário, conforme solicitação das secretarias municipais.",
+    "pagina": 26,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Crédito para o Hospital Frei Gabriel",
+    "texto": "Decreto nº 13781 abre crédito adicional suplementar de R$ 512.582,79 para reforço na manutenção de pessoal e encargos da fundação hospitalar.",
+    "pagina": 43,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Sinalização de Vias Públicas",
+    "texto": "Decreto nº 13783 destina R$ 72.179,00 para sinalização de vias e logradouros públicos pela Secretaria de Segurança Pública.",
+    "pagina": 45,
+    "categoria": "obras"
+   },
+   {
+    "titulo": "Crédito Suplementar por Superávit na Saúde",
+    "texto": "Decreto nº 13807 abre crédito de R$ 600.000,00 utilizando superávit financeiro para vencimentos de agentes de combate a endemias.",
+    "pagina": 54,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 54,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-18T02:41:14Z"
+ },
+ {
+  "numero": 325,
+  "data": "2025-10-17",
+  "resumo": "Esta edição traz atos da Prefeitura Municipal de Frutal prorrogando por 15 dias o prazo de comissões encarregadas de processos administrativos disciplinares. Trata-se de movimentação interna da administração pública sem impacto direto para o público em geral.",
+  "tipo": "portaria",
+  "prazo": "15 dias",
+  "relevancia": 0,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Comissão Permanente de Processo Administrativo Disciplinar"
+  ],
+  "destaques": [
+   {
+    "titulo": "Prorrogação de Processo Administrativo",
+    "texto": "Fica prorrogado por 15 dias o prazo da Portaria 1.180/2025 referente ao Processo Administrativo Disciplinar nº 003/2025, para finalização dos trabalhos pela comissão.",
+    "pagina": 1,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Prorrogação de Processo Administrativo",
+    "texto": "Fica prorrogado por 15 dias o prazo da Portaria 1.181/2025 referente ao Processo Administrativo Disciplinar nº 003/2025, para emissão do relatório conclusivo.",
+    "pagina": 2,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 2,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-18T02:41:29Z"
+ },
+ {
+  "numero": 324,
+  "data": "2025-10-16",
+  "resumo": "Esta edição traz o extrato de contrato para o show da cantora Bruna Karla no evento 8º Abala Frutal, no valor de R$ 220 mil, e a homologação de licitação para a realização de Processo Seletivo Público para cargos na saúde.",
+  "tipo": "misto",
+  "prazo": "08/11/2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Saúde"
+  ],
+  "destaques": [
+   {
+    "titulo": "Show de Bruna Karla",
+    "texto": "Contratação da cantora Bruna Karla para apresentação artística no evento 8º Abala Frutal, marcado para o dia 08 de novembro de 2025 no Estádio Pedro Macedo da Silveira (Marretão), pelo valor de R$ 220.000,00.",
+    "pagina": 1,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Processo Seletivo para Saúde",
+    "texto": "Homologada a licitação da empresa Império Assessoria e Concursos Ltda para organizar o Processo Seletivo Público destinado ao provimento de cargos de Agente Comunitário de Saúde (ACS) e Agente de Combate às Endemias (ACE).",
+    "pagina": 1,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 1,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-18T02:41:51Z"
+ },
+ {
+  "numero": 323,
+  "data": "2025-10-15",
+  "resumo": "Esta edição traz a suspensão de um pregão eletrônico de telecomunicações, a atualização do valor da Unidade Fiscal do Município (UFM) para R$ 10,10, e a abertura de edital de credenciamento para igrejas evangélicas participarem da praça de alimentação do 8º Abala Frutal.",
+  "tipo": "misto",
+  "prazo": "30/10/2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Departamento de Licitações",
+   "Secretaria Municipal de Administração",
+   "Secretaria Municipal de Cultura",
+   "Secretaria Municipal de Saúde"
+  ],
+  "destaques": [
+   {
+    "titulo": "Suspensão de Licitação",
+    "texto": "O pregão eletrônico para contratação de serviços de telefonia móvel foi suspenso para a realização de ajustes no edital e anexos.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Atualização da UFM",
+    "texto": "O valor da Unidade Fiscal do Município de Frutal foi fixado em R$ 10,10, com base na inflação de 5,10% do INPC/IBGE.",
+    "pagina": 2,
+    "categoria": "tributo"
+   },
+   {
+    "titulo": "Credenciamento para o 8º Abala Frutal",
+    "texto": "Igrejas evangélicas locais podem se credenciar para explorar barracas de alimentação e bebidas não alcoólicas na praça de alimentação do evento.",
+    "pagina": 3,
+    "categoria": "norma"
+   }
+  ],
+  "paginas": 8,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-18T02:42:09Z"
  }
 ]
