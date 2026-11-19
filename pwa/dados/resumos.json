@@ -1,5 +1,61 @@
 [
  {
+  "numero": 559,
+  "data": "2026-11-18",
+  "resumo": "Esta edição traz um aviso de licitação para poço tubular na Escola Municipal Frei Teodósio, um decreto com restrições ambientais em áreas verdes e institucionais lindeiras ao Córrego Vertente Grande, além de portarias sobre processos administrativos disciplinares, incluindo a demissão de uma servidora e o arquivamento de sindicância.",
+  "tipo": "misto",
+  "prazo": "02 de dezembro de 2026",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Recursos Humanos",
+   "Secretaria Municipal de Administração",
+   "Secretaria Municipal de Meio Ambiente",
+   "Coordenadoria Regional das Promotorias de Justiça do Meio Ambiente"
+  ],
+  "destaques": [
+   {
+    "titulo": "Licitação para Poço Tubular",
+    "texto": "Aviso de Pregão Eletrônico para contratação de empresa visando à perfuração e instalação de poço tubular na Escola Municipal Frei Teodósio. A abertura da sessão e início dos lances ocorrem em 02 de dezembro de 2026.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Restrições Ambientais no Córrego Vertente Grande",
+    "texto": "Decreto estabelece restrições administrativas de uso e ocupação para preservação ambiental em áreas verdes e institucionais do loteamento Senador Gomes. Fica vedada a supressão de vegetação, edificações e terraplanagem nos locais.",
+    "pagina": 6,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Demissão de Servidora",
+    "texto": "Portaria encerra processo administrativo disciplinar e aplica penalidade de demissão a servidora ocupante do cargo de Agente de Fiscalização - Fiscal do Meio Ambiente, por insubordinação grave em serviço.",
+    "pagina": 5,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Instauração de PAD Sumário por Inassiduidade",
+    "texto": "Portaria instaura processo administrativo disciplinar sob rito sumário para apurar faltas injustificadas e suposta inassiduidade habitual de servidor municipal, com prazo de 60 dias para conclusão.",
+    "pagina": 4,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Instauração de Processo Administrativo Disciplinar",
+    "texto": "Determina a abertura de PAD para apurar eventuais irregularidades cometidas no exercício da profissão por servidor municipal, observando o prazo de 60 dias para conclusão.",
+    "pagina": 3,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Arquivamento de Sindicância",
+    "texto": "Portaria acolhe relatório de comissão e determina o arquivamento de sindicância administrativa instaurada contra servidor, por não se comprovar infração disciplinar.",
+    "pagina": 2,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 7,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-19T02:02:50Z"
+ },
+ {
   "numero": 558,
   "data": "2026-11-17",
   "resumo": "A edição traz o resultado preliminar do Edital de Fomento Cultural - Frutal das Artes nº 02/2026 para a habilitação de projetos suplentes nas áreas de Artes Cênicas e Literatura. Além disso, publica o Decreto Municipal nº 14.397, que revoga integralmente o Decreto nº 14.390 anterior.",
@@ -10006,5 +10062,212 @@
   "paginas": 8,
   "modelo": "gemini-flash-lite-latest",
   "gerado_em": "2026-11-18T02:42:09Z"
+ },
+ {
+  "numero": 322,
+  "data": "2025-10-14",
+  "resumo": "Esta edição traz a instituição da Política Municipal de Humanização do Luto Materno e Parental, garantindo acolhimento e suporte psicológico na rede de saúde de Frutal. Também declara a UEMG (Unidade Frutal) como de utilidade pública municipal. Por fim, fixa o prazo de 28/11/2025 para fornecedores entregarem notas fiscais referente ao encerramento do exercício financeiro e publica uma nomeação de cargo comissionado.",
+  "tipo": "misto",
+  "prazo": "28/11/2025 (entrega de notas fiscais por fornecedores)",
+  "relevancia": 2,
+  "orgaos": [
+   "Secretaria Municipal de Saúde",
+   "Fundação Hospital Frei Gabriel",
+   "Secretaria Municipal de Segurança Pública, Trânsito, Transportes e Mobilidade Urbana",
+   "Secretaria Municipal de Finanças",
+   "Câmara de Vereadores"
+  ],
+  "destaques": [
+   {
+    "titulo": "Política de Humanização do Luto Materno",
+    "texto": "Garante atendimento humanizado, direito a acompanhante, acomodação adequada e suporte psicológico para famílias em situação de perda gestacional, fetal ou neonatal no SUS Frutal.",
+    "pagina": 1,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Mês do Luto Gestacional e Infantil",
+    "texto": "Institui o mês de outubro como o Mês de Conscientização sobre o Luto Gestacional, Neonatal e Infantil com campanhas educativas e eventos de sensibilização.",
+    "pagina": 2,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "UEMG Declarada de Utilidade Pública",
+    "texto": "A Universidade do Estado de Minas Gerais - Unidade Frutal foi reconhecida e declarada como entidade de utilidade pública no município.",
+    "pagina": 3,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Nomeação de Gerente de Frota",
+    "texto": "Nomeia Juliana Oliveira de Queiroz para o cargo em comissão de Gerente de Manutenção e Conservação de Frota da Secretaria de Segurança e Trânsito.",
+    "pagina": 4,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Prazo para Envio de Notas Fiscais",
+    "texto": "Fornecedores da Prefeitura devem emitir e enviar notas fiscais de serviços/produtos prestados até 28/11/2025 para viabilizar o encerramento do exercício financeiro.",
+    "pagina": 5,
+    "categoria": "outro"
+   }
+  ],
+  "paginas": 5,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-19T02:05:27Z"
+ },
+ {
+  "numero": 321,
+  "data": "2025-10-13",
+  "resumo": "Esta edição do Diário Oficial traz atos de pessoal, como convocação no PSS nº 03/2025 da Assistência Social, exoneração de servidora e nomeação de membros de comissão escolar, além de diversos decretos orçamentários de abertura de créditos suplementares e por superávit financeiro para a saúde, educação, assistência social e serviços urbanos.",
+  "tipo": "misto",
+  "prazo": "14/10/2025",
+  "relevancia": 1,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Assistência Social",
+   "Secretaria Municipal de Educação",
+   "Secretaria Municipal de Finanças e Planejamento",
+   "Fundo Municipal de Saúde",
+   "Fundação Hospital Frei Gabriel",
+   "Secretaria de Serviços Urbanos",
+   "Secretaria Municipal de Cultura, Lazer, Esporte e Inclusão",
+   "Secretaria Municipal de Esporte",
+   "Fundo Municipal de Assistência Social",
+   "Secretaria Municipal de Desenvolvimento Econômico, Turismo e Inovação",
+   "Secretaria Municipal de Segurança Pública, Trânsito, Transportes e Mobilidade Urbana",
+   "Secretaria Municipal de Administração",
+   "Secretaria Municipal de Planejamento de Obras e Serviços Urbanos"
+  ],
+  "destaques": [
+   {
+    "titulo": "Convocação no PSS nº 03/2025 para Serviços Gerais",
+    "texto": "A candidata Mirian de Jesus Silva Santana foi convocada para comparecer à Secretaria Municipal de Assistência Social munida da documentação exigida (originais e cópias).",
+    "pagina": 1,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Nomeação de membros para Comissão de Escolha de Diretor Escolar",
+    "texto": "O Decreto nº 13.909/2025 altera a composição da Comissão de Monitoramento e Avaliação do Processo de Escolha de Diretor Escolar, nomeando representantes sindicais titulares e suplentes.",
+    "pagina": 3,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Crédito para o Hospital Frei Gabriel",
+    "texto": "O Decreto nº 13.752 abre crédito suplementar de R$ 100.000,00 para a manutenção da Fundação Hospital Frei Gabriel.",
+    "pagina": 56,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Remanejamento para Educação e Serviços Urbanos",
+    "texto": "O Decreto nº 13.753 abre crédito suplementar de mais de R$ 4,5 milhões voltado para transporte escolar e limpeza pública.",
+    "pagina": 57,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Créditos por Superávit na Assistência Social",
+    "texto": "O Decreto nº 13.757 destina R$ 313.500,00 via superávit financeiro para programas do Fundo Municipal de Assistência Social, como o Bolsa Família e proteção social.",
+    "pagina": 63,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Suplementação Orçamentária Geral",
+    "texto": "O Decreto nº 13.770 abre crédito suplementar superior a R$ 1,9 milhão para diversas secretarias e manutenções urbanas, trânsito e iluminação pública.",
+    "pagina": 69,
+    "categoria": "obras"
+   }
+  ],
+  "paginas": 97,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-19T02:08:37Z"
+ },
+ {
+  "numero": 320,
+  "data": "2025-10-10",
+  "resumo": "Esta edição traz aviso de licitação para compra de cacau em pó para a educação, retificação de chamamento público para unidades habitacionais, prorrogação de inscrições para Pontos de Cultura, decreto de aposentadoria de servidoras, extrato de termo de fomento e duas certidões de dispensa de licenciamento ambiental.",
+  "tipo": "misto",
+  "prazo": "29/10/2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Departamento de Licitações",
+   "Secretaria Municipal de Educação e Inclusão",
+   "Secretaria Municipal de Cultura",
+   "Secretaria Municipal do Meio Ambiente (SEMMA)"
+  ],
+  "destaques": [
+   {
+    "titulo": "Licitação para Cacau em Pó",
+    "texto": "Aviso de Pregão Eletrônico nº 97/2025 para aquisição futura de cacau em pó sem açúcar para a Secretaria de Educação. Início da fase de lances em 29/10/2025, às 10h.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Prorrogação para Pontos de Cultura",
+    "texto": "A Secretaria Municipal de Cultura prorrogou até o dia 17 de outubro de 2025 as inscrições para o Edital nº 01/2025 de Pontos de Cultura.",
+    "pagina": 3,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Aposentadoria de Servidoras",
+    "texto": "Decreto concede aposentadoria pelo INSS a duas professoras da rede municipal a partir de 01/10/2025.",
+    "pagina": 5,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Dispensa Ambiental - Ferro Velho",
+    "texto": "Concedida certidão de dispensa de licenciamento ambiental para central de recebimento de sucata metálica e recicláveis, válida por 10 anos, com condicionantes de prazo.",
+    "pagina": 6,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Dispensa Ambiental - Hidraumax",
+    "texto": "Concedida certidão de dispensa de licenciamento ambiental para serviços de usinagem, tornearia, solda e mecânica de veículos, válida por 10 anos.",
+    "pagina": 8,
+    "categoria": "norma"
+   }
+  ],
+  "paginas": 9,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-19T02:13:20Z"
+ },
+ {
+  "numero": 319,
+  "data": "2025-10-09",
+  "resumo": "A edição traz avisos de licitação para aquisição de equipamentos de academia e uniformes, extratos de contratos para shows artísticos, termo de fomento com associação de catadores e decreto de delegação de poderes financeiros do FUNDEB.",
+  "tipo": "misto",
+  "prazo": "29/10/2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Esportes",
+   "Secretaria Municipal de Educação"
+  ],
+  "destaques": [
+   {
+    "titulo": "Pregão Eletrônico - Equipamentos de Academia",
+    "texto": "Licitação para aquisição futura de equipamentos de academia ao ar livre para a Secretaria Municipal de Esportes. Abertura de lances em 24 de outubro de 2025.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Pregão Eletrônico - Uniformes",
+    "texto": "Licitação para aquisição de uniformes, coletes, bolsas e chapéus para os agentes comunitários de endemias. Início dos lances em 29 de outubro de 2025.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Repasse para Associação de Catadores",
+    "texto": "Termo de fomento com a Associação de Catadores de Materiais Recicláveis no valor global de R$ 30.000,00, divididos em 6 parcelas, com vigência de 12 meses.",
+    "pagina": 2,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Delegação de Poderes do FUNDEB",
+    "texto": "Decreto delega amplos poderes bancários e financeiros à Secretária Municipal de Educação, Regina Maura Macedo de Oliveira, para movimentação das contas do FUNDEB.",
+    "pagina": 3,
+    "categoria": "norma"
+   }
+  ],
+  "paginas": 4,
+  "modelo": "gemini-flash-lite-latest",
+  "gerado_em": "2026-11-19T02:13:47Z"
  }
 ]
