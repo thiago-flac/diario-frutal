@@ -10269,5 +10269,168 @@
   "paginas": 4,
   "modelo": "gemini-flash-lite-latest",
   "gerado_em": "2026-11-19T02:13:47Z"
+ },
+ {
+  "numero": 318,
+  "data": "2025-10-08",
+  "resumo": "Esta edição traz atualizações importantes para a educação municipal, como o cronograma do processo seletivo de diretores escolares e a obrigatoriedade do ensino de educação financeira. Além disso, institui a Semana Municipal do Brincar e avança em processos licitatórios para aquisição de veículos para a Saúde e distribuição de cestas hortifrúti para famílias em vulnerabilidade. Também registra exoneração na gestão de trânsito e iluminação pública.",
+  "tipo": "misto",
+  "prazo": "10/10/2025 (inscrições para diretor) e 22/10/2025 (pregão de veículos)",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Educação e Inclusão",
+   "Secretaria Municipal de Saúde",
+   "Secretaria Municipal de Assistência Social",
+   "Secretaria Municipal de Segurança Pública, Trânsito, Transportes e Mobilidade Urbana"
+  ],
+  "destaques": [
+   {
+    "titulo": "Cronograma para Seleção de Diretores Escolares",
+    "texto": "Alterado o anexo com datas do processo seletivo para diretores da rede municipal. As inscrições vão até 10/10/2025 e a prova objetiva será em 26/10/2025.",
+    "pagina": 4,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Inclusão de Educação Financeira nas Escolas",
+    "texto": "A Lei nº 6.935/2025 institui a inserção de conteúdos de educação financeira no plano curricular das escolas da rede municipal, com efeitos a partir do próximo ano letivo.",
+    "pagina": 8,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Licitação de Veículos para a Secretaria de Saúde",
+    "texto": "Aberto o Pregão Eletrônico nº 95/2025 para aquisição de 1 SUV zero km e 1 veículo de 7 lugares zero km para a Saúde. Sessão de lances marcada para 22/10/2025.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Cestas de Alimentos para Famílias Vulneráveis",
+    "texto": "Homologada licitação para aquisição de cestas de verduras, frutas e legumes destinadas a famílias em situação de vulnerabilidade social pelo valor total de R$ 59.400,00.",
+    "pagina": 1,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Instituição da Semana Municipal do Brincar",
+    "texto": "A Lei nº 6.934/2025 cria a Semana Municipal do Brincar, a ser realizada anualmente na última semana de maio, visando incentivar o desenvolvimento e bem-estar infantil.",
+    "pagina": 7,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Exoneração na Gerência de Trânsito",
+    "texto": "O Decreto nº 13.903/2025 exonera Higor Gonçalves Campos do cargo em comissão de Gerente de Trânsito e Iluminação Pública a partir de 01/10/2025.",
+    "pagina": 6,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 8,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-20T01:59:34Z"
+ },
+ {
+  "numero": 315,
+  "data": "2025-10-01",
+  "resumo": "Esta edição traz aviso de licitação para contratação da empresa gestora do Cartão Social de alimentos, errata com ajustes de pontuação do Minha Casa Minha Vida, e leis instituindo a Semana de Segurança no Trânsito e reforço orçamentário para limpeza e transporte escolar. Traz ainda decretos de desapropriação de terras para ampliação do abastecimento de água e abertura de vias públicas.",
+  "tipo": "misto",
+  "prazo": "16 de outubro de 2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Secretaria Municipal de Assistência Social",
+   "Secretaria Municipal de Segurança Pública, Trânsito, Transportes e Mobilidade Urbana",
+   "Secretaria Municipal de Serviços Urbanos",
+   "Secretaria Municipal de Educação",
+   "Companhia de Saneamento de Minas Gerais - COPASA",
+   "Prefeitura Municipal de Frutal"
+  ],
+  "destaques": [
+   {
+    "titulo": "Licitação para gestão do Cartão Social",
+    "texto": "Abertura de pregão eletrônico para contratar empresa que gerenciará os cartões magnéticos de compra de gêneros alimentícios para beneficiários da Assistência Social. Sessão de lances marcada para 16/10/2025 às 8h30.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Ajustes na lista do Minha Casa Minha Vida",
+    "texto": "Errata altera pontuações, inclui candidato na lista de pessoas com deficiência e encaminha candidata moradora de área de risco para a lista de indicação direta no Loteamento Francisco Cabreira Moron.",
+    "pagina": 2,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Semana de Segurança no Trânsito",
+    "texto": "Lei nº 6.930/2025 institui a Semana Municipal de Conscientização e Segurança no Trânsito, que ocorrerá anualmente de 18 a 25 de setembro com palestras, cursos e blitzes educativas.",
+    "pagina": 7,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "R$ 2,3 milhões para transporte escolar",
+    "texto": "Lei nº 6.932/2025 suplementa o orçamento municipal em R$ 2,3 milhões, utilizando excesso de arrecadação do FUNDEB para a manutenção dos serviços de transporte escolar do ensino fundamental.",
+    "pagina": 20,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Desapropriação para expansão de água",
+    "texto": "Decreto nº 13.887/2025 declara utilidade pública terreno no Bairro Princesa Isabel para permitir que a COPASA amplie a rede de abastecimento de água da cidade.",
+    "pagina": 21,
+    "categoria": "obras"
+   },
+   {
+    "titulo": "Desapropriação para abertura de rodovia",
+    "texto": "Decreto nº 13.888/2025 declara de utilidade pública área de 27 mil m² voltada à construção de trecho de rodovia municipal, com indenização fixada em R$ 77,4 mil.",
+    "pagina": 23,
+    "categoria": "obras"
+   }
+  ],
+  "paginas": 25,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-20T02:00:23Z"
+ },
+ {
+  "numero": 314,
+  "data": "2025-09-30",
+  "resumo": "Esta edição regulamenta o controle de efluentes não domésticos na rede pública de esgoto pelo Decreto nº 13.884, obrigando indústrias e comércios poluidores a aderirem ao programa Precend da COPASA. Também divulga licitação para contratação de serviço de telefonia móvel corporativa e publica decretos de exoneração de servidores efetivos por aposentadoria e a pedido.",
+  "tipo": "misto",
+  "prazo": "16 de outubro de 2025 (licitação de telefonia); 30 dias após notificação para adesão ao Precend",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Departamento de Licitações",
+   "Secretaria Municipal de Administração",
+   "Secretaria Municipal de Meio Ambiente",
+   "COPASA-MG"
+  ],
+  "destaques": [
+   {
+    "titulo": "Diretrizes para efluentes não domésticos",
+    "texto": "Regulamentado o monitoramento de efluentes industriais e comerciais na rede de esgoto da COPASA, exigindo abrigo de amostragem e adesão ao Programa Precend.",
+    "pagina": 2,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Prazos para regularização no Precend",
+    "texto": "Estabelecimentos notificados possuem 30 dias para solicitar ingresso no Precend e 60 dias para apresentar os projetos técnicos exigidos.",
+    "pagina": 6,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Licitação para telefonia móvel corporativa",
+    "texto": "Aviso do Pregão Eletrônico nº 086/2025 para contratação de serviço de telefonia móvel pós-pago por 12 meses para a Secretaria de Administração.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Exoneração por aposentadoria",
+    "texto": "Decreto nº 13.885 oficializa o desligamento de 7 servidoras efetivas municipais devido à concessão de aposentadoria pelo INSS.",
+    "pagina": 9,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Exoneração a pedido de servidores",
+    "texto": "Decreto nº 13.886 exonera 10 servidores ocupantes de cargos efetivos a pedido dos próprios funcionários.",
+    "pagina": 10,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 10,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-20T02:00:51Z"
  }
 ]
