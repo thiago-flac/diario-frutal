@@ -10432,5 +10432,143 @@
   "paginas": 10,
   "modelo": "gemini-3.5-flash",
   "gerado_em": "2026-11-20T02:00:51Z"
+ },
+ {
+  "numero": 313,
+  "data": "2025-09-29",
+  "resumo": "A edição apresenta a retificação do edital do processo seletivo para escolha democrática de Diretores Escolares, estabelecendo período de inscrição de 30/09 a 06/10/2025. Contém também aviso de licitação para compra de mobiliário e eletrodomésticos, convocação de candidata aprovada em PSS da Assistência Social e decisão definitiva indeferindo recurso de empresa sancionada por descumprimento contratual.",
+  "tipo": "misto",
+  "prazo": "06/10/2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Secretaria Municipal de Educação e Inclusão",
+   "Departamento de Licitações",
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Assistência Social"
+  ],
+  "destaques": [
+   {
+    "titulo": "Processo Seletivo para Diretor Escolar",
+    "texto": "Foi retificado o edital para escolha democrática de Diretores Escolares. As inscrições ocorrem de 30/09 a 06/10/2025 pelo site da empresa organizadora, com prova objetiva prevista para 26/10/2025 e votação em 28/11/2025.",
+    "pagina": 1,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Pregão Eletrônico para Móveis e Eletros",
+    "texto": "Abertura de licitação por registro de preços para eventual aquisição de materiais permanentes, incluindo mobiliário, eletrodomésticos e eletroeletrônicos. Lances iniciam em 20/10/2025 às 8h30 no site Licitanet.",
+    "pagina": 5,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Convocação em PSS da Assistência Social",
+    "texto": "Oitava convocação do PSS nº 03/2025 chamando a candidata Layane Ramos Pantas para o cargo de Orientador Social. Ela deve se apresentar no dia 01/10/2025 às 12h00 na sede da Secretaria com os documentos exigidos.",
+    "pagina": 7,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Sanção por Inexecução Contratual",
+    "texto": "O Prefeito negou provimento ao recurso da empresa Vasconcelos Indústria, Comércio, Importação e Exportação Ltda., mantendo sanção administrativa por inexecução parcial do Contrato nº 008/2024.",
+    "pagina": 6,
+    "categoria": "outro"
+   }
+  ],
+  "paginas": 7,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-21T01:42:33Z"
+ },
+ {
+  "numero": 312,
+  "data": "2025-09-26",
+  "resumo": "Esta edição traz aviso de licitação para credenciar construtoras para erguer 150 casas populares do Minha Casa, Minha Vida no Loteamento Universe Residence Plaza. Também consta a prorrogação de obras de acessibilidade em escola municipal de Aparecida de Minas e a contratação de shows artísticos para o Aniversário da Cidade e a Festa de Nossa Senhora Aparecida.",
+  "tipo": "misto",
+  "prazo": "23/10/2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Departamento de Licitações"
+  ],
+  "destaques": [
+   {
+    "titulo": "Credenciamento para 150 casas populares",
+    "texto": "Abertura de chamamento público para credenciar construtoras para projetos e obras de 150 casas (Minha Casa, Minha Vida - Faixa 1) no Loteamento Universe Residence Plaza. Sessão pública marcada para 23/10/2025.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Obras em escola em Aparecida de Minas",
+    "texto": "Prorrogado até 18/12/2025 o prazo de execução das obras de construção de muro e rampa de acesso na Escola Municipal Antônio Aparecido de Queiroz.",
+    "pagina": 1,
+    "categoria": "obras"
+   },
+   {
+    "titulo": "Show no Aniversário de Frutal",
+    "texto": "Contratação da dupla Netto Silva por R$ 2.000,00 para apresentação no dia 05/10/2025 no Estádio Marretão, em comemoração aos 138 anos do município.",
+    "pagina": 2,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Show na Festa de N. Sra. Aparecida",
+    "texto": "Contratação da dupla Ricardo e Jessica por R$ 3.000,00 para show em 09/10/2025 na Igreja Nossa Senhora Aparecida.",
+    "pagina": 2,
+    "categoria": "outro"
+   }
+  ],
+  "paginas": 2,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-21T01:42:46Z"
+ },
+ {
+  "numero": 311,
+  "data": "2025-09-25",
+  "resumo": "Esta edição traz leis municipais que regulamentam repasses a profissionais de OSCs a partir de 2026, reajustam diárias da Câmara e abrem R$ 1,17 milhão em créditos para folha de pessoal. Além disso, consta a compra de dois veículos para a Saúde, a revogação da licitação de exames radiológicos e contratações artísticas para eventos da cidade.",
+  "tipo": "misto",
+  "prazo": "Apresentação da dupla Juninho e Delon em 04/10/2025; show Rádio Sucata em 22/10/2025; vigência da Lei nº 6.927 em 01/01/2026.",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Saúde",
+   "Câmara Municipal de Frutal"
+  ],
+  "destaques": [
+   {
+    "titulo": "Aquisição de veículos para a Saúde",
+    "texto": "Contratação da empresa Lumière Veículos Ltda para aquisição de 02 automóveis Citroën C3 (R$ 155.180,00) destinados ao uso das Unidades Básicas de Saúde.",
+    "pagina": 2,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Revogação da licitação de exames radiológicos",
+    "texto": "Foi revogado o Pregão Eletrônico nº 33/2025 para contratação de serviços de exames de imagem e emissão de laudos para a Secretaria Municipal de Saúde por perda de oportunidade do edital.",
+    "pagina": 3,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Regras para pagamento de empregados de OSCs com cargo público",
+    "texto": "A Lei nº 6.927 autorizou organizações da sociedade civil a remunerar empregados com cargo público em parcerias municipais, desde que cumpridos critérios específicos e vedado o nepotismo.",
+    "pagina": 4,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Suplementação orçamentária para folha de pessoal",
+    "texto": "A Lei nº 6.928 autorizou abertura de crédito suplementar no valor de R$ 1.170.888,74 com recursos do IRRF para atender despesas com folha de pagamento de secretarias e convênios.",
+    "pagina": 5,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Shows para Aniversário da Cidade e Plantão do Sorriso",
+    "texto": "Foram formalizadas as contratações das atrações artísticas Juninho e Delon para o Aniversário de Frutal (04/10/2025) e banda Rádio Sucata para o 14º Plantão do Sorriso (22/10/2025).",
+    "pagina": 2,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Novos valores de diárias da Câmara Municipal",
+    "texto": "A Lei nº 6.929 alterou a tabela de diárias e reembolso de despesas de viagem para vereadores e servidores do Poder Legislativo.",
+    "pagina": 7,
+    "categoria": "norma"
+   }
+  ],
+  "paginas": 8,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-21T01:43:13Z"
  }
 ]
