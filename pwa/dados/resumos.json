@@ -10570,5 +10570,128 @@
   "paginas": 8,
   "modelo": "gemini-3.5-flash",
   "gerado_em": "2026-11-21T01:43:13Z"
+ },
+ {
+  "numero": 310,
+  "data": "2025-09-24",
+  "resumo": "A edição publica avisos de licitação para aquisição de medicamentos e de insumos para exames de mamografia na rede pública de saúde. Também traz o decreto de permissão de uso de um terreno no Distrito Industrial 2 para empresa do setor de logística, além de alteração de pessoal na Fundação Hospital Frei Gabriel.",
+  "tipo": "misto",
+  "prazo": "10 de outubro de 2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Saúde",
+   "Centro Estadual de Atenção Especializada (CEAE)",
+   "Fundação Hospital Frei Gabriel",
+   "Departamento de Licitações"
+  ],
+  "destaques": [
+   {
+    "titulo": "Licitação para medicamentos gratuitos",
+    "texto": "Abertura do Pregão Eletrônico nº 84/2025 para registro de preços visando a aquisição de medicamentos de distribuição gratuita para a Secretaria Municipal de Saúde. A sessão ocorre em 14 de outubro de 2025.",
+    "pagina": 1,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Insumos para exames de mamografia",
+    "texto": "Publicação do Pregão Eletrônico nº 88/2025 para aquisição de filmes radiológicos voltados à melhoria dos exames de mamografia do CEAE. Sessão de lances agendada para 10 de outubro de 2025.",
+    "pagina": 1,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Permissão de uso de terreno industrial",
+    "texto": "O Decreto nº 13.881 autoriza a cessão de terreno de 1.259,93 m² no Distrito Industrial 2 para a empresa Via Áppia Transportes e Logística LTDA. O início da implantação do projeto deve ocorrer em até 60 dias.",
+    "pagina": 2,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Exoneração na Fundação Hospital Frei Gabriel",
+    "texto": "O Decreto nº 13.882 exonera a servidora Thalita Garcia Santana do cargo em comissão de Coordenadora do Departamento de Licitação da fundação hospitalar.",
+    "pagina": 8,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 8,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-22T00:37:07Z"
+ },
+ {
+  "numero": 309,
+  "data": "2025-09-23",
+  "resumo": "Esta edição traz a abertura de licitação para registro de preços de medicamentos não padronizados destinados à urgência e emergência da rede municipal de saúde. Também publica decreto que proíbe o comércio ambulante num raio de 300 metros do Estádio Marretão durante a festa de aniversário do município, entre os dias 02 e 05 de outubro de 2025.",
+  "tipo": "misto",
+  "prazo": "13 de outubro de 2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Departamento de Licitações",
+   "Secretaria Municipal de Saúde",
+   "Departamento de Tributos",
+   "Prefeitura Municipal de Frutal"
+  ],
+  "destaques": [
+   {
+    "titulo": "Licitação para compra de medicamentos",
+    "texto": "Abertura do Pregão Eletrônico nº 83/2025 para registro de preços de medicamentos não padronizados pela Remume, destinados a atendimentos de urgência e emergência. A sessão pública ocorrerá no dia 13 de outubro de 2025, às 08:30.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Proibição de comércio ambulante no Marretão",
+    "texto": "Decreto nº 13.880 proíbe o comércio ambulante num raio de 300 metros do Estádio Pedro Marreta entre os dias 02 e 05 de outubro de 2025, durante os shows do aniversário da cidade. A fiscalização será feita pelo Departamento de Tributos com apoio policial, se necessário, sujeitando infratores a multas.",
+    "pagina": 2,
+    "categoria": "norma"
+   }
+  ],
+  "paginas": 2,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-22T00:37:24Z"
+ },
+ {
+  "numero": 308,
+  "data": "2025-09-22",
+  "resumo": "Esta edição traz a nomeação de comissão técnica para selecionar propostas de construção de 150 casas populares pelo programa Minha Casa Minha Vida. Também inclui Decretos que concedem permissão de uso de áreas no Aeródromo Municipal para empresas de aviação agrícola e licenças ambientais emitidas pela SEMMA para postos de combustíveis, além de prorrogações de processos disciplinares de servidores.",
+  "tipo": "misto",
+  "prazo": "Obras dos hangares no aeródromo devem iniciar em 60 dias e terminar em 120 dias.",
+  "relevancia": 2,
+  "orgaos": [
+   "Secretaria Municipal do Meio Ambiente - SEMMA",
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Desenvolvimento Econômico, Parcerias, Turismo e Inovação"
+  ],
+  "destaques": [
+   {
+    "titulo": "Comissão para 150 Casas Populares",
+    "texto": "Foi nomeada comissão técnica para analisar e julgar as propostas de empresas de construção interessadas em projetar e construir 150 casas populares do Minha Casa Minha Vida no Loteamento Universe Residence Plaza.",
+    "pagina": 6,
+    "categoria": "obras"
+   },
+   {
+    "titulo": "Permissão de Uso no Aeródromo (Agrocanabarro)",
+    "texto": "A Prefeitura autorizou o uso precário de 410 m² no Aeródromo Municipal para a Agrocanabarro Ltda utilizar com aviação agrícola. A empresa tem prazo de 60 dias para iniciar as obras do hangar e 120 dias para concluí-las.",
+    "pagina": 9,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Permissão de Uso no Aeródromo (Vantum Tech)",
+    "texto": "Concedida permissão de uso de área de 542,11 m² no aeroporto municipal para a Vantum Tech Serviços Aeronáuticos Ltda, com obrigação de iniciar obras em 60 dias e gerar ao menos 2 empregos.",
+    "pagina": 13,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Licenciamento Ambiental para Abastecimento",
+    "texto": "Emitido Certificado LAS/Cadastro nº 061/2025 para ponto de abastecimento de combustível da Agropecuária Queiroz de Queiroz Ltda, válido por 10 anos sob cumprimento de condicionantes ambientais.",
+    "pagina": 1,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Prorrogação de PAD e Sindicância",
+    "texto": "Prorrogados os prazos para conclusão do Processo Administrativo Disciplinar nº 002/2025 (por 60 dias) e da Sindicância Investigativa nº 008/2025 sobre conduta de servidora (por 30 dias).",
+    "pagina": 7,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 16,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-22T00:37:58Z"
  }
 ]
