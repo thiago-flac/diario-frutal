@@ -10693,5 +10693,166 @@
   "paginas": 16,
   "modelo": "gemini-3.5-flash",
   "gerado_em": "2026-11-22T00:37:58Z"
+ },
+ {
+  "numero": 307,
+  "data": "2025-09-19",
+  "resumo": "A edição traz a abertura de licitação para compra de fórmulas manipuladas para a rede pública de saúde, com sessão de lances em 06/10/2025. Apresenta também a designação de um servidor para a Junta de Serviço Militar e três decretos que revogam a cessão de terrenos públicos municipais anteriormente concedidos a entidades sociais e religiosas.",
+  "tipo": "misto",
+  "prazo": "06 de outubro de 2025",
+  "relevancia": 1,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Departamento de Licitações",
+   "Secretaria Municipal de Saúde",
+   "Junta de Serviço Militar"
+  ],
+  "destaques": [
+   {
+    "titulo": "Licitação para fórmulas manipuladas",
+    "texto": "Abertura de pregão eletrônico para aquisição de fórmulas manipuladas destinadas à Farmácia Municipal, UBS e CEAE. A sessão de lances ocorre em 06 de outubro de 2025, às 08h30, via Licitanet.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Revogação de imóvel da Associação de Odontologia",
+    "texto": "Revogado o termo de permissão de uso de um terreno de 2.790 m² na Praça Aracaju (Bairro Jardim Brasil), cedido à Associação Brasileira de Odontologia - Regional Frutal.",
+    "pagina": 3,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Revogação de imóvel da Igreja O Brasil para Cristo",
+    "texto": "Revogada a permissão de uso de área de 3.174,73 m² na Av. Juquinha Ganha Pouco (Bairro Universe Residence Plaza), cedida à Igreja Pentecostal O Brasil para Cristo.",
+    "pagina": 4,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Revogação de imóvel da Paróquia N. Sra. Aparecida",
+    "texto": "Revogado termo de cessão de terreno institucional de 1.850 m² na Praça Goiás (Bairro Jardim Brasil), cedido à Paróquia Nossa Senhora Aparecida.",
+    "pagina": 5,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Designação para Junta de Serviço Militar",
+    "texto": "O servidor Mizael Dias da Silva foi designado para atuar como auxiliar e substituto eventual do Secretário da Junta de Serviço Militar.",
+    "pagina": 2,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 5,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-23T01:04:49Z"
+ },
+ {
+  "numero": 306,
+  "data": "2025-09-18",
+  "resumo": "Esta edição estabelece as regras e o cronograma para a renovação de matrículas escolares na rede municipal de ensino para o ano letivo de 2026. Traz também a convocação de candidata aprovada em processo seletivo da Assistência Social, aviso de licitação para contratação de internet dedicada, o resultado do programa Auxílio Atleta e atos disciplinares envolvendo servidores públicos.",
+  "tipo": "misto",
+  "prazo": "24/09/2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Administração",
+   "Secretaria Municipal de Assistência Social",
+   "Secretaria Municipal de Educação e Inclusão",
+   "Secretaria Municipal de Segurança Pública, Trânsito, Transportes e Mobilidade Urbana"
+  ],
+  "destaques": [
+   {
+    "titulo": "Renovação de matrículas escolares para 2026",
+    "texto": "Definidas as normas e prazos para renovação presencial de matrícula nas escolas e Cemeis municipais. Pais ou responsáveis devem apresentar documentos como certidão, comprovante de endereço e cartão de vacinação.",
+    "pagina": 7,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Convocação no Processo Seletivo da Assistência Social",
+    "texto": "Convocada candidata para o cargo de Orientador Social (SCFV) referente ao PSS 03/2025. A apresentação de documentos originais e cópias deve ocorrer na sede da Secretaria.",
+    "pagina": 6,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Licitação para link de internet dedicada",
+    "texto": "Abertura de pregão eletrônico para contratar empresa fornecedora de link de internet dedicada de 500 Mbps pelo período de 9 meses para a Secretaria de Administração.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Resultado final do Auxílio Atleta",
+    "texto": "Divulgação da lista final dos cinco atletas contemplados no Edital 02/2025 do projeto Auxílio Atleta Frutal Rodeo Music.",
+    "pagina": 5,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Abertura de sindicância e processos disciplinares",
+    "texto": "Instauração de sindicância investigativa e processos administrativos discipliares (PAD) para apurar infrações, inassiduidade habitual e abandono de cargo por servidores.",
+    "pagina": 2,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 10,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-23T01:05:25Z"
+ },
+ {
+  "numero": 305,
+  "data": "2025-09-17",
+  "resumo": "A edição apresenta aviso de licitação para contratação da organizadora do Processo Seletivo para Agentes Comunitários de Saúde e Endemias, a sanção das Leis nº 6.925/2025 (obrigatoriedade de intérpretes de Libras em eventos) e nº 6.926/2025 (teto para diárias no Legislativo), além de decretos de abertura de créditos suplementares para amortização da dívida pública, transporte escolar e universitário, saúde e esportes.",
+  "tipo": "misto",
+  "prazo": "07/10/2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Câmara Municipal de Frutal",
+   "Secretaria Municipal de Saúde",
+   "Departamento de Licitações",
+   "Fundo Municipal de Saúde",
+   "Secretaria Municipal de Educação",
+   "Secretaria Municipal de Finanças e Planejamento",
+   "Secretaria Municipal de Serviços Urbanos",
+   "Secretaria Municipal de Esporte",
+   "Secretaria Municipal de Cultura, Lazer, Esporte e Inclusão",
+   "Secretaria Municipal de Assistência Social"
+  ],
+  "destaques": [
+   {
+    "titulo": "Licitação para seleção de ACS e ACE",
+    "texto": "Abertura do Pregão Eletrônico nº 78/2025 para contratar empresa especializada na organização de Processo Seletivo Público para Agente Comunitário de Saúde e Agente de Combate às Endemias.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Intérprete de Libras obrigatório em eventos",
+    "texto": "Sancionada a Lei nº 6.925/2025, tornando obrigatória a presença de tradutor/intérprete de Libras em eventos culturais privados no município com expectativa de público superior a 200 pessoas.",
+    "pagina": 2,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Limite para diárias na Câmara Municipal",
+    "texto": "A Lei nº 6.926/2025 altera a regra de diárias de viagem do Legislativo, limitando o valor acumulado ao teto de 60% da remuneração anual do servidor ou agente político.",
+    "pagina": 3,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Pagamento da dívida interna",
+    "texto": "O Decreto nº 13.730 autoriza crédito suplementar de R$ 2.948.121,79 para pagamento e amortização do principal da dívida contratual interna da Prefeitura.",
+    "pagina": 63,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Adequação do transporte escolar fundamental e infantil",
+    "texto": "O Decreto nº 13.739 remaneja R$ 932.070,13 em fontes do FUNDEB para a manutenção do transporte escolar do Ensino Fundamental e da Educação Infantil.",
+    "pagina": 67,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Recursos para transporte universitário",
+    "texto": "O Decreto nº 13.745 destina crédito de R$ 430.780,00 para custeio e auxílio ao transporte de estudantes do ensino superior.",
+    "pagina": 69,
+    "categoria": "educação"
+   }
+  ],
+  "paginas": 77,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-23T01:07:00Z"
  }
 ]
