@@ -1,5 +1,53 @@
 [
  {
+  "numero": 560,
+  "data": "2026-11-23",
+  "resumo": "Esta edição traz a alteração no cronograma do chamamento público para parcerias em creches e educação especial no município.\nTambém apresenta convocações e prazos para entrega de documentos dos editais de fomento à cultura (PNAB e Frutal das Artes).\nPor fim, publica aviso de licitação para materiais de limpeza e o contrato de R$ 1,06 milhão para a decoração natalina da cidade.",
+  "tipo": "misto",
+  "prazo": "30 de novembro de 2026",
+  "relevancia": 2,
+  "orgaos": [
+   "Secretaria Municipal de Educação e Inclusão",
+   "Secretaria Municipal de Cultura",
+   "Prefeitura Municipal de Frutal"
+  ],
+  "destaques": [
+   {
+    "titulo": "Alteração no Chamamento para Creches e Pré-escolas",
+    "texto": "A sessão pública de apresentação de propostas foi adiada para 07/12/2026 devido às formaturas escolares, prevendo recursos de R$ 9,6 milhões do FUNDEB e R$ 560 mil para alimentação escolar.",
+    "pagina": 1,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Habilitação do Edital Pontos de Cultura (PNAB)",
+    "texto": "Agentes culturais classificados devem entregar presencialmente a documentação de habilitação na Secretaria de Cultura entre os dias 24 e 30 de novembro de 2026, das 08h às 18h.",
+    "pagina": 6,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Convocação de Suplentes do Edital Frutal das Artes",
+    "texto": "Suplentes habilitados foram convocados para assinar o Termo de Execução Cultural e entregar dados bancários entre 24 e 30 de novembro de 2026, das 14h às 18h.",
+    "pagina": 7,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Contratação da Decoração e Iluminação Natalina",
+    "texto": "Formalizado o Contrato nº 183/2026 no valor de R$ 1.062.000,00 para locação, montagem, manutenção e desmontagem da iluminação de Natal em Frutal e no Distrito de Aparecida de Minas.",
+    "pagina": 13,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Licitação para Insumos de Higiene e Limpeza",
+    "texto": "Aviso de abertura do Pregão Eletrônico nº 131/2026 para registro de preços de materiais de limpeza para as secretarias municipais, com disputa em 03/12/2026 às 08:30.",
+    "pagina": 13,
+    "categoria": "licitação"
+   }
+  ],
+  "paginas": 13,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-24T04:57:12Z"
+ },
+ {
   "numero": 559,
   "data": "2026-11-18",
   "resumo": "Esta edição traz um aviso de licitação para poço tubular na Escola Municipal Frei Teodósio, um decreto com restrições ambientais em áreas verdes e institucionais lindeiras ao Córrego Vertente Grande, além de portarias sobre processos administrativos disciplinares, incluindo a demissão de uma servidora e o arquivamento de sindicância.",
@@ -10854,5 +10902,118 @@
   "paginas": 77,
   "modelo": "gemini-3.5-flash",
   "gerado_em": "2026-11-23T01:07:00Z"
+ },
+ {
+  "numero": 304,
+  "data": "2025-09-16",
+  "resumo": "Esta edição traz a aprovação da nova Lei Complementar da Contribuição de Iluminação Pública (COSIP/CIP), definindo isenções e faixas de cobrança. Também publica a contratação de shows para o Aniversário da Cidade (incluindo DJ Alok e Mato Grosso & Mathias), a convocação de candidatas em processo seletivo para a Assistência Social e a revogação da licitação para compra de fórmulas manipuladas de saúde.",
+  "tipo": "misto",
+  "prazo": "17/09/2025 às 12h00",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Saúde",
+   "Secretaria Municipal de Assistência Social",
+   "Fundação Hospital Frei Gabriel",
+   "Câmara Municipal de Frutal"
+  ],
+  "destaques": [
+   {
+    "titulo": "Nova lei da Contribuição de Iluminação Pública (COSIP)",
+    "texto": "Institui nova forma de cálculo da taxa de iluminação cobrada na conta de energia de acordo com a faixa de consumo, mantendo isenção para baixa renda (até 80 kWh/mês), zona rural e templos.",
+    "pagina": 7,
+    "categoria": "tributo"
+   },
+   {
+    "titulo": "Contratações de shows para o Aniversário de Frutal",
+    "texto": "Extratos de contratos confirmam os shows do DJ Alok (R$ 850 mil) e da dupla Mato Grosso & Mathias (R$ 308 mil) para o evento Rodeo Music 2025 em outubro.",
+    "pagina": 2,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Convocação de Auxiliares de Cozinha em Processo Seletivo",
+    "texto": "Candidatas aprovadas no PSS nº 03/2025 devem comparecer à Secretaria de Assistência Social no dia 17/09/2025, às 12h, com documentação completa.",
+    "pagina": 4,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Revogação de licitação de remédios manipulados",
+    "texto": "O Pregão Eletrônico nº 62/2025 para aquisição de fórmulas manipuladas destinadas à Farmácia Municipal, UBS e CEAE foi revogado.",
+    "pagina": 1,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Alteração na composição de Conselho Municipal",
+    "texto": "A Lei nº 6.923/2025 reestrutura o conselho para 6 membros paritários entre poder público e entidades civis (CREA, OAB e Associação de Moradores).",
+    "pagina": 5,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Atualização das diárias de viagem dos servidores",
+    "texto": "A Lei nº 6.924/2025 altera os valores de diárias pagas a servidores, secretários e prefeito conforme a distância do deslocamento.",
+    "pagina": 6,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 12,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-24T04:57:59Z"
+ },
+ {
+  "numero": 303,
+  "data": "2025-09-15",
+  "resumo": "Esta edição aborda a abertura do processo seletivo para Diretor Escolar, a contratação do show do DJ Alok para as festividades municipais, a publicação do Edital de Premiação Cultura Viva, a divulgação do resultado do Auxílio Atleta, atos de pessoal na Fundação Hospital Frei Gabriel e concessões de licenças ambientais pela SEMMA.",
+  "tipo": "misto",
+  "prazo": "10/10/2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Esportes",
+   "Secretaria Municipal de Cultura, Lazer, Esporte, Turismo e Inclusão",
+   "Secretaria Municipal de Educação e Inclusão",
+   "Secretaria Municipal do Meio Ambiente (SEMMA)",
+   "Fundação Hospital Frei Gabriel"
+  ],
+  "destaques": [
+   {
+    "titulo": "Contratação de show do DJ Alok",
+    "texto": "Extrato de contrato por inexigibilidade para apresentação artística do DJ Alok no dia 4 de outubro de 2025, no Estádio Marretão, durante o evento Rodeo Music/2025, no valor total de R$ 850.000,00.",
+    "pagina": 47,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Processo Seletivo para Diretor Escolar",
+    "texto": "Abertura de inscrições para seleção de Diretor Escolar da rede municipal, que ocorrem de 22 a 30 de setembro de 2025 pelo site da organizadora. A prova objetiva está prevista para 26 de outubro de 2025.",
+    "pagina": 50,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Edital Cultura Viva - Premiação",
+    "texto": "Lançamento do chamamento público para premiar 8 entidades ou coletivos culturais com o valor de R$ 10.600,00 cada, totalizando R$ 85.000,00 em recursos federais da PNAB.",
+    "pagina": 3,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Resultado Auxílio Atleta",
+    "texto": "Divulgação da lista de atletas contemplados no Edital 01/2025 do Auxílio Atleta, liderada por João Pedro Oliveira Godoi.",
+    "pagina": 2,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Exoneração na Fundação Hospital Frei Gabriel",
+    "texto": "O Decreto nº 13.871/2025 exonera Diego de Souza Silva do cargo em comissão de Coordenador de Suporte e Infraestrutura da Fundação Hospital Frei Gabriel a partir de 12 de setembro de 2025.",
+    "pagina": 48,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Licenciamento Ambiental para gestão de resíduos",
+    "texto": "Concessão de Licença Ambiental Simplificada (LAS-Cadastro nº 059/2025) para a empresa Uniblend Green Ambiental Ltda para triagem e armazenamento de sucatas e lâmpadas, com validade por 10 anos.",
+    "pagina": 41,
+    "categoria": "outro"
+   }
+  ],
+  "paginas": 62,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-24T05:00:13Z"
  }
 ]
