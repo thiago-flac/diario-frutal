@@ -1,5 +1,59 @@
 [
  {
+  "numero": 561,
+  "data": "2026-11-24",
+  "resumo": "Esta edição publica edital de licitação para a compra de medicamentos de A a Z para a Farmácia Municipal, com sessão em 09/12/2026. Também apresenta novas leis municipais, como a fixação do ticket alimentação dos servidores em R$ 650,00 a partir de 2027, o programa Fila Zero de prioridade em saúde para pacientes com câncer e a criação de datas comemorativas educativas e ambientais.",
+  "tipo": "misto",
+  "prazo": "09 de dezembro de 2026",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Fundação Hospital Frei Gabriel",
+   "Câmara de Vereadores"
+  ],
+  "destaques": [
+   {
+    "titulo": "Licitação para compra de medicamentos",
+    "texto": "Aviso de Pregão Eletrônico Nº 132/2026 para aquisição parcelada de medicamentos para a Farmácia Municipal. A sessão pública de lances ocorrerá no dia 09 de dezembro de 2026, às 08:30.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Reajuste do Ticket Alimentação para R$ 650,00",
+    "texto": "Lei Nº 7.056 autoriza concessão de ticket alimentação de até R$ 650,00 para servidores ativos, servidores da Fundação Hospital Frei Gabriel, secretários e conselheiros tutelares. Entra em vigor em 01/01/2027.",
+    "pagina": 5,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Prioridade de atendimento para pacientes com câncer",
+    "texto": "Lei Nº 7.059 cria o Programa Fila Zero, assegurando atendimento prioritário a pessoas com câncer em consultas, exames e procedimentos nos serviços públicos municipais de saúde.",
+    "pagina": 13,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Inclusão do cargo de Enfermeiro PSF em extinção",
+    "texto": "Lei Nº 7.055 regulamenta o cargo de Enfermeiro PSF no Plano de Cargos da Prefeitura, definindo jornada de 40h e sua extinção conforme os cargos ficarem vagos. Válida a partir de 01/01/2027.",
+    "pagina": 2,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Semana de Combate ao Bullying nas escolas",
+    "texto": "Lei Nº 7.057 institui a Semana Municipal de Combate ao Bullying e ao Cyberbullying, a ser realizada anualmente na segunda semana de abril com ações educativas.",
+    "pagina": 6,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Dia Municipal do Ribeirão Frutal",
+    "texto": "Lei Nº 7.058 reconhece o Ribeirão Frutal como patrimônio ambiental municipal e institui sua data comemorativa no Calendário Oficial para todo dia 5 de junho.",
+    "pagina": 9,
+    "categoria": "outro"
+   }
+  ],
+  "paginas": 14,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-25T03:42:05Z"
+ },
+ {
   "numero": 560,
   "data": "2026-11-23",
   "resumo": "Esta edição traz a alteração no cronograma do chamamento público para parcerias em creches e educação especial no município.\nTambém apresenta convocações e prazos para entrega de documentos dos editais de fomento à cultura (PNAB e Frutal das Artes).\nPor fim, publica aviso de licitação para materiais de limpeza e o contrato de R$ 1,06 milhão para a decoração natalina da cidade.",
@@ -11015,5 +11069,115 @@
   "paginas": 62,
   "modelo": "gemini-3.5-flash",
   "gerado_em": "2026-11-24T05:00:13Z"
+ },
+ {
+  "numero": 302,
+  "data": "2025-09-12",
+  "resumo": "Esta edição traz a lista final das 22 entidades habilitadas para a praça de alimentação do Frutal Rodeo Music 2025, além da contratação de shows artísticos para a festa da cidade e para a IV Romaria Franciscana. Consta também a abertura de pregão eletrônico para atender às Secretarias de Educação e Saúde, e a cessão de servidor municipal para projeto da nova sede da Câmara.",
+  "tipo": "misto",
+  "prazo": "26/09/2025 às 08:30 (início dos lances no Pregão Eletrônico nº 81/2025)",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Cultura",
+   "Secretaria Municipal de Educação e Inclusão",
+   "Secretaria Municipal de Saúde",
+   "Câmara Municipal de Frutal",
+   "Departamento de Licitações"
+  ],
+  "destaques": [
+   {
+    "titulo": "Credenciamento de Entidades para Rodeo Music 2025",
+    "texto": "Habilitação de 22 entidades filantrópicas e religiosas para participação na praça de alimentação do evento de 138º aniversário da cidade, após ampliação do número de vagas.",
+    "pagina": 1,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Licitação para Educação e Saúde",
+    "texto": "Aviso de abertura do Pregão Eletrônico nº 81/2025 para aquisição de itens destinados ao Programa Escola em Tempo Integral e à Secretaria de Saúde.",
+    "pagina": 3,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Contratações Artísticas para Aniversário da Cidade",
+    "texto": "Extratos de contratos celebrados por inexigibilidade para os shows de João Vittor e Fernando, Patrick Lessa e Fernando e Osmair durante o Frutal Rodeo Music 2025.",
+    "pagina": 3,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Show para IV Romaria Franciscana",
+    "texto": "Contratação da dupla Herick e Bruno no valor de R$ 13.800,00 para show no dia 20/09/2025 na Capela Nossa Senhora de Fátima.",
+    "pagina": 4,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Cessão de Servidor para a Câmara Municipal",
+    "texto": "Portaria nº 1.177/2025 autoriza cessão temporária do servidor Glênio Nunes de Assunção para atuar no projeto arquitetônico da nova sede da Câmara de Frutal.",
+    "pagina": 5,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 6,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-25T03:42:35Z"
+ },
+ {
+  "numero": 301,
+  "data": "2025-09-11",
+  "resumo": "Esta edição traz a contratação dos shows de DJ Jiraya Uai e Rodrigo & Alex para as comemorações do 138º Aniversário de Frutal, além da nomeação de concursados para áreas de educação, saúde e administrativas. Também foram sancionadas três novas leis municipais: a oferta de treinamento de primeiros socorros a pais de recém-nascidos, oficinas escolares sobre adultização infantil e a criação do Programa Municipal de Incentivo ao Esporte.",
+  "tipo": "misto",
+  "prazo": "90 dias para regulamentação da Lei nº 6.922 (Programa de Incentivo ao Esporte)",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal do Produtor Rural",
+   "Secretaria Municipal de Administração",
+   "Secretaria Municipal de Saúde",
+   "Secretaria Municipal de Educação e Inclusão",
+   "Secretaria Municipal de Assistência Social",
+   "Secretaria Municipal de Esporte",
+   "Câmara de Vereadores"
+  ],
+  "destaques": [
+   {
+    "titulo": "Contratação de shows para o Aniversário de Frutal",
+    "texto": "A prefeitura oficializou a contratação dos shows do DJ Jiraya Uai (R$ 140.000,00) e da dupla Rodrigo & Alex (R$ 3.500,00) para o evento Rodeo Music 2025 no Estádio Marretão em outubro.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Revogação da compra de caminhonete para o Produtor Rural",
+    "texto": "O Pregão Eletrônico nº 72/2025 para aquisição de veículo pickup zero km foi revogado devido a falhas no descritivo do termo de referência.",
+    "pagina": 2,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Nomeação de novos servidores concursados",
+    "texto": "Foi publicada a nomeação em caráter efetivo de aprovados em concurso público para cargos de professores, monitores de creche, auxiliares de secretaria e de serviços gerais.",
+    "pagina": 3,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Treinamento obrigatório de primeiros socorros a pais de recém-nascidos",
+    "texto": "Hospitais, maternidades e UBSs públicas deverão oferecer capacitação na Manobra de Heimlich e primeiros socorros para gestantes e pais. Quem recusar o treinamento deve assinar termo de recusa.",
+    "pagina": 5,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Oficinas sobre adultização e erotização infantil nas escolas",
+    "texto": "Psicólogos da rede municipal realizarão oficinas mensais gratuitas nas escolas municipais para alertar pais sobre os impactos negativos da adultização precoce na saúde mental dos filhos.",
+    "pagina": 6,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Programa Municipal de Incentivo ao Esporte",
+    "texto": "Nova lei institui incentivo à prática esportiva na cidade, garantindo no mínimo 60% das vagas para alunos da rede pública e autorizando concessão de bolsas e parcerias com o setor privado.",
+    "pagina": 7,
+    "categoria": "norma"
+   }
+  ],
+  "paginas": 8,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-25T03:43:09Z"
  }
 ]
