@@ -1,5 +1,41 @@
 [
  {
+  "numero": 562,
+  "data": "2026-11-25",
+  "resumo": "Esta edição publica as atas da eleição e posse dos membros e diretoria do Conselho Municipal de Cultura de Frutal, incluindo as diretrizes para a elaboração do Plano Municipal de Cultura até julho de 2027.\nAdemais, traz a concessão de Certidão de Dispensa de Licenciamento Ambiental emitida pela SEMMA para a empresa Casa de Festas Neverland.",
+  "tipo": "misto",
+  "prazo": "31 de julho de 2027",
+  "relevancia": 1,
+  "orgaos": [
+   "Secretaria Municipal de Cultura de Frutal",
+   "Conselho Municipal de Cultura de Frutal",
+   "Secretaria Municipal do Meio Ambiente de Frutal - SEMMA"
+  ],
+  "destaques": [
+   {
+    "titulo": "Posse e Diretoria do Conselho de Cultura",
+    "texto": "Foi realizada a posse dos membros do Conselho Municipal de Cultura e eleita a nova diretoria, tendo Willian José dos Santos como Presidente. Foi também definido o ordenador de despesas do Fundo Municipal de Cultura.",
+    "pagina": 4,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Plano Municipal de Cultura e Conferência",
+    "texto": "Definiu-se a realização da Conferência Municipal de Cultura e a elaboração do Plano Municipal de Cultura com foco na Política Nacional Aldir Blanc, estabelecendo cronograma de execução.",
+    "pagina": 6,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Dispensa Ambiental para Casa de Festas",
+    "texto": "A SEMMA concedeu a Dispensa de Licenciamento Ambiental nº 049/2026 para o empreendimento Casa de Festas Neverland, válida por 10 anos sob condicionantes como renovação de AVCB e laudo acústico.",
+    "pagina": 10,
+    "categoria": "outro"
+   }
+  ],
+  "paginas": 11,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-26T03:00:51Z"
+ },
+ {
   "numero": 561,
   "data": "2026-11-24",
   "resumo": "Esta edição publica edital de licitação para a compra de medicamentos de A a Z para a Farmácia Municipal, com sessão em 09/12/2026. Também apresenta novas leis municipais, como a fixação do ticket alimentação dos servidores em R$ 650,00 a partir de 2027, o programa Fila Zero de prioridade em saúde para pacientes com câncer e a criação de datas comemorativas educativas e ambientais.",
@@ -11179,5 +11215,105 @@
   "paginas": 8,
   "modelo": "gemini-3.5-flash",
   "gerado_em": "2026-11-25T03:43:09Z"
+ },
+ {
+  "numero": 300,
+  "data": "2025-09-10",
+  "resumo": "A edição destaca a contratação do cantor sertanejo Leonardo por R$ 750 mil para o show de comemoração do 138º aniversário do município e o aviso de licitação para aquisição de câmara frigorífica modular para pescadores da Vila Barroso. Além disso, formaliza a comissão avaliadora de montaria do Frutal Rodeo Music e designa os gestores de parcerias com a sociedade civil.",
+  "tipo": "misto",
+  "prazo": "29 de setembro de 2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Departamento de Licitações"
+  ],
+  "destaques": [
+   {
+    "titulo": "Contratação do show de Leonardo",
+    "texto": "Contrato nº 122/2025 no valor de R$ 750.000,00 para apresentação artística do cantor sertanejo Leonardo em 04/10/2025, durante as comemorações do 138º Aniversário de Frutal.",
+    "pagina": 1,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Licitação de câmara frigorífica modular",
+    "texto": "Pregão Eletrônico nº 77/2025 para fornecimento de câmara frigorífica modular visando atender os pescadores de Vila Barroso, com início da fase de lances em 29/09/2025.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Comissão avaliadora de montaria",
+    "texto": "Portaria nº 1.175/2025 nomeia os membros da comissão técnica encarregada da seleção de atletas em montaria para o evento Frutal Rodeo Music.",
+    "pagina": 2,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Gestores de parcerias com a Sociedade Civil",
+    "texto": "Portaria nº 1.176/2025 nomeia servidores responsáveis pela gestão e acompanhamento das parcerias celebradas com OSCs nas secretarias municipais.",
+    "pagina": 3,
+    "categoria": "norma"
+   }
+  ],
+  "paginas": 4,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-26T03:01:19Z"
+ },
+ {
+  "numero": 299,
+  "data": "2025-09-09",
+  "resumo": "Esta edição traz o encerramento oficial dos aterros controlados do município com determinação para recuperação das áreas degradadas. Destaca-se também a aquisição judicial do medicamento de alto custo Nivolumabe no valor de R$ 139,9 mil, a instituição de comissões para parcerias com OSCs com prazos definidos de análise, além da abertura de crédito suplementar de R$ 480 mil.",
+  "tipo": "misto",
+  "prazo": "7 dias para análise de plano de trabalho de OSCs; 30 dias para homologação da prestação de contas de parcerias",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Saúde",
+   "Secretaria Municipal de Educação",
+   "Secretaria Municipal de Assistência Social",
+   "Secretaria Municipal de Meio Ambiente",
+   "Secretaria Municipal de Obras",
+   "Secretaria Municipal de Serviços Urbanos",
+   "Câmara de Vereadores"
+  ],
+  "destaques": [
+   {
+    "titulo": "Encerramento oficial dos aterros controlados",
+    "texto": "Determina o fechamento dos aterros controlados do município e exige a elaboração de projetos para recuperação da área degradada. Proíbe qualquer atividade nesses locais sem o devido licenciamento ambiental.",
+    "pagina": 6,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Compra judicial de medicamento de alto custo",
+    "texto": "Formalizada a contratação por inexigibilidade para fornecimento do medicamento Nivolumabe 10mg/ml no valor total de R$ 139.921,60, atendendo a determinação da 2ª Vara Cível da Comarca de Frutal.",
+    "pagina": 1,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Crédito suplementar de R$ 480 mil",
+    "texto": "Sancionada lei que autoriza a abertura de crédito suplementar por anulação no valor de R$ 480.000,00 no orçamento vigente para adequação orçamentária de despesas.",
+    "pagina": 9,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Comissões de seleção de parcerias com OSCs",
+    "texto": "Nomeados os membros das comissões responsáveis por analisar planos de trabalho propostos por Organizações da Sociedade Civil em diversas secretarias municipais.",
+    "pagina": 2,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Comissões de monitoramento e avaliação de OSCs",
+    "texto": "Definidos os servidores responsáveis pelo acompanhamento e fiscalização das parcerias celebradas com a sociedade civil, estabelecendo procedimentos de prestação de contas.",
+    "pagina": 4,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Adequação de cargo em comissão",
+    "texto": "Exoneração e reavaliação de nomeação para adequação à nova estrutura organizacional da Secretaria Municipal de Educação e Inclusão.",
+    "pagina": 7,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 9,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-26T03:01:48Z"
  }
 ]
