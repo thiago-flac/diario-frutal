@@ -1,5 +1,49 @@
 [
  {
+  "numero": 563,
+  "data": "2026-11-26",
+  "resumo": "Esta edição traz atos de gestão de pessoas da Prefeitura Municipal de Frutal. O principal destaque é a instauração de três sindicâncias administrativas para apurar supostas irregularidades de servidores, incluindo uso indevido de atestado médico e acidente de trânsito com veículo da saúde. Adicionalmente, foram publicados decretos de exoneração de servidores motivados por aposentadoria pelo INSS ou a pedido.",
+  "tipo": "misto",
+  "prazo": "30 dias para a conclusão das sindicâncias administrativas",
+  "relevancia": 1,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Saúde",
+   "Secretaria Municipal de Recursos Humanos",
+   "Secretaria Municipal de Administração",
+   "Procuradoria Municipal"
+  ],
+  "destaques": [
+   {
+    "titulo": "Sindicância sobre atividade comercial em licença médica",
+    "texto": "A Portaria nº 1.266 instaura investigação para apurar se uma Agente Comunitária de Saúde exerceu comércio próprio durante período de afastamento amparado por atestado médico.",
+    "pagina": 5,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Sindicância sobre viagem ao litoral durante atestado",
+    "texto": "A Portaria nº 1.267 abre apuração contra uma Agente de Endemias suspeita de realizar viagem à praia durante licença médica de 10 dias.",
+    "pagina": 8,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Sindicância sobre acidente de trânsito em transporte sanitário",
+    "texto": "A Portaria nº 1.268 determina a apuração das causas e responsabilidades de um acidente ocorrido em 09/10/2026 envolvendo veículo locado que levava pacientes para tratamento fora do município.",
+    "pagina": 11,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Exoneração de servidores municipais",
+    "texto": "Decretos oficiais formalizam a exoneração de quatro servidores efetivos da Prefeitura, sendo três por concessão de aposentadoria pelo INSS e um a pedido.",
+    "pagina": 1,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 13,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-27T03:09:17Z"
+ },
+ {
   "numero": 562,
   "data": "2026-11-25",
   "resumo": "Esta edição publica as atas da eleição e posse dos membros e diretoria do Conselho Municipal de Cultura de Frutal, incluindo as diretrizes para a elaboração do Plano Municipal de Cultura até julho de 2027.\nAdemais, traz a concessão de Certidão de Dispensa de Licenciamento Ambiental emitida pela SEMMA para a empresa Casa de Festas Neverland.",
@@ -11315,5 +11359,123 @@
   "paginas": 9,
   "modelo": "gemini-3.5-flash",
   "gerado_em": "2026-11-26T03:01:48Z"
+ },
+ {
+  "numero": 298,
+  "data": "2025-09-08",
+  "resumo": "Esta edição divulga o resultado final com os 8 contemplados no Programa Auxílio Atleta (Edital 01/2025), a contratação de fornecimento de próteses dentárias para o SUS e a suspensão de pregão para compra de picape por orientação do TCE-MG. Traz também contratação de evento cultural para escolas municipais, dispensas de licenciamento ambiental com prazos de adequação e a lei que declara utilidade pública de instituição religiosa.",
+  "tipo": "misto",
+  "prazo": "11 e 12/09/2025 (Semana de Leitura); 60 dias (laudo de esgotamento) e 6 meses (AVCB)",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Meio Ambiente",
+   "Secretaria Municipal de Esportes",
+   "Secretaria Municipal de Saúde",
+   "Secretaria Municipal de Cultura",
+   "Conselho Municipal de Cultura"
+  ],
+  "destaques": [
+   {
+    "titulo": "Resultado Final do Programa Auxílio Atleta",
+    "texto": "A Comissão Técnica divulgou os 8 atletas contemplados pelo Edital nº 01/2025 para recebimento do benefício municipal.",
+    "pagina": 10,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Contratos para confecção de próteses dentárias no SUS",
+    "texto": "Firmados contratos com os laboratórios Solução Ltda e Santana Ltda para confecção de próteses dentárias a pacientes atendidos no CEO e nas UBS, somando R$ 812,3 mil.",
+    "pagina": 2,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Suspensão de pregão eletrônico para aquisição de veículo",
+    "texto": "O Pregão Eletrônico nº 72/2025 para aquisição de picape compacta zero km destinada à Secretaria do Produtor Rural foi suspenso por recomendação do TCE-MG.",
+    "pagina": 2,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Contratação de apresentações culturais nas escolas",
+    "texto": "Contratado o Grupo Cundê para realizar contação de histórias nas escolas municipais urbanas e rurais nos dias 11 e 12 de setembro durante a Semana de Leitura.",
+    "pagina": 2,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Dispensa ambiental com condicionantes para lava-jato",
+    "texto": "Concedida dispensa ambiental ao Lava Jato do Lintino com exigência de apresentação do laudo de esgotamento em 60 dias e do AVCB dos Bombeiros em 6 meses.",
+    "pagina": 8,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Declaração de Utilidade Pública",
+    "texto": "Sancionada a Lei nº 6.918/2025, que declara de utilidade pública a Família Apostólica Celestial - Igreja Celestial.",
+    "pagina": 1,
+    "categoria": "norma"
+   }
+  ],
+  "paginas": 11,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-27T03:09:52Z"
+ },
+ {
+  "numero": 297,
+  "data": "2025-09-04",
+  "resumo": "Esta edição reúne leis e decretos do município de Frutal/MG, destacando a aprovação da Lei nº 6.917 para expansão urbana, a ratificação de alterações nas regras do consórcio de saúde CISTRISUL e diversos decretos de créditos adicionais voltados à pavimentação, atenção primária à saúde, limpeza pública, educação e segurança.",
+  "tipo": "misto",
+  "prazo": "",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal do Produtor Rural",
+   "Consórcio Público Intermunicipal de Saúde da Rede de Urgência e Emergência da Macrorregião do Triângulo do Sul (CISTRISUL)",
+   "Secretaria Municipal de Planejamento de Obras e Serviços Urbanos",
+   "Secretaria Municipal de Educação",
+   "Secretaria Municipal de Saúde",
+   "Fundo Municipal de Saúde",
+   "Fundação Hospital Frei Gabriel",
+   "Secretaria Municipal de Segurança Pública",
+   "Câmara Municipal de Frutal"
+  ],
+  "destaques": [
+   {
+    "titulo": "Expansão urbana na Fazenda Granja Cruzeiro",
+    "texto": "A Lei nº 6.917 declara 63,7 hectares da Fazenda Granja Cruzeiro como área de expansão urbana para viabilizar parcelamento do solo. A aprovação de loteamentos implicará inclusão automática no perímetro urbano municipal.",
+    "pagina": 3,
+    "categoria": "obras"
+   },
+   {
+    "titulo": "Ratificação de estatuto do CISTRISUL",
+    "texto": "A Lei nº 6.916 ratifica as alterações feitas no Contrato de Consórcio e Estatuto do Consórcio Intermunicipal de Saúde da Rede de Urgência e Emergência do Triângulo do Sul.",
+    "pagina": 2,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Verba para pavimentação e iluminação pública",
+    "texto": "O Decreto nº 13.701 destina R$ 1,2 milhão para pavimentação asfáltica e R$ 263,5 mil para a expansão da rede de iluminação pública no município.",
+    "pagina": 33,
+    "categoria": "obras"
+   },
+   {
+    "titulo": "Crédito para obras na Atenção Primária",
+    "texto": "O Decreto nº 13.704 suplementa R$ 1.518.825,00 oriundos de transferências federais do SUS para investimento em obras e instalações da saúde básica.",
+    "pagina": 44,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Superávit direcionado à Educação, Saúde e Segurança",
+    "texto": "O Decreto nº 13.705 abre crédito por superávit de R$ 1,57 milhão, contemplando materiais e equipamentos de ensino, ações de saúde e R$ 500 mil ao CONSEP.",
+    "pagina": 45,
+    "categoria": "outro"
+   },
+   {
+    "titulo": "Verba para limpeza pública e despesas de exercícios anteriores",
+    "texto": "O Decreto nº 13.720 abre crédito suplementar de R$ 3,44 milhões para cobrir despesas de anos anteriores, dos quais R$ 2,07 milhões destinam-se à limpeza pública.",
+    "pagina": 54,
+    "categoria": "obras"
+   }
+  ],
+  "paginas": 58,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-27T03:11:41Z"
  }
 ]
