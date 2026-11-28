@@ -1,5 +1,53 @@
 [
  {
+  "numero": 564,
+  "data": "2026-11-27",
+  "resumo": "Esta edição traz o edital para qualificação de Organizações Sociais de Saúde (OSS) interessadas em gerir serviços de saúde no município, com inscrições em dezembro de 2026. Apresenta também a criação do Conselho e do Fundo dos Direitos da Pessoa com Deficiência, a instituição do Programa Centro de Convivência para Idosos no distrito de Aparecida de Minas, compra de uniformes para agentes de saúde e leis de desafetação de imóveis urbanos.",
+  "tipo": "misto",
+  "prazo": "Inscrições para qualificação de OSS de 01/12/2026 a 17/12/2026; impugnação do edital em até 3 dias úteis.",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Saúde",
+   "Câmara Municipal de Frutal"
+  ],
+  "destaques": [
+   {
+    "titulo": "Qualificação de Organizações Sociais de Saúde (OSS)",
+    "texto": "Abertura de chamamento público para qualificar entidades sem fins lucrativos interessadas na futura operacionalização de ações e serviços de saúde no município.",
+    "pagina": 1,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Criação do Conselho e Fundo da Pessoa com Deficiência",
+    "texto": "A Lei nº 7.062/2026 institui o Conselho (CMDPD) e o Fundo Municipal (FMDPD) para deliberar, fiscalizar e financiar políticas públicas e projetos de acessibilidade e inclusão.",
+    "pagina": 13,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Centro de Convivência para Idosos em Aparecida de Minas",
+    "texto": "A Lei nº 7.063/2026 cria programa gratuito com atividades físicas, culturais, recreativas e de inclusão digital voltado para idosos do distrito.",
+    "pagina": 18,
+    "categoria": "norma"
+   },
+   {
+    "titulo": "Aquisição de uniformes para agentes de saúde (ACS e ACE)",
+    "texto": "Publicação de extratos de registro de preços da Ata nº 88/2026 para fornecimento de uniformes profissionais para agentes comunitários de saúde e de combate às endemias.",
+    "pagina": 10,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Desafetação de imóveis no Bairro Jardim Brasil",
+    "texto": "As Leis nº 7.060 e 7.061/2026 desafetam áreas institucionais no Bairro Jardim Brasil, vinculando a Prefeitura à reposição de terrenos equivalentes na mesma região.",
+    "pagina": 11,
+    "categoria": "obras"
+   }
+  ],
+  "paginas": 19,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-28T02:55:20Z"
+ },
+ {
   "numero": 563,
   "data": "2026-11-26",
   "resumo": "Esta edição traz atos de gestão de pessoas da Prefeitura Municipal de Frutal. O principal destaque é a instauração de três sindicâncias administrativas para apurar supostas irregularidades de servidores, incluindo uso indevido de atestado médico e acidente de trânsito com veículo da saúde. Adicionalmente, foram publicados decretos de exoneração de servidores motivados por aposentadoria pelo INSS ou a pedido.",
@@ -11477,5 +11525,104 @@
   "paginas": 58,
   "modelo": "gemini-3.5-flash",
   "gerado_em": "2026-11-27T03:11:41Z"
+ },
+ {
+  "numero": 296,
+  "data": "2025-09-03",
+  "resumo": "A edição apresenta contratos de quase R$ 3 milhões para fornecimento da merenda escolar no município, além de aberturas de licitações para compra de itens de padaria, leite e cestas de hortifrúti destinadas a famílias vulneráveis. Também inclui a nomeação da comissão julgadora da Vigilância Sanitária e a nomeação da nova Diretora do Departamento de Bem-Estar Animal.",
+  "tipo": "misto",
+  "prazo": "15 de setembro de 2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Departamento de Licitações",
+   "Secretaria Municipal de Meio Ambiente"
+  ],
+  "destaques": [
+   {
+    "titulo": "Contratos para merenda escolar",
+    "texto": "Firmados os contratos nº 116/2025 e 117/2025 para fornecimento de gêneros alimentícios perecíveis ao Programa Nacional de Alimentação Escolar (PNAE), no valor global de R$ 1.496.885,00 cada.",
+    "pagina": 1,
+    "categoria": "educação"
+   },
+   {
+    "titulo": "Licitação de alimentos para famílias vulneráveis",
+    "texto": "Abertura do Pregão Eletrônico nº 76/2025 para aquisição de cestas de verduras, frutas e legumes para distribuição periódica a famílias em vulnerabilidade social. Sessão marcada para 22 de setembro de 2025 às 08h30.",
+    "pagina": 2,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Licitação de produtos de padaria e leite",
+    "texto": "Abertura do Pregão Eletrônico nº 75/2025 para registro de preços visando à aquisição de itens de padaria e leite Tipo C para secretarias municipais. Sessão agendada para 15 de setembro de 2025 às 08h30.",
+    "pagina": 2,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Comissão de julgamento da Vigilância Sanitária",
+    "texto": "Portaria nº 1.172/2025 nomeia membros para a Comissão Especial de análise e julgamento de processos administrativos da Vigilância Sanitária em 1ª, 2ª e 3ª instâncias.",
+    "pagina": 3,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Nomeação no Bem-Estar Animal",
+    "texto": "Decreto nº 13.852/2025 nomeia Camila Anália de Castro Veiga para o cargo em comissão de Diretora do Departamento de Bem Estar Animal, acumulando atribuições de médica veterinária.",
+    "pagina": 4,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 4,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-28T02:55:46Z"
+ },
+ {
+  "numero": 295,
+  "data": "2025-09-02",
+  "resumo": "Esta edição traz chamamento público para credenciamento de médicos plantonistas e especialistas, além de licitação para compra de rações para o Centro de Controle de Zoonoses. Há também a convocação de candidata aprovada em processo seletivo para a Assistência Social, autorização de uso hospitalar de medicação restrita e exoneração em cargo comissionado.",
+  "tipo": "misto",
+  "prazo": "03/09/2025",
+  "relevancia": 2,
+  "orgaos": [
+   "Prefeitura Municipal de Frutal",
+   "Secretaria Municipal de Saúde",
+   "Secretaria Municipal de Assistência Social",
+   "Secretaria Municipal de Finanças e Planejamento",
+   "Departamento de Licitações",
+   "Departamento Municipal de Vigilância Sanitária"
+  ],
+  "destaques": [
+   {
+    "titulo": "Credenciamento de Médicos Plantonistas e Especialistas",
+    "texto": "Chamamento público presencial nº 05/2024 para credenciamento de empresas prestadoras de serviços médicos em plantão (clínica geral) e consultas em reumatologia, neurologia e neuropediatria. Sessão pública agendada para 23/09/2025 às 09h30.",
+    "pagina": 1,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Licitação para Ração do Centro de Zoonoses",
+    "texto": "Pregão eletrônico nº 74/2025 para registro de preços visando à aquisição de ração animal para os animais assistidos pelo Centro de Controle de Zoonoses. Início dos lances em 18/09/2025 às 08h30.",
+    "pagina": 1,
+    "categoria": "licitação"
+   },
+   {
+    "titulo": "Convocação PSS Assistência Social",
+    "texto": "5ª convocação do Processo Seletivo Simplificado nº 03/2025 para o cargo de Auxiliar de Cozinha. A candidata convocada deve comparecer em 03/09/2025 às 12h00 munida dos documentos exigidos.",
+    "pagina": 3,
+    "categoria": "pessoal"
+   },
+   {
+    "titulo": "Autorização de Misoprostol para Hospital",
+    "texto": "Cadastro do Hospital São José Ltda no Departamento de Vigilância Sanitária para utilização intra-hospitalar de medicamentos à base de Misoprostol.",
+    "pagina": 4,
+    "categoria": "saúde"
+   },
+   {
+    "titulo": "Exoneração no Setor de Arrecadação",
+    "texto": "Exoneração de Jader Borges da Silva do cargo em comissão de Diretor de Arrecadação Municipal, a contar de 01/09/2025.",
+    "pagina": 2,
+    "categoria": "pessoal"
+   }
+  ],
+  "paginas": 4,
+  "modelo": "gemini-3.5-flash",
+  "gerado_em": "2026-11-28T02:56:04Z"
  }
 ]
